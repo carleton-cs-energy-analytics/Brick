@@ -1,6 +1,26 @@
 # A test Brick Schema for Boliou
 
 from rdflib import RDF, RDFS, OWL, Namespace, Graph
+import psycopg2
+from psycopg2 import connect, sql
+from datetime import datetime
+import sys
+import os
+
+conn = psycopg2.connect(
+    host="localhost",
+    database="energy",
+    user="energy",
+    password="less!29carbon")
+cur = conn.cursor()
+points_query = '''SELECT * FROM points'''
+cur.execute(points_query)
+points = cur.fetchall()
+point_names = []
+for line in points:
+  point_names.append(line[1].split('.'))
+print(point_names[0])
+
 
 
 g = Graph()
@@ -32,7 +52,12 @@ g.add((BOLIOU["First-Floor"], BRICK.hasPart, BOLIOU["Room-159"]))
 g.add((BOLIOU["021-Room_Temp_Setpoint"], RDF.type, BRICK.Room_Air_Temperature_Setpoint))
 g.add((BOLIOU["Room-021"], BRICK.hasPoint, BOLIOU["021-Room_Temp_Setpoint"]))
 
-
+for i in range(len(point_names)):
+  if point_names[i][0] == "BO":
+    if "RM155" in point_names[i][2]:
+      print(point_names[i][2])
+      g.add((BOLIOU[point_names[i][2].replace(" ", "_")], RDF.type, BRICK.Location))
+      g.add((BOLIOU["Room-155"], BRICK.hasPart, BOLIOU[point_names[i][2].replace(" ", "_")]))
 
 
 EVANS = Namespace("http://example.com/evans#")
@@ -51,7 +76,6 @@ g.add((EVANS["120-Room_Temp_Setpoint"], RDF.type, BRICK.Room_Air_Temperature_Set
 g.add((EVANS["Room-120"], BRICK.hasPoint, EVANS["120-Room_Temp_Setpoint"]))
 g.add((EVANS["120-Room_Temp"], RDF.type, BRICK.Room_Air_Temperature))
 g.add((EVANS["Room-120"], BRICK.hasPoint, EVANS["120-Room_Temp"]))
-
 
 
 g.add((EVANS["Room-122"], RDF.type, BRICK.Room))
