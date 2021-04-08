@@ -56,7 +56,7 @@ for i in range(len(point_names)):
   if point_names[i][0] == "BO":
     if "RM155" in point_names[i][2]:
       print(point_names[i][2])
-      g.add((BOLIOU[point_names[i][2].replace(" ", "_")], RDF.type, BRICK.Location))
+      g.add((BOLIOU[point_names[i][2].replace(" ", "_")], RDF.type, BRICK.Value))
       g.add((BOLIOU["Room-155"], BRICK.hasPart, BOLIOU[point_names[i][2].replace(" ", "_")]))
 
 
