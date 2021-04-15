@@ -25,39 +25,57 @@ print(point_names[0])
 
 g = Graph()
 
-BOLIOU = Namespace("http://example.com/boliou#")
-g.bind("boliou", BOLIOU)
-
-
 BRICK = Namespace("https://brickschema.org/schema/Brick#")
 g.bind("brick", BRICK)
 
+BOLIOU = Namespace("http://example.com/boliou#")
+g.bind("boliou", BOLIOU)
 
 g.add((BOLIOU["Boliou"], RDF.type, BRICK.Building))
+
+boliou_rooms = ()
+for i in range(len(point_names)):
+  if point_names[i][0] == "BO":
+    point_name = point_names[i][2].split(':')
+    boliou_rooms.append(point_name[0])
+boliou_rooms = set(boliou_rooms)
+boliou_rooms = list(boliou_rooms)
 
 g.add((BOLIOU["Ground-Floor"], RDF.type, BRICK.Floor))
 g.add((BOLIOU["Boliou"], BRICK.hasPart, BOLIOU["Ground-Floor"]))
 g.add((BOLIOU["First-Floor"], RDF.type, BRICK.Floor))
 g.add((BOLIOU["Boliou"], BRICK.hasPart, BOLIOU["First-Floor"]))
 
-g.add((BOLIOU["Room-021"], RDF.type, BRICK.Room))
-g.add((BOLIOU["Ground-Floor"], BRICK.hasPart, BOLIOU["Room-021"]))
-g.add((BOLIOU["Room-022"], RDF.type, BRICK.Room))
-g.add((BOLIOU["Ground-Floor"], BRICK.hasPart, BOLIOU["Room-022"]))
-g.add((BOLIOU["Room-155"], RDF.type, BRICK.Room))
-g.add((BOLIOU["First-Floor"], BRICK.hasPart, BOLIOU["Room-155"]))
-g.add((BOLIOU["Room-159"], RDF.type, BRICK.Room))
-g.add((BOLIOU["First-Floor"], BRICK.hasPart, BOLIOU["Room-159"]))
+for i in range(len(boliou_rooms)):
+  if boliou_rooms[i][2] == '0':
+    g.add((BOLIOU[boliou_rooms[i]], RDF.type, BRICK.Room))
+    g.add((BOLIOU["Ground-Floor"], BRICK.hasPart, BOLIOU[boliou_rooms[i]]))
+  if boliou_rooms[i][2] == '1':
+    g.add((BOLIOU[boliou_rooms[i]], RDF.type, BRICK.Room))
+    g.add((BOLIOU["First-Floor"], BRICK.hasPart, BOLIOU[boliou_rooms[i]]))    
 
+'''
+g.add((BOLIOU[boliou_rooms[i]], RDF.type, BRICK.Room))
+g.add((BOLIOU["Ground-Floor"], BRICK.hasPart, BOLIOU["RM021"]))
+g.add((BOLIOU["RM021"], RDF.type, BRICK.Room))
+g.add((BOLIOU["Ground-Floor"], BRICK.hasPart, BOLIOU["RM021"]))
+g.add((BOLIOU["RM022"], RDF.type, BRICK.Room))
+g.add((BOLIOU["Ground-Floor"], BRICK.hasPart, BOLIOU["RM022"]))
+g.add((BOLIOU["RM155"], RDF.type, BRICK.Room))
+g.add((BOLIOU["First-Floor"], BRICK.hasPart, BOLIOU["RM155"]))
+g.add((BOLIOU["RM159"], RDF.type, BRICK.Room))
+g.add((BOLIOU["First-Floor"], BRICK.hasPart, BOLIOU["RM159"]))
 g.add((BOLIOU["021-Room_Temp_Setpoint"], RDF.type, BRICK.Room_Air_Temperature_Setpoint))
-g.add((BOLIOU["Room-021"], BRICK.hasPoint, BOLIOU["021-Room_Temp_Setpoint"]))
+g.add((BOLIOU["RM021"], BRICK.hasPoint, BOLIOU["021-Room_Temp_Setpoint"]))
+'''
 
 for i in range(len(point_names)):
   if point_names[i][0] == "BO":
-    if "RM155" in point_names[i][2]:
-      print(point_names[i][2])
-      g.add((BOLIOU[point_names[i][2].replace(" ", "_")], RDF.type, BRICK.Value))
-      g.add((BOLIOU["Room-155"], BRICK.hasPart, BOLIOU[point_names[i][2].replace(" ", "_")]))
+    for room in boliou_rooms:
+      if room in point_names[i][2]:
+        print(point_names[i][2])
+        g.add((BOLIOU[point_names[i][2].replace(" ", "_")], RDF.type, BRICK.Value))
+        g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[point_names[i][2].replace(" ", "_")]))
 
 
 EVANS = Namespace("http://example.com/evans#")
@@ -65,30 +83,71 @@ g.bind("evans", EVANS)
 
 g.add((EVANS["Evans"], RDF.type, BRICK.Building))
 
+evans_rooms = ()
+for i in range(len(point_names)):
+  if point_names[i][0] == "EV":
+    point_name = point_names[i][2].split(':')
+    evans_rooms.append(point_name[0])
+evans_rooms = set(boliou_rooms)
+evans_rooms = list(boliou_rooms)
+
 g.add((EVANS["Ground-Floor"], RDF.type, BRICK.Floor))
 g.add((EVANS["Evans"], BRICK.hasPart, EVANS["Ground-Floor"]))
 g.add((EVANS["First-Floor"], RDF.type, BRICK.Floor))
 g.add((EVANS["Evans"], BRICK.hasPart, EVANS["First-Floor"]))
+g.add((EVANS["Second-Floor"], RDF.type, BRICK.Floor))
+g.add((EVANS["Evans"], BRICK.hasPart, EVANS["Second-Floor"]))
+g.add((EVANS["Third-Floor"], RDF.type, BRICK.Floor))
+g.add((EVANS["Evans"], BRICK.hasPart, EVANS["Third-Floor"]))
+g.add((EVANS["Fourth-Floor"], RDF.type, BRICK.Floor))
+g.add((EVANS["Evans"], BRICK.hasPart, EVANS["Fourth-Floor"]))
 
-g.add((EVANS["Room-120"], RDF.type, BRICK.Room))
-g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS["Room-120"]))
+for i in range(len(evans_rooms)):
+  if evans_rooms[i][2] == 'G':
+    g.add((BOLIOU[evans_rooms[i]], RDF.type, BRICK.Room))
+    g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS[evans_rooms[i]]))
+  if evans_rooms[i][2] == '1':
+    g.add((EVANS[evans_rooms[i]], RDF.type, BRICK.Room))
+    g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS[evans_rooms[i]]))
+  if evans_rooms[i][2] == '2':
+    g.add((EVANS[evans_rooms[i]], RDF.type, BRICK.Room))
+    g.add((EVANS["Second-Floor"], BRICK.hasPart, EVANS[evans_rooms[i]]))  
+  if evans_rooms[i][2] == '3':
+    g.add((EVANS[evans_rooms[i]], RDF.type, BRICK.Room))
+    g.add((EVANS["Third-Floor"], BRICK.hasPart, EVANS[evans_rooms[i]]))  
+  if evans_rooms[i][2] == '4':
+    g.add((EVANS[evans_rooms[i]], RDF.type, BRICK.Room))
+    g.add((EVANS["Fourth-Floor"], BRICK.hasPart, EVANS[evans_rooms[i]]))  
+
+'''
+g.add((EVANS["RM120"], RDF.type, BRICK.Room))
+g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS["RM120"]))
 g.add((EVANS["120-Room_Temp_Setpoint"], RDF.type, BRICK.Room_Air_Temperature_Setpoint))
-g.add((EVANS["Room-120"], BRICK.hasPoint, EVANS["120-Room_Temp_Setpoint"]))
+g.add((EVANS["RM120"], BRICK.hasPoint, EVANS["120-Room_Temp_Setpoint"]))
 g.add((EVANS["120-Room_Temp"], RDF.type, BRICK.Room_Air_Temperature))
-g.add((EVANS["Room-120"], BRICK.hasPoint, EVANS["120-Room_Temp"]))
+g.add((EVANS["RM120"], BRICK.hasPoint, EVANS["120-Room_Temp"]))
 
 
-g.add((EVANS["Room-122"], RDF.type, BRICK.Room))
-g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS["Room-122"]))
+g.add((EVANS["RM122"], RDF.type, BRICK.Room))
+g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS["RM122"]))
 g.add((EVANS["122-Room_Temp_Setpoint"], RDF.type, BRICK.Room_Air_Temperature_Setpoint))
-g.add((EVANS["Room-122"], BRICK.hasPoint, EVANS["122-Room_Temp_Setpoint"]))
+g.add((EVANS["RM122"], BRICK.hasPoint, EVANS["122-Room_Temp_Setpoint"]))
 g.add((EVANS["122-Room_Temp"], RDF.type, BRICK.Room_Air_Temperature))
-g.add((EVANS["Room-122"], BRICK.hasPoint, EVANS["122-Room_Temp"]))
+g.add((EVANS["RM122"], BRICK.hasPoint, EVANS["122-Room_Temp"]))
 
-g.add((EVANS["Room-G05"], RDF.type, BRICK.Room))
-g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS["Room-G05"]))
-g.add((EVANS["Room-G16"], RDF.type, BRICK.Room))
-g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS["Room-G16"]))
+g.add((EVANS["RMG05"], RDF.type, BRICK.Room))
+g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS["RMG05"]))
+g.add((EVANS["RMG16"], RDF.type, BRICK.Room))
+g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS["RMG16"]))
+'''
+
+for i in range(len(point_names)):
+  if point_names[i][0] == "EV":
+    for room in evans_rooms:
+      if room in point_names[i][2]:
+        print(point_names[i][2])
+        g.add((EVANS[point_names[i][2].replace(" ", "_")], RDF.type, BRICK.Value))
+        g.add((EVANS[room], BRICK.hasPart, evans[point_names[i][2].replace(" ", "_")]))
 
 
 with open("example.ttl", "wb") as f:
