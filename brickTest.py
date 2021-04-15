@@ -17,11 +17,8 @@ points_query = '''SELECT * FROM points'''
 cur.execute(points_query)
 points = cur.fetchall()
 point_names = []
-for line in points:
-  point_names.append(line[1].split('.'))
-print(point_names[0])
-
-
+for i in range(len(points)):
+  point_names.append(points[i][1].split('.'))
 
 g = Graph()
 
@@ -33,11 +30,14 @@ g.bind("boliou", BOLIOU)
 
 g.add((BOLIOU["Boliou"], RDF.type, BRICK.Building))
 
-boliou_rooms = ()
+boliou_rooms = []
 for i in range(len(point_names)):
   if point_names[i][0] == "BO":
-    point_name = point_names[i][2].split(':')
-    boliou_rooms.append(point_name[0])
+    try:
+      point_name = point_names[i][2].split(':')
+      boliou_rooms.append(point_name[0])
+    except Exception as e:
+      print(e)
 boliou_rooms = set(boliou_rooms)
 boliou_rooms = list(boliou_rooms)
 
@@ -73,9 +73,9 @@ for i in range(len(point_names)):
   if point_names[i][0] == "BO":
     for room in boliou_rooms:
       if room in point_names[i][2]:
-        print(point_names[i][2])
-        g.add((BOLIOU[point_names[i][2].replace(" ", "_")], RDF.type, BRICK.Value))
-        g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[point_names[i][2].replace(" ", "_")]))
+        print("Added point " + point_names[i][2] + "to room " + room)
+        g.add((BOLIOU[points[i][1].replace(" ", "_")], RDF.type, BRICK.Value))
+        g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[points[i][1].replace(" ", "_")]))
 
 
 EVANS = Namespace("http://example.com/evans#")
@@ -83,11 +83,14 @@ g.bind("evans", EVANS)
 
 g.add((EVANS["Evans"], RDF.type, BRICK.Building))
 
-evans_rooms = ()
+evans_rooms = []
 for i in range(len(point_names)):
   if point_names[i][0] == "EV":
-    point_name = point_names[i][2].split(':')
-    evans_rooms.append(point_name[0])
+    try:
+      point_name = point_names[i][1]
+      evans_rooms.append(point_name)
+    except Exception as e:
+      print(e)
 evans_rooms = set(boliou_rooms)
 evans_rooms = list(boliou_rooms)
 
@@ -144,10 +147,10 @@ g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS["RMG16"]))
 for i in range(len(point_names)):
   if point_names[i][0] == "EV":
     for room in evans_rooms:
-      if room in point_names[i][2]:
-        print(point_names[i][2])
-        g.add((EVANS[point_names[i][2].replace(" ", "_")], RDF.type, BRICK.Value))
-        g.add((EVANS[room], BRICK.hasPart, evans[point_names[i][2].replace(" ", "_")]))
+      if room in point_names[i][1]:
+        print(point_names[i][1])
+        g.add((EVANS[points[i][1].replace(" ", "_")], RDF.type, BRICK.Value))
+        g.add((EVANS[room], BRICK.hasPart, evans[points[i][1].replace(" ", "_")]))
 
 
 with open("example.ttl", "wb") as f:
