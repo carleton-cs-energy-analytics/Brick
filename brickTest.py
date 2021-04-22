@@ -6,7 +6,6 @@ from psycopg2 import connect, sql
 from datetime import datetime
 import sys
 import os
-import urllib.parse
 
 conn = psycopg2.connect(
     host="localhost",
@@ -75,7 +74,7 @@ for i in range(len(point_names)):
     for room in boliou_rooms:
       room_name = point_names[i][2].split(':')[0]
       if room == room_name:
-        print("Added point " + points[i][1] + "to room " + room)
+        print("Added point " + points[i][1] + " to room " + room)
         g.add((BOLIOU[points[i][1].replace(" ", "*")], RDF.type, BRICK.Value))
         g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[points[i][1].replace(" ", "*")]))
 
@@ -154,7 +153,6 @@ for i in range(len(point_names)):
     for room in evans_rooms:
       if room in points[i][1]:
         print("Added point " + points[i][1] + " to room " + room)
-        point = urllib.parse.quote_plus(points[i][1])
         g.add((EVANS[points[i][1].replace(" ", "*")], RDF.type, BRICK.Value))
         g.add((EVANS[room], BRICK.hasPart, EVANS[points[i][1].replace(" ", "*")]))
 
