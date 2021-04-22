@@ -6,6 +6,7 @@ from psycopg2 import connect, sql
 from datetime import datetime
 import sys
 import os
+import urllib.parse
 
 conn = psycopg2.connect(
     host="localhost",
@@ -72,10 +73,11 @@ g.add((BOLIOU["RM021"], BRICK.hasPoint, BOLIOU["021-Room_Temp_Setpoint"]))
 for i in range(len(point_names)):
   if point_names[i][0] == "BO":
     for room in boliou_rooms:
-      if room in point_names[i][2]:
-        print("Added point " + point_names[i][2] + "to room " + room)
-        g.add((BOLIOU[points[i][1].replace(" ", "_")], RDF.type, BRICK.Value))
-        g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[points[i][1].replace(" ", "_")]))
+      room_name = point_names[i][2].split(':')[0]
+      if room == room_name:
+        print("Added point " + points[i][1] + "to room " + room)
+        g.add((BOLIOU[points[i][1].replace(" ", "*")], RDF.type, BRICK.Value))
+        g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[points[i][1].replace(" ", "*")]))
 
 
 EVANS = Namespace("http://example.com/evans#")
@@ -87,12 +89,12 @@ evans_rooms = []
 for i in range(len(point_names)):
   if point_names[i][0] == "EV":
     try:
-      point_name = point_names[i][1]
-      evans_rooms.append(point_name)
+      room_name = point_names[i][1]
+      if room_name not in evans_rooms:
+        if room_name[0:2] == 'RM':
+          evans_rooms.append(room_name)
     except Exception as e:
       print(e)
-evans_rooms = set(boliou_rooms)
-evans_rooms = list(boliou_rooms)
 
 g.add((EVANS["Ground-Floor"], RDF.type, BRICK.Floor))
 g.add((EVANS["Evans"], BRICK.hasPart, EVANS["Ground-Floor"]))
@@ -106,22 +108,24 @@ g.add((EVANS["Fourth-Floor"], RDF.type, BRICK.Floor))
 g.add((EVANS["Evans"], BRICK.hasPart, EVANS["Fourth-Floor"]))
 
 for i in range(len(evans_rooms)):
-  if evans_rooms[i][2] == 'G':
-    g.add((BOLIOU[evans_rooms[i]], RDF.type, BRICK.Room))
-    g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS[evans_rooms[i]]))
-  if evans_rooms[i][2] == '1':
-    g.add((EVANS[evans_rooms[i]], RDF.type, BRICK.Room))
-    g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS[evans_rooms[i]]))
-  if evans_rooms[i][2] == '2':
-    g.add((EVANS[evans_rooms[i]], RDF.type, BRICK.Room))
-    g.add((EVANS["Second-Floor"], BRICK.hasPart, EVANS[evans_rooms[i]]))  
-  if evans_rooms[i][2] == '3':
-    g.add((EVANS[evans_rooms[i]], RDF.type, BRICK.Room))
-    g.add((EVANS["Third-Floor"], BRICK.hasPart, EVANS[evans_rooms[i]]))  
-  if evans_rooms[i][2] == '4':
-    g.add((EVANS[evans_rooms[i]], RDF.type, BRICK.Room))
-    g.add((EVANS["Fourth-Floor"], BRICK.hasPart, EVANS[evans_rooms[i]]))  
-
+  try:
+    if evans_rooms[i][2] == 'G':
+      g.add((BOLIOU[evans_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
+      g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS[evans_rooms[i].replace(" ", "*")]))
+    if evans_rooms[i][2] == '1':
+      g.add((EVANS[evans_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
+      g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS[evans_rooms[i].replace(" ", "*")]))
+    if evans_rooms[i][2] == '2':
+      g.add((EVANS[evans_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
+      g.add((EVANS["Second-Floor"], BRICK.hasPart, EVANS[evans_rooms[i].replace(" ", "*")]))  
+    if evans_rooms[i][2] == '3':
+      g.add((EVANS[evans_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
+      g.add((EVANS["Third-Floor"], BRICK.hasPart, EVANS[evans_rooms[i].replace(" ", "*")]))  
+    if evans_rooms[i][2] == '4':
+      g.add((EVANS[evans_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
+      g.add((EVANS["Fourth-Floor"], BRICK.hasPart, EVANS[evans_rooms[i].replace(" ", "*")]))  
+  except Exception as e:
+    print(e)
 '''
 g.add((EVANS["RM120"], RDF.type, BRICK.Room))
 g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS["RM120"]))
@@ -147,12 +151,12 @@ g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS["RMG16"]))
 for i in range(len(point_names)):
   if point_names[i][0] == "EV":
     for room in evans_rooms:
-      if room in point_names[i][1]:
-        print(point_names[i][1])
-        g.add((EVANS[points[i][1].replace(" ", "_")], RDF.type, BRICK.Value))
-        g.add((EVANS[room], BRICK.hasPart, evans[points[i][1].replace(" ", "_")]))
+      if room in points[i][1]:
+        print("Added point " + points[i][1] + " to room " + room)
+        point = urllib.parse.quote_plus(points[i][1])
+        g.add((EVANS[point], RDF.type, BRICK.Value))
+        g.add((EVANS[room], BRICK.hasPart, EVANS[point]))
 
-
-with open("example.ttl", "wb") as f:
+with open("Carleton.ttl", "wb") as f:
     # the Turtle format strikes a balance beteween being compact and easy to read
     f.write(g.serialize(format="ttl"))
