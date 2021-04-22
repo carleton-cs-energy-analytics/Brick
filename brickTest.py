@@ -102,24 +102,6 @@ for i in range(len(evans_rooms)):
       g.add((EVANS["Fourth-Floor"], BRICK.hasPart, EVANS[evans_rooms[i].replace(" ", "*")]))  
   except Exception as e:
     print(e)
-'''
-g.add((EVANS["RM120"], RDF.type, BRICK.Room))
-g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS["RM120"]))
-g.add((EVANS["120-Room_Temp_Setpoint"], RDF.type, BRICK.Room_Air_Temperature_Setpoint))
-g.add((EVANS["RM120"], BRICK.hasPoint, EVANS["120-Room_Temp_Setpoint"]))
-g.add((EVANS["120-Room_Temp"], RDF.type, BRICK.Room_Air_Temperature))
-g.add((EVANS["RM120"], BRICK.hasPoint, EVANS["120-Room_Temp"]))
-g.add((EVANS["RM122"], RDF.type, BRICK.Room))
-g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS["RM122"]))
-g.add((EVANS["122-Room_Temp_Setpoint"], RDF.type, BRICK.Room_Air_Temperature_Setpoint))
-g.add((EVANS["RM122"], BRICK.hasPoint, EVANS["122-Room_Temp_Setpoint"]))
-g.add((EVANS["122-Room_Temp"], RDF.type, BRICK.Room_Air_Temperature))
-g.add((EVANS["RM122"], BRICK.hasPoint, EVANS["122-Room_Temp"]))
-g.add((EVANS["RMG05"], RDF.type, BRICK.Room))
-g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS["RMG05"]))
-g.add((EVANS["RMG16"], RDF.type, BRICK.Room))
-g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS["RMG16"]))
-'''
 
 for i in range(len(point_names)):
   if point_names[i][0] == "EV":
