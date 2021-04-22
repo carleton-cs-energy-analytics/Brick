@@ -166,67 +166,35 @@ boliou:MCOMMON brick:hasPart <http://example.com/boliou#BO.1.MCOMMON:AIR*VOLUME>
 
 boliou:RMG04 a brick:Room .
 
-boliou:RMG04VSP a brick:Room .
-
 boliou:RMG05 a brick:Room .
-
-boliou:RMG05VSP a brick:Room .
 
 boliou:RMG06 a brick:Room .
 
-boliou:RMG06VSP a brick:Room .
-
 boliou:RMG07 a brick:Room .
-
-boliou:RMG07VSP a brick:Room .
 
 boliou:RMG08 a brick:Room .
 
-boliou:RMG08VSP a brick:Room .
-
 boliou:RMG09 a brick:Room .
-
-boliou:RMG09VSP a brick:Room .
 
 boliou:RMG10 a brick:Room .
 
-boliou:RMG10VSP a brick:Room .
-
 boliou:RMG11 a brick:Room .
-
-boliou:RMG11VSP a brick:Room .
 
 boliou:RMG14 a brick:Room .
 
-boliou:RMG14VSP a brick:Room .
-
 boliou:RMG16 a brick:Room .
-
-boliou:RMG16VSP a brick:Room .
 
 boliou:RMG17 a brick:Room .
 
-boliou:RMG17VSP a brick:Room .
-
 boliou:RMG18 a brick:Room .
-
-boliou:RMG18VSP a brick:Room .
 
 boliou:RMG19 a brick:Room .
 
-boliou:RMG19VSP a brick:Room .
-
 boliou:RMG20 a brick:Room .
-
-boliou:RMG20VSP a brick:Room .
 
 boliou:RMG21 a brick:Room .
 
-boliou:RMG21VSP a brick:Room .
-
 boliou:RMG26 a brick:Room .
-
-boliou:RMG26VSP a brick:Room .
 
 boliou:RVFD brick:hasPart boliou:BO.AH03.RVFD:DAY.NIGHT,
         <http://example.com/boliou#BO.AH03.RVFD:ENA.DIS*CMD>,
@@ -685,22 +653,18 @@ evans:RM003 brick:hasPart evans:EV.RM003.RT,
         evans:EV.RM003.V,
         evans:EV.RM003VSP .
 
-evans:RM003VSP brick:hasPart evans:EV.RM003VSP .
-
 evans:RM014 brick:hasPart evans:EV.RM014.SP .
 
 evans:RM016 brick:hasPart evans:EV.RM016.RT,
         evans:EV.RM016.V,
         evans:EV.RM016VSP .
 
-evans:RM016VSP brick:hasPart evans:EV.RM016VSP .
-
 evans:RMB4 brick:hasPart evans:EV.RMB4.RT,
         evans:EV.RMB4.SP,
         evans:EV.RMB4.V,
         evans:EV.RMB4VSP .
 
-evans:RMB4VSP brick:hasPart evans:EV.RMB4VSP .
+evans:RMB4V brick:hasPart evans:EV.RMB4VSP .
 
 <http://example.com/boliou#BO.1.COMMONM:AIR*VOLUME> a brick:Value .
 
@@ -5255,95 +5219,52 @@ evans:EV.TF1.RMT a brick:Value .
 evans:First-Floor a brick:Floor ;
     brick:hasPart evans:RM100,
         evans:RM102,
-        evans:RM102VSP,
         evans:RM106,
-        evans:RM106VSP,
         evans:RM107,
-        evans:RM107VSP,
         evans:RM108,
-        evans:RM108VSP,
         evans:RM109,
-        evans:RM109VSP,
         evans:RM111,
-        evans:RM111VSP,
         evans:RM112,
-        evans:RM112VSP,
         evans:RM114,
-        evans:RM114VSP,
         evans:RM116,
-        evans:RM116VSP,
         evans:RM118,
-        evans:RM118VSP,
         evans:RM119,
-        evans:RM119VSP,
         evans:RM120,
-        evans:RM120VSP,
         evans:RM121,
-        evans:RM121VSP,
-        evans:RM122,
-        evans:RM122VSP .
+        evans:RM122 .
 
 evans:Fourth-Floor a brick:Floor ;
     brick:hasPart evans:RM400,
-        evans:RM400VSP,
         evans:RM401,
-        evans:RM401VSP,
         evans:RM402,
-        evans:RM402VSP,
         evans:RM403,
-        evans:RM403VSP,
         evans:RM404,
-        evans:RM404VSP,
         evans:RM405,
-        evans:RM405VSP,
         evans:RM406,
-        evans:RM406VSP,
         evans:RM407,
-        evans:RM407VSP,
         evans:RM411,
-        evans:RM411VSP,
         evans:RM412,
-        evans:RM412VSP,
         evans:RM413,
-        evans:RM413VSP,
         evans:RM414,
-        evans:RM414VSP,
-        evans:RM415,
-        evans:RM415VSP .
+        evans:RM415 .
 
 evans:Ground-Floor a brick:Floor ;
     brick:hasPart evans:RMG04,
-        evans:RMG04VSP,
         evans:RMG05,
-        evans:RMG05VSP,
         evans:RMG06,
-        evans:RMG06VSP,
         evans:RMG07,
-        evans:RMG07VSP,
         evans:RMG08,
-        evans:RMG08VSP,
         evans:RMG09,
-        evans:RMG09VSP,
         evans:RMG10,
-        evans:RMG10VSP,
         evans:RMG11,
-        evans:RMG11VSP,
         evans:RMG14,
-        evans:RMG14VSP,
         evans:RMG16,
-        evans:RMG16VSP,
         evans:RMG17,
-        evans:RMG17VSP,
         evans:RMG18,
-        evans:RMG18VSP,
         evans:RMG19,
-        evans:RMG19VSP,
         evans:RMG20,
-        evans:RMG20VSP,
         evans:RMG21,
-        evans:RMG21VSP,
-        evans:RMG26,
-        evans:RMG26VSP .
+        evans:RMG26 .
 
 evans:RM100 a brick:Room ;
     brick:hasPart evans:EV.RM100.LIGHTS .
@@ -5355,17 +5276,11 @@ evans:RM102 a brick:Room ;
         evans:EV.RM102.V,
         evans:EV.RM102VSP .
 
-evans:RM102VSP a brick:Room ;
-    brick:hasPart evans:EV.RM102VSP .
-
 evans:RM106 a brick:Room ;
     brick:hasPart evans:EV.RM106.RT,
         evans:EV.RM106.SP,
         evans:EV.RM106.V,
         evans:EV.RM106VSP .
-
-evans:RM106VSP a brick:Room ;
-    brick:hasPart evans:EV.RM106VSP .
 
 evans:RM107 a brick:Room ;
     brick:hasPart evans:EV.RM107.RT,
@@ -5373,17 +5288,11 @@ evans:RM107 a brick:Room ;
         evans:EV.RM107.V,
         evans:EV.RM107VSP .
 
-evans:RM107VSP a brick:Room ;
-    brick:hasPart evans:EV.RM107VSP .
-
 evans:RM108 a brick:Room ;
     brick:hasPart evans:EV.RM108.RT,
         evans:EV.RM108.SP,
         evans:EV.RM108.V,
         evans:EV.RM108VSP .
-
-evans:RM108VSP a brick:Room ;
-    brick:hasPart evans:EV.RM108VSP .
 
 evans:RM109 a brick:Room ;
     brick:hasPart evans:EV.RM109.RT,
@@ -5391,17 +5300,11 @@ evans:RM109 a brick:Room ;
         evans:EV.RM109.V,
         evans:EV.RM109VSP .
 
-evans:RM109VSP a brick:Room ;
-    brick:hasPart evans:EV.RM109VSP .
-
 evans:RM111 a brick:Room ;
     brick:hasPart evans:EV.RM111.RT,
         evans:EV.RM111.SP,
         evans:EV.RM111.V,
         evans:EV.RM111VSP .
-
-evans:RM111VSP a brick:Room ;
-    brick:hasPart evans:EV.RM111VSP .
 
 evans:RM112 a brick:Room ;
     brick:hasPart evans:EV.RM112.RT,
@@ -5409,17 +5312,11 @@ evans:RM112 a brick:Room ;
         evans:EV.RM112.V,
         evans:EV.RM112VSP .
 
-evans:RM112VSP a brick:Room ;
-    brick:hasPart evans:EV.RM112VSP .
-
 evans:RM114 a brick:Room ;
     brick:hasPart evans:EV.RM114.RT,
         evans:EV.RM114.SP,
         evans:EV.RM114.V,
         evans:EV.RM114VSP .
-
-evans:RM114VSP a brick:Room ;
-    brick:hasPart evans:EV.RM114VSP .
 
 evans:RM116 a brick:Room ;
     brick:hasPart evans:EV.RM116.RT,
@@ -5427,17 +5324,11 @@ evans:RM116 a brick:Room ;
         evans:EV.RM116.V,
         evans:EV.RM116VSP .
 
-evans:RM116VSP a brick:Room ;
-    brick:hasPart evans:EV.RM116VSP .
-
 evans:RM118 a brick:Room ;
     brick:hasPart evans:EV.RM118.RT,
         evans:EV.RM118.SP,
         evans:EV.RM118.V,
         evans:EV.RM118VSP .
-
-evans:RM118VSP a brick:Room ;
-    brick:hasPart evans:EV.RM118VSP .
 
 evans:RM119 a brick:Room ;
     brick:hasPart evans:EV.RM119.RT,
@@ -5445,17 +5336,11 @@ evans:RM119 a brick:Room ;
         evans:EV.RM119.V,
         evans:EV.RM119VSP .
 
-evans:RM119VSP a brick:Room ;
-    brick:hasPart evans:EV.RM119VSP .
-
 evans:RM120 a brick:Room ;
     brick:hasPart evans:EV.RM120.RT,
         evans:EV.RM120.SP,
         evans:EV.RM120.V,
         evans:EV.RM120VSP .
-
-evans:RM120VSP a brick:Room ;
-    brick:hasPart evans:EV.RM120VSP .
 
 evans:RM121 a brick:Room ;
     brick:hasPart evans:EV.RM121.RT,
@@ -5463,17 +5348,11 @@ evans:RM121 a brick:Room ;
         evans:EV.RM121.V,
         evans:EV.RM121VSP .
 
-evans:RM121VSP a brick:Room ;
-    brick:hasPart evans:EV.RM121VSP .
-
 evans:RM122 a brick:Room ;
     brick:hasPart evans:EV.RM122.RT,
         evans:EV.RM122.SP,
         evans:EV.RM122.V,
         evans:EV.RM122VSP .
-
-evans:RM122VSP a brick:Room ;
-    brick:hasPart evans:EV.RM122VSP .
 
 evans:RM200 a brick:Room ;
     brick:hasPart evans:EV.RM200.RT,
@@ -5481,17 +5360,11 @@ evans:RM200 a brick:Room ;
         evans:EV.RM200.V,
         evans:EV.RM200VSP .
 
-evans:RM200VSP a brick:Room ;
-    brick:hasPart evans:EV.RM200VSP .
-
 evans:RM202 a brick:Room ;
     brick:hasPart evans:EV.RM202.RT,
         evans:EV.RM202.SP,
         evans:EV.RM202.V,
         evans:EV.RM202VSP .
-
-evans:RM202VSP a brick:Room ;
-    brick:hasPart evans:EV.RM202VSP .
 
 evans:RM203 a brick:Room ;
     brick:hasPart evans:EV.RM203.RT,
@@ -5499,17 +5372,11 @@ evans:RM203 a brick:Room ;
         evans:EV.RM203.V,
         evans:EV.RM203VSP .
 
-evans:RM203VSP a brick:Room ;
-    brick:hasPart evans:EV.RM203VSP .
-
 evans:RM204 a brick:Room ;
     brick:hasPart evans:EV.RM204.RT,
         evans:EV.RM204.SP,
         evans:EV.RM204.V,
         evans:EV.RM204VSP .
-
-evans:RM204VSP a brick:Room ;
-    brick:hasPart evans:EV.RM204VSP .
 
 evans:RM205 a brick:Room ;
     brick:hasPart evans:EV.RM205.RT,
@@ -5517,26 +5384,17 @@ evans:RM205 a brick:Room ;
         evans:EV.RM205.V,
         evans:EV.RM205VSP .
 
-evans:RM205VSP a brick:Room ;
-    brick:hasPart evans:EV.RM205VSP .
-
 evans:RM206 a brick:Room ;
     brick:hasPart evans:EV.RM206.RT,
         evans:EV.RM206.SP,
         evans:EV.RM206.V,
         evans:EV.RM206VSP .
 
-evans:RM206VSP a brick:Room ;
-    brick:hasPart evans:EV.RM206VSP .
-
 evans:RM207 a brick:Room ;
     brick:hasPart evans:EV.RM207.RT,
         evans:EV.RM207.SP,
         evans:EV.RM207.V,
         evans:EV.RM207VSP .
-
-evans:RM207VSP a brick:Room ;
-    brick:hasPart evans:EV.RM207VSP .
 
 evans:RM208 a brick:Room ;
     brick:hasPart evans:EV.RM208.RT,
@@ -5545,9 +5403,6 @@ evans:RM208 a brick:Room ;
         evans:EV.RM208.VRT,
         evans:EV.RM208VSP .
 
-evans:RM208VSP a brick:Room ;
-    brick:hasPart evans:EV.RM208VSP .
-
 evans:RM209 a brick:Room ;
     brick:hasPart evans:EV.RM209.RT,
         evans:EV.RM209.SP,
@@ -5555,17 +5410,11 @@ evans:RM209 a brick:Room ;
         evans:EV.RM209.VRT,
         evans:EV.RM209VSP .
 
-evans:RM209VSP a brick:Room ;
-    brick:hasPart evans:EV.RM209VSP .
-
 evans:RM211 a brick:Room ;
     brick:hasPart evans:EV.RM211.RT,
         evans:EV.RM211.SP,
         evans:EV.RM211.V,
         evans:EV.RM211VSP .
-
-evans:RM211VSP a brick:Room ;
-    brick:hasPart evans:EV.RM211VSP .
 
 evans:RM212 a brick:Room ;
     brick:hasPart evans:EV.RM212.RT,
@@ -5573,17 +5422,11 @@ evans:RM212 a brick:Room ;
         evans:EV.RM212.V,
         evans:EV.RM212VSP .
 
-evans:RM212VSP a brick:Room ;
-    brick:hasPart evans:EV.RM212VSP .
-
 evans:RM213 a brick:Room ;
     brick:hasPart evans:EV.RM213.RT,
         evans:EV.RM213.SP,
         evans:EV.RM213.V,
         evans:EV.RM213VSP .
-
-evans:RM213VSP a brick:Room ;
-    brick:hasPart evans:EV.RM213VSP .
 
 evans:RM214 a brick:Room ;
     brick:hasPart evans:EV.RM214.RT,
@@ -5591,17 +5434,11 @@ evans:RM214 a brick:Room ;
         evans:EV.RM214.V,
         evans:EV.RM214VSP .
 
-evans:RM214VSP a brick:Room ;
-    brick:hasPart evans:EV.RM214VSP .
-
 evans:RM215 a brick:Room ;
     brick:hasPart evans:EV.RM215.RT,
         evans:EV.RM215.SP,
         evans:EV.RM215.V,
         evans:EV.RM215VSP .
-
-evans:RM215VSP a brick:Room ;
-    brick:hasPart evans:EV.RM215VSP .
 
 evans:RM216 a brick:Room ;
     brick:hasPart evans:EV.RM216.RT,
@@ -5609,16 +5446,10 @@ evans:RM216 a brick:Room ;
         evans:EV.RM216.V,
         evans:EV.RM216VSP .
 
-evans:RM216VSP a brick:Room ;
-    brick:hasPart evans:EV.RM216VSP .
-
 evans:RM219 a brick:Room ;
     brick:hasPart evans:EV.RM219.RT,
         evans:EV.RM219.SP,
         evans:EV.RM219VSP .
-
-evans:RM219VSP a brick:Room ;
-    brick:hasPart evans:EV.RM219VSP .
 
 evans:RM300 a brick:Room ;
     brick:hasPart evans:EV.RM300.RT,
@@ -5626,17 +5457,11 @@ evans:RM300 a brick:Room ;
         evans:EV.RM300.V,
         evans:EV.RM300VSP .
 
-evans:RM300VSP a brick:Room ;
-    brick:hasPart evans:EV.RM300VSP .
-
 evans:RM302 a brick:Room ;
     brick:hasPart evans:EV.RM302.RT,
         evans:EV.RM302.SP,
         evans:EV.RM302.V,
         evans:EV.RM302VSP .
-
-evans:RM302VSP a brick:Room ;
-    brick:hasPart evans:EV.RM302VSP .
 
 evans:RM303 a brick:Room ;
     brick:hasPart evans:EV.RM303.RT,
@@ -5644,17 +5469,11 @@ evans:RM303 a brick:Room ;
         evans:EV.RM303.V,
         evans:EV.RM303VSP .
 
-evans:RM303VSP a brick:Room ;
-    brick:hasPart evans:EV.RM303VSP .
-
 evans:RM304 a brick:Room ;
     brick:hasPart evans:EV.RM304.RT,
         evans:EV.RM304.SP,
         evans:EV.RM304.V,
         evans:EV.RM304VSP .
-
-evans:RM304VSP a brick:Room ;
-    brick:hasPart evans:EV.RM304VSP .
 
 evans:RM305 a brick:Room ;
     brick:hasPart evans:EV.RM305.RT,
@@ -5662,26 +5481,17 @@ evans:RM305 a brick:Room ;
         evans:EV.RM305.V,
         evans:EV.RM305VSP .
 
-evans:RM305VSP a brick:Room ;
-    brick:hasPart evans:EV.RM305VSP .
-
 evans:RM306 a brick:Room ;
     brick:hasPart evans:EV.RM306.RT,
         evans:EV.RM306.SP,
         evans:EV.RM306.V,
         evans:EV.RM306VSP .
 
-evans:RM306VSP a brick:Room ;
-    brick:hasPart evans:EV.RM306VSP .
-
 evans:RM307 a brick:Room ;
     brick:hasPart evans:EV.RM307.RT,
         evans:EV.RM307.SP,
         evans:EV.RM307.V,
         evans:EV.RM307VSP .
-
-evans:RM307VSP a brick:Room ;
-    brick:hasPart evans:EV.RM307VSP .
 
 evans:RM308 a brick:Room ;
     brick:hasPart evans:EV.RM308.RT,
@@ -5690,9 +5500,6 @@ evans:RM308 a brick:Room ;
         evans:EV.RM308.VRT,
         evans:EV.RM308VSP .
 
-evans:RM308VSP a brick:Room ;
-    brick:hasPart evans:EV.RM308VSP .
-
 evans:RM309 a brick:Room ;
     brick:hasPart evans:EV.RM309.RT,
         evans:EV.RM309.SP,
@@ -5700,17 +5507,11 @@ evans:RM309 a brick:Room ;
         evans:EV.RM309.VRT,
         evans:EV.RM309VSP .
 
-evans:RM309VSP a brick:Room ;
-    brick:hasPart evans:EV.RM309VSP .
-
 evans:RM311 a brick:Room ;
     brick:hasPart evans:EV.RM311.RT,
         evans:EV.RM311.SP,
         evans:EV.RM311.V,
         evans:EV.RM311VSP .
-
-evans:RM311VSP a brick:Room ;
-    brick:hasPart evans:EV.RM311VSP .
 
 evans:RM312 a brick:Room ;
     brick:hasPart evans:EV.RM312.RT,
@@ -5718,17 +5519,11 @@ evans:RM312 a brick:Room ;
         evans:EV.RM312.V,
         evans:EV.RM312VSP .
 
-evans:RM312VSP a brick:Room ;
-    brick:hasPart evans:EV.RM312VSP .
-
 evans:RM313 a brick:Room ;
     brick:hasPart evans:EV.RM313.RT,
         evans:EV.RM313.SP,
         evans:EV.RM313.V,
         evans:EV.RM313VSP .
-
-evans:RM313VSP a brick:Room ;
-    brick:hasPart evans:EV.RM313VSP .
 
 evans:RM314 a brick:Room ;
     brick:hasPart evans:EV.RM314.RT,
@@ -5736,17 +5531,11 @@ evans:RM314 a brick:Room ;
         evans:EV.RM314.V,
         evans:EV.RM314VSP .
 
-evans:RM314VSP a brick:Room ;
-    brick:hasPart evans:EV.RM314VSP .
-
 evans:RM315 a brick:Room ;
     brick:hasPart evans:EV.RM315.RT,
         evans:EV.RM315.SP,
         evans:EV.RM315.V,
         evans:EV.RM315VSP .
-
-evans:RM315VSP a brick:Room ;
-    brick:hasPart evans:EV.RM315VSP .
 
 evans:RM316 a brick:Room ;
     brick:hasPart evans:EV.RM316.RT,
@@ -5754,17 +5543,11 @@ evans:RM316 a brick:Room ;
         evans:EV.RM316.V,
         evans:EV.RM316VSP .
 
-evans:RM316VSP a brick:Room ;
-    brick:hasPart evans:EV.RM316VSP .
-
 evans:RM400 a brick:Room ;
     brick:hasPart evans:EV.RM400.RT,
         evans:EV.RM400.SP,
         evans:EV.RM400.V,
         evans:EV.RM400VSP .
-
-evans:RM400VSP a brick:Room ;
-    brick:hasPart evans:EV.RM400VSP .
 
 evans:RM401 a brick:Room ;
     brick:hasPart evans:EV.RM401.RT,
@@ -5772,17 +5555,11 @@ evans:RM401 a brick:Room ;
         evans:EV.RM401.V,
         evans:EV.RM401VSP .
 
-evans:RM401VSP a brick:Room ;
-    brick:hasPart evans:EV.RM401VSP .
-
 evans:RM402 a brick:Room ;
     brick:hasPart evans:EV.RM402.RT,
         evans:EV.RM402.SP,
         evans:EV.RM402.V,
         evans:EV.RM402VSP .
-
-evans:RM402VSP a brick:Room ;
-    brick:hasPart evans:EV.RM402VSP .
 
 evans:RM403 a brick:Room ;
     brick:hasPart evans:EV.RM403.RT,
@@ -5790,17 +5567,11 @@ evans:RM403 a brick:Room ;
         evans:EV.RM403.V,
         evans:EV.RM403VSP .
 
-evans:RM403VSP a brick:Room ;
-    brick:hasPart evans:EV.RM403VSP .
-
 evans:RM404 a brick:Room ;
     brick:hasPart evans:EV.RM404.RT,
         evans:EV.RM404.SP,
         evans:EV.RM404.V,
         evans:EV.RM404VSP .
-
-evans:RM404VSP a brick:Room ;
-    brick:hasPart evans:EV.RM404VSP .
 
 evans:RM405 a brick:Room ;
     brick:hasPart evans:EV.RM405.RT,
@@ -5808,17 +5579,11 @@ evans:RM405 a brick:Room ;
         evans:EV.RM405.V,
         evans:EV.RM405VSP .
 
-evans:RM405VSP a brick:Room ;
-    brick:hasPart evans:EV.RM405VSP .
-
 evans:RM406 a brick:Room ;
     brick:hasPart evans:EV.RM406.RT,
         evans:EV.RM406.SP,
         evans:EV.RM406.V,
         evans:EV.RM406VSP .
-
-evans:RM406VSP a brick:Room ;
-    brick:hasPart evans:EV.RM406VSP .
 
 evans:RM407 a brick:Room ;
     brick:hasPart evans:EV.RM407.RT,
@@ -5826,17 +5591,11 @@ evans:RM407 a brick:Room ;
         evans:EV.RM407.V,
         evans:EV.RM407VSP .
 
-evans:RM407VSP a brick:Room ;
-    brick:hasPart evans:EV.RM407VSP .
-
 evans:RM411 a brick:Room ;
     brick:hasPart evans:EV.RM411.RT,
         evans:EV.RM411.SP,
         evans:EV.RM411.V,
         evans:EV.RM411VSP .
-
-evans:RM411VSP a brick:Room ;
-    brick:hasPart evans:EV.RM411VSP .
 
 evans:RM412 a brick:Room ;
     brick:hasPart evans:EV.RM412.RT,
@@ -5844,17 +5603,11 @@ evans:RM412 a brick:Room ;
         evans:EV.RM412.V,
         evans:EV.RM412VSP .
 
-evans:RM412VSP a brick:Room ;
-    brick:hasPart evans:EV.RM412VSP .
-
 evans:RM413 a brick:Room ;
     brick:hasPart evans:EV.RM413.RT,
         evans:EV.RM413.SP,
         evans:EV.RM413.V,
         evans:EV.RM413VSP .
-
-evans:RM413VSP a brick:Room ;
-    brick:hasPart evans:EV.RM413VSP .
 
 evans:RM414 a brick:Room ;
     brick:hasPart evans:EV.RM414.RT,
@@ -5862,195 +5615,126 @@ evans:RM414 a brick:Room ;
         evans:EV.RM414.V,
         evans:EV.RM414VSP .
 
-evans:RM414VSP a brick:Room ;
-    brick:hasPart evans:EV.RM414VSP .
-
 evans:RM415 a brick:Room ;
     brick:hasPart evans:EV.RM415.RT,
         evans:EV.RM415.SP,
         evans:EV.RM415.V,
         evans:EV.RM415VSP .
 
-evans:RM415VSP a brick:Room ;
-    brick:hasPart evans:EV.RM415VSP .
-
 evans:RMG04 brick:hasPart evans:EV.RMG04.RT,
         evans:EV.RMG04.SP,
         evans:EV.RMG04.V,
         evans:EV.RMG04VSP .
-
-evans:RMG04VSP brick:hasPart evans:EV.RMG04VSP .
 
 evans:RMG05 brick:hasPart evans:EV.RMG05.RT,
         evans:EV.RMG05.SP,
         evans:EV.RMG05.V,
         evans:EV.RMG05VSP .
 
-evans:RMG05VSP brick:hasPart evans:EV.RMG05VSP .
-
 evans:RMG06 brick:hasPart evans:EV.RMG06.RT,
         evans:EV.RMG06.SP,
         evans:EV.RMG06.V,
         evans:EV.RMG06VSP .
-
-evans:RMG06VSP brick:hasPart evans:EV.RMG06VSP .
 
 evans:RMG07 brick:hasPart evans:EV.RMG07.RT,
         evans:EV.RMG07.SP,
         evans:EV.RMG07.V,
         evans:EV.RMG07VSP .
 
-evans:RMG07VSP brick:hasPart evans:EV.RMG07VSP .
-
 evans:RMG08 brick:hasPart evans:EV.RMG08.RT,
         evans:EV.RMG08.SP,
         evans:EV.RMG08.V,
         evans:EV.RMG08VSP .
-
-evans:RMG08VSP brick:hasPart evans:EV.RMG08VSP .
 
 evans:RMG09 brick:hasPart evans:EV.RMG09.RT,
         evans:EV.RMG09.SP,
         evans:EV.RMG09.V,
         evans:EV.RMG09VSP .
 
-evans:RMG09VSP brick:hasPart evans:EV.RMG09VSP .
-
 evans:RMG10 brick:hasPart evans:EV.RMG10.RT,
         evans:EV.RMG10.SP,
         evans:EV.RMG10.V,
         evans:EV.RMG10VSP .
-
-evans:RMG10VSP brick:hasPart evans:EV.RMG10VSP .
 
 evans:RMG11 brick:hasPart evans:EV.RMG11.RT,
         evans:EV.RMG11.SP,
         evans:EV.RMG11.V,
         evans:EV.RMG11VSP .
 
-evans:RMG11VSP brick:hasPart evans:EV.RMG11VSP .
-
 evans:RMG14 brick:hasPart evans:EV.RMG14.RT,
         evans:EV.RMG14.SP,
         evans:EV.RMG14.V,
         evans:EV.RMG14VSP .
-
-evans:RMG14VSP brick:hasPart evans:EV.RMG14VSP .
 
 evans:RMG16 brick:hasPart evans:EV.RMG16.RT,
         evans:EV.RMG16.SP,
         evans:EV.RMG16.V,
         evans:EV.RMG16VSP .
 
-evans:RMG16VSP brick:hasPart evans:EV.RMG16VSP .
-
 evans:RMG17 brick:hasPart evans:EV.RMG17.RT,
         evans:EV.RMG17.SP,
         evans:EV.RMG17.V,
         evans:EV.RMG17VSP .
-
-evans:RMG17VSP brick:hasPart evans:EV.RMG17VSP .
 
 evans:RMG18 brick:hasPart evans:EV.RMG18.RT,
         evans:EV.RMG18.SP,
         evans:EV.RMG18.V,
         evans:EV.RMG18VSP .
 
-evans:RMG18VSP brick:hasPart evans:EV.RMG18VSP .
-
 evans:RMG19 brick:hasPart evans:EV.RMG19.RT,
         evans:EV.RMG19.SP,
         evans:EV.RMG19.V,
         evans:EV.RMG19VSP .
-
-evans:RMG19VSP brick:hasPart evans:EV.RMG19VSP .
 
 evans:RMG20 brick:hasPart evans:EV.RMG20.RT,
         evans:EV.RMG20.SP,
         evans:EV.RMG20.V,
         evans:EV.RMG20VSP .
 
-evans:RMG20VSP brick:hasPart evans:EV.RMG20VSP .
-
 evans:RMG21 brick:hasPart evans:EV.RMG21.RT,
         evans:EV.RMG21.SP,
         evans:EV.RMG21.V,
         evans:EV.RMG21VSP .
-
-evans:RMG21VSP brick:hasPart evans:EV.RMG21VSP .
 
 evans:RMG26 brick:hasPart evans:EV.RMG26.RT,
         evans:EV.RMG26.SP,
         evans:EV.RMG26.V,
         evans:EV.RMG26VSP .
 
-evans:RMG26VSP brick:hasPart evans:EV.RMG26VSP .
-
 evans:Second-Floor a brick:Floor ;
     brick:hasPart evans:RM200,
-        evans:RM200VSP,
         evans:RM202,
-        evans:RM202VSP,
         evans:RM203,
-        evans:RM203VSP,
         evans:RM204,
-        evans:RM204VSP,
         evans:RM205,
-        evans:RM205VSP,
         evans:RM206,
-        evans:RM206VSP,
         evans:RM207,
-        evans:RM207VSP,
         evans:RM208,
-        evans:RM208VSP,
         evans:RM209,
-        evans:RM209VSP,
         evans:RM211,
-        evans:RM211VSP,
         evans:RM212,
-        evans:RM212VSP,
         evans:RM213,
-        evans:RM213VSP,
         evans:RM214,
-        evans:RM214VSP,
         evans:RM215,
-        evans:RM215VSP,
         evans:RM216,
-        evans:RM216VSP,
-        evans:RM219,
-        evans:RM219VSP .
+        evans:RM219 .
 
 evans:Third-Floor a brick:Floor ;
     brick:hasPart evans:RM300,
-        evans:RM300VSP,
         evans:RM302,
-        evans:RM302VSP,
         evans:RM303,
-        evans:RM303VSP,
         evans:RM304,
-        evans:RM304VSP,
         evans:RM305,
-        evans:RM305VSP,
         evans:RM306,
-        evans:RM306VSP,
         evans:RM307,
-        evans:RM307VSP,
         evans:RM308,
-        evans:RM308VSP,
         evans:RM309,
-        evans:RM309VSP,
         evans:RM311,
-        evans:RM311VSP,
         evans:RM312,
-        evans:RM312VSP,
         evans:RM313,
-        evans:RM313VSP,
         evans:RM314,
-        evans:RM314VSP,
         evans:RM315,
-        evans:RM315VSP,
-        evans:RM316,
-        evans:RM316VSP .
+        evans:RM316 .
 
 evans:EV.RM003.RT a brick:Value .
 
@@ -6058,11 +5742,15 @@ evans:EV.RM003.SP a brick:Value .
 
 evans:EV.RM003.V a brick:Value .
 
+evans:EV.RM003VSP a brick:Value .
+
 evans:EV.RM014.SP a brick:Value .
 
 evans:EV.RM016.RT a brick:Value .
 
 evans:EV.RM016.V a brick:Value .
+
+evans:EV.RM016VSP a brick:Value .
 
 evans:EV.RM100.LIGHTS a brick:Value .
 
@@ -6074,11 +5762,15 @@ evans:EV.RM102.SP a brick:Value .
 
 evans:EV.RM102.V a brick:Value .
 
+evans:EV.RM102VSP a brick:Value .
+
 evans:EV.RM106.RT a brick:Value .
 
 evans:EV.RM106.SP a brick:Value .
 
 evans:EV.RM106.V a brick:Value .
+
+evans:EV.RM106VSP a brick:Value .
 
 evans:EV.RM107.RT a brick:Value .
 
@@ -6086,11 +5778,15 @@ evans:EV.RM107.SP a brick:Value .
 
 evans:EV.RM107.V a brick:Value .
 
+evans:EV.RM107VSP a brick:Value .
+
 evans:EV.RM108.RT a brick:Value .
 
 evans:EV.RM108.SP a brick:Value .
 
 evans:EV.RM108.V a brick:Value .
+
+evans:EV.RM108VSP a brick:Value .
 
 evans:EV.RM109.RT a brick:Value .
 
@@ -6098,11 +5794,15 @@ evans:EV.RM109.SP a brick:Value .
 
 evans:EV.RM109.V a brick:Value .
 
+evans:EV.RM109VSP a brick:Value .
+
 evans:EV.RM111.RT a brick:Value .
 
 evans:EV.RM111.SP a brick:Value .
 
 evans:EV.RM111.V a brick:Value .
+
+evans:EV.RM111VSP a brick:Value .
 
 evans:EV.RM112.RT a brick:Value .
 
@@ -6110,11 +5810,15 @@ evans:EV.RM112.SP a brick:Value .
 
 evans:EV.RM112.V a brick:Value .
 
+evans:EV.RM112VSP a brick:Value .
+
 evans:EV.RM114.RT a brick:Value .
 
 evans:EV.RM114.SP a brick:Value .
 
 evans:EV.RM114.V a brick:Value .
+
+evans:EV.RM114VSP a brick:Value .
 
 evans:EV.RM116.RT a brick:Value .
 
@@ -6122,11 +5826,15 @@ evans:EV.RM116.SP a brick:Value .
 
 evans:EV.RM116.V a brick:Value .
 
+evans:EV.RM116VSP a brick:Value .
+
 evans:EV.RM118.RT a brick:Value .
 
 evans:EV.RM118.SP a brick:Value .
 
 evans:EV.RM118.V a brick:Value .
+
+evans:EV.RM118VSP a brick:Value .
 
 evans:EV.RM119.RT a brick:Value .
 
@@ -6134,11 +5842,15 @@ evans:EV.RM119.SP a brick:Value .
 
 evans:EV.RM119.V a brick:Value .
 
+evans:EV.RM119VSP a brick:Value .
+
 evans:EV.RM120.RT a brick:Value .
 
 evans:EV.RM120.SP a brick:Value .
 
 evans:EV.RM120.V a brick:Value .
+
+evans:EV.RM120VSP a brick:Value .
 
 evans:EV.RM121.RT a brick:Value .
 
@@ -6146,11 +5858,15 @@ evans:EV.RM121.SP a brick:Value .
 
 evans:EV.RM121.V a brick:Value .
 
+evans:EV.RM121VSP a brick:Value .
+
 evans:EV.RM122.RT a brick:Value .
 
 evans:EV.RM122.SP a brick:Value .
 
 evans:EV.RM122.V a brick:Value .
+
+evans:EV.RM122VSP a brick:Value .
 
 evans:EV.RM200.RT a brick:Value .
 
@@ -6158,11 +5874,15 @@ evans:EV.RM200.SP a brick:Value .
 
 evans:EV.RM200.V a brick:Value .
 
+evans:EV.RM200VSP a brick:Value .
+
 evans:EV.RM202.RT a brick:Value .
 
 evans:EV.RM202.SP a brick:Value .
 
 evans:EV.RM202.V a brick:Value .
+
+evans:EV.RM202VSP a brick:Value .
 
 evans:EV.RM203.RT a brick:Value .
 
@@ -6170,11 +5890,15 @@ evans:EV.RM203.SP a brick:Value .
 
 evans:EV.RM203.V a brick:Value .
 
+evans:EV.RM203VSP a brick:Value .
+
 evans:EV.RM204.RT a brick:Value .
 
 evans:EV.RM204.SP a brick:Value .
 
 evans:EV.RM204.V a brick:Value .
+
+evans:EV.RM204VSP a brick:Value .
 
 evans:EV.RM205.RT a brick:Value .
 
@@ -6182,17 +5906,23 @@ evans:EV.RM205.SP a brick:Value .
 
 evans:EV.RM205.V a brick:Value .
 
+evans:EV.RM205VSP a brick:Value .
+
 evans:EV.RM206.RT a brick:Value .
 
 evans:EV.RM206.SP a brick:Value .
 
 evans:EV.RM206.V a brick:Value .
 
+evans:EV.RM206VSP a brick:Value .
+
 evans:EV.RM207.RT a brick:Value .
 
 evans:EV.RM207.SP a brick:Value .
 
 evans:EV.RM207.V a brick:Value .
+
+evans:EV.RM207VSP a brick:Value .
 
 evans:EV.RM208.RT a brick:Value .
 
@@ -6202,6 +5932,8 @@ evans:EV.RM208.V a brick:Value .
 
 evans:EV.RM208.VRT a brick:Value .
 
+evans:EV.RM208VSP a brick:Value .
+
 evans:EV.RM209.RT a brick:Value .
 
 evans:EV.RM209.SP a brick:Value .
@@ -6210,11 +5942,15 @@ evans:EV.RM209.V a brick:Value .
 
 evans:EV.RM209.VRT a brick:Value .
 
+evans:EV.RM209VSP a brick:Value .
+
 evans:EV.RM211.RT a brick:Value .
 
 evans:EV.RM211.SP a brick:Value .
 
 evans:EV.RM211.V a brick:Value .
+
+evans:EV.RM211VSP a brick:Value .
 
 evans:EV.RM212.RT a brick:Value .
 
@@ -6222,11 +5958,15 @@ evans:EV.RM212.SP a brick:Value .
 
 evans:EV.RM212.V a brick:Value .
 
+evans:EV.RM212VSP a brick:Value .
+
 evans:EV.RM213.RT a brick:Value .
 
 evans:EV.RM213.SP a brick:Value .
 
 evans:EV.RM213.V a brick:Value .
+
+evans:EV.RM213VSP a brick:Value .
 
 evans:EV.RM214.RT a brick:Value .
 
@@ -6234,11 +5974,15 @@ evans:EV.RM214.SP a brick:Value .
 
 evans:EV.RM214.V a brick:Value .
 
+evans:EV.RM214VSP a brick:Value .
+
 evans:EV.RM215.RT a brick:Value .
 
 evans:EV.RM215.SP a brick:Value .
 
 evans:EV.RM215.V a brick:Value .
+
+evans:EV.RM215VSP a brick:Value .
 
 evans:EV.RM216.RT a brick:Value .
 
@@ -6246,9 +5990,13 @@ evans:EV.RM216.SP a brick:Value .
 
 evans:EV.RM216.V a brick:Value .
 
+evans:EV.RM216VSP a brick:Value .
+
 evans:EV.RM219.RT a brick:Value .
 
 evans:EV.RM219.SP a brick:Value .
+
+evans:EV.RM219VSP a brick:Value .
 
 evans:EV.RM300.RT a brick:Value .
 
@@ -6256,11 +6004,15 @@ evans:EV.RM300.SP a brick:Value .
 
 evans:EV.RM300.V a brick:Value .
 
+evans:EV.RM300VSP a brick:Value .
+
 evans:EV.RM302.RT a brick:Value .
 
 evans:EV.RM302.SP a brick:Value .
 
 evans:EV.RM302.V a brick:Value .
+
+evans:EV.RM302VSP a brick:Value .
 
 evans:EV.RM303.RT a brick:Value .
 
@@ -6268,11 +6020,15 @@ evans:EV.RM303.SP a brick:Value .
 
 evans:EV.RM303.V a brick:Value .
 
+evans:EV.RM303VSP a brick:Value .
+
 evans:EV.RM304.RT a brick:Value .
 
 evans:EV.RM304.SP a brick:Value .
 
 evans:EV.RM304.V a brick:Value .
+
+evans:EV.RM304VSP a brick:Value .
 
 evans:EV.RM305.RT a brick:Value .
 
@@ -6280,17 +6036,23 @@ evans:EV.RM305.SP a brick:Value .
 
 evans:EV.RM305.V a brick:Value .
 
+evans:EV.RM305VSP a brick:Value .
+
 evans:EV.RM306.RT a brick:Value .
 
 evans:EV.RM306.SP a brick:Value .
 
 evans:EV.RM306.V a brick:Value .
 
+evans:EV.RM306VSP a brick:Value .
+
 evans:EV.RM307.RT a brick:Value .
 
 evans:EV.RM307.SP a brick:Value .
 
 evans:EV.RM307.V a brick:Value .
+
+evans:EV.RM307VSP a brick:Value .
 
 evans:EV.RM308.RT a brick:Value .
 
@@ -6300,6 +6062,8 @@ evans:EV.RM308.V a brick:Value .
 
 evans:EV.RM308.VRT a brick:Value .
 
+evans:EV.RM308VSP a brick:Value .
+
 evans:EV.RM309.RT a brick:Value .
 
 evans:EV.RM309.SP a brick:Value .
@@ -6308,11 +6072,15 @@ evans:EV.RM309.V a brick:Value .
 
 evans:EV.RM309.VRT a brick:Value .
 
+evans:EV.RM309VSP a brick:Value .
+
 evans:EV.RM311.RT a brick:Value .
 
 evans:EV.RM311.SP a brick:Value .
 
 evans:EV.RM311.V a brick:Value .
+
+evans:EV.RM311VSP a brick:Value .
 
 evans:EV.RM312.RT a brick:Value .
 
@@ -6320,11 +6088,15 @@ evans:EV.RM312.SP a brick:Value .
 
 evans:EV.RM312.V a brick:Value .
 
+evans:EV.RM312VSP a brick:Value .
+
 evans:EV.RM313.RT a brick:Value .
 
 evans:EV.RM313.SP a brick:Value .
 
 evans:EV.RM313.V a brick:Value .
+
+evans:EV.RM313VSP a brick:Value .
 
 evans:EV.RM314.RT a brick:Value .
 
@@ -6332,11 +6104,15 @@ evans:EV.RM314.SP a brick:Value .
 
 evans:EV.RM314.V a brick:Value .
 
+evans:EV.RM314VSP a brick:Value .
+
 evans:EV.RM315.RT a brick:Value .
 
 evans:EV.RM315.SP a brick:Value .
 
 evans:EV.RM315.V a brick:Value .
+
+evans:EV.RM315VSP a brick:Value .
 
 evans:EV.RM316.RT a brick:Value .
 
@@ -6344,11 +6120,15 @@ evans:EV.RM316.SP a brick:Value .
 
 evans:EV.RM316.V a brick:Value .
 
+evans:EV.RM316VSP a brick:Value .
+
 evans:EV.RM400.RT a brick:Value .
 
 evans:EV.RM400.SP a brick:Value .
 
 evans:EV.RM400.V a brick:Value .
+
+evans:EV.RM400VSP a brick:Value .
 
 evans:EV.RM401.RT a brick:Value .
 
@@ -6356,11 +6136,15 @@ evans:EV.RM401.SP a brick:Value .
 
 evans:EV.RM401.V a brick:Value .
 
+evans:EV.RM401VSP a brick:Value .
+
 evans:EV.RM402.RT a brick:Value .
 
 evans:EV.RM402.SP a brick:Value .
 
 evans:EV.RM402.V a brick:Value .
+
+evans:EV.RM402VSP a brick:Value .
 
 evans:EV.RM403.RT a brick:Value .
 
@@ -6368,11 +6152,15 @@ evans:EV.RM403.SP a brick:Value .
 
 evans:EV.RM403.V a brick:Value .
 
+evans:EV.RM403VSP a brick:Value .
+
 evans:EV.RM404.RT a brick:Value .
 
 evans:EV.RM404.SP a brick:Value .
 
 evans:EV.RM404.V a brick:Value .
+
+evans:EV.RM404VSP a brick:Value .
 
 evans:EV.RM405.RT a brick:Value .
 
@@ -6380,11 +6168,15 @@ evans:EV.RM405.SP a brick:Value .
 
 evans:EV.RM405.V a brick:Value .
 
+evans:EV.RM405VSP a brick:Value .
+
 evans:EV.RM406.RT a brick:Value .
 
 evans:EV.RM406.SP a brick:Value .
 
 evans:EV.RM406.V a brick:Value .
+
+evans:EV.RM406VSP a brick:Value .
 
 evans:EV.RM407.RT a brick:Value .
 
@@ -6392,11 +6184,15 @@ evans:EV.RM407.SP a brick:Value .
 
 evans:EV.RM407.V a brick:Value .
 
+evans:EV.RM407VSP a brick:Value .
+
 evans:EV.RM411.RT a brick:Value .
 
 evans:EV.RM411.SP a brick:Value .
 
 evans:EV.RM411.V a brick:Value .
+
+evans:EV.RM411VSP a brick:Value .
 
 evans:EV.RM412.RT a brick:Value .
 
@@ -6404,11 +6200,15 @@ evans:EV.RM412.SP a brick:Value .
 
 evans:EV.RM412.V a brick:Value .
 
+evans:EV.RM412VSP a brick:Value .
+
 evans:EV.RM413.RT a brick:Value .
 
 evans:EV.RM413.SP a brick:Value .
 
 evans:EV.RM413.V a brick:Value .
+
+evans:EV.RM413VSP a brick:Value .
 
 evans:EV.RM414.RT a brick:Value .
 
@@ -6416,11 +6216,15 @@ evans:EV.RM414.SP a brick:Value .
 
 evans:EV.RM414.V a brick:Value .
 
+evans:EV.RM414VSP a brick:Value .
+
 evans:EV.RM415.RT a brick:Value .
 
 evans:EV.RM415.SP a brick:Value .
 
 evans:EV.RM415.V a brick:Value .
+
+evans:EV.RM415VSP a brick:Value .
 
 evans:EV.RMB4.RT a brick:Value .
 
@@ -6434,11 +6238,15 @@ evans:EV.RMG04.SP a brick:Value .
 
 evans:EV.RMG04.V a brick:Value .
 
+evans:EV.RMG04VSP a brick:Value .
+
 evans:EV.RMG05.RT a brick:Value .
 
 evans:EV.RMG05.SP a brick:Value .
 
 evans:EV.RMG05.V a brick:Value .
+
+evans:EV.RMG05VSP a brick:Value .
 
 evans:EV.RMG06.RT a brick:Value .
 
@@ -6446,11 +6254,15 @@ evans:EV.RMG06.SP a brick:Value .
 
 evans:EV.RMG06.V a brick:Value .
 
+evans:EV.RMG06VSP a brick:Value .
+
 evans:EV.RMG07.RT a brick:Value .
 
 evans:EV.RMG07.SP a brick:Value .
 
 evans:EV.RMG07.V a brick:Value .
+
+evans:EV.RMG07VSP a brick:Value .
 
 evans:EV.RMG08.RT a brick:Value .
 
@@ -6458,11 +6270,15 @@ evans:EV.RMG08.SP a brick:Value .
 
 evans:EV.RMG08.V a brick:Value .
 
+evans:EV.RMG08VSP a brick:Value .
+
 evans:EV.RMG09.RT a brick:Value .
 
 evans:EV.RMG09.SP a brick:Value .
 
 evans:EV.RMG09.V a brick:Value .
+
+evans:EV.RMG09VSP a brick:Value .
 
 evans:EV.RMG10.RT a brick:Value .
 
@@ -6470,11 +6286,15 @@ evans:EV.RMG10.SP a brick:Value .
 
 evans:EV.RMG10.V a brick:Value .
 
+evans:EV.RMG10VSP a brick:Value .
+
 evans:EV.RMG11.RT a brick:Value .
 
 evans:EV.RMG11.SP a brick:Value .
 
 evans:EV.RMG11.V a brick:Value .
+
+evans:EV.RMG11VSP a brick:Value .
 
 evans:EV.RMG14.RT a brick:Value .
 
@@ -6482,11 +6302,15 @@ evans:EV.RMG14.SP a brick:Value .
 
 evans:EV.RMG14.V a brick:Value .
 
+evans:EV.RMG14VSP a brick:Value .
+
 evans:EV.RMG16.RT a brick:Value .
 
 evans:EV.RMG16.SP a brick:Value .
 
 evans:EV.RMG16.V a brick:Value .
+
+evans:EV.RMG16VSP a brick:Value .
 
 evans:EV.RMG17.RT a brick:Value .
 
@@ -6494,11 +6318,15 @@ evans:EV.RMG17.SP a brick:Value .
 
 evans:EV.RMG17.V a brick:Value .
 
+evans:EV.RMG17VSP a brick:Value .
+
 evans:EV.RMG18.RT a brick:Value .
 
 evans:EV.RMG18.SP a brick:Value .
 
 evans:EV.RMG18.V a brick:Value .
+
+evans:EV.RMG18VSP a brick:Value .
 
 evans:EV.RMG19.RT a brick:Value .
 
@@ -6506,11 +6334,15 @@ evans:EV.RMG19.SP a brick:Value .
 
 evans:EV.RMG19.V a brick:Value .
 
+evans:EV.RMG19VSP a brick:Value .
+
 evans:EV.RMG20.RT a brick:Value .
 
 evans:EV.RMG20.SP a brick:Value .
 
 evans:EV.RMG20.V a brick:Value .
+
+evans:EV.RMG20VSP a brick:Value .
 
 evans:EV.RMG21.RT a brick:Value .
 
@@ -6518,163 +6350,15 @@ evans:EV.RMG21.SP a brick:Value .
 
 evans:EV.RMG21.V a brick:Value .
 
+evans:EV.RMG21VSP a brick:Value .
+
 evans:EV.RMG26.RT a brick:Value .
 
 evans:EV.RMG26.SP a brick:Value .
 
 evans:EV.RMG26.V a brick:Value .
 
-evans:EV.RM003VSP a brick:Value .
-
-evans:EV.RM016VSP a brick:Value .
-
-evans:EV.RM102VSP a brick:Value .
-
-evans:EV.RM106VSP a brick:Value .
-
-evans:EV.RM107VSP a brick:Value .
-
-evans:EV.RM108VSP a brick:Value .
-
-evans:EV.RM109VSP a brick:Value .
-
-evans:EV.RM111VSP a brick:Value .
-
-evans:EV.RM112VSP a brick:Value .
-
-evans:EV.RM114VSP a brick:Value .
-
-evans:EV.RM116VSP a brick:Value .
-
-evans:EV.RM118VSP a brick:Value .
-
-evans:EV.RM119VSP a brick:Value .
-
-evans:EV.RM120VSP a brick:Value .
-
-evans:EV.RM121VSP a brick:Value .
-
-evans:EV.RM122VSP a brick:Value .
-
-evans:EV.RM200VSP a brick:Value .
-
-evans:EV.RM202VSP a brick:Value .
-
-evans:EV.RM203VSP a brick:Value .
-
-evans:EV.RM204VSP a brick:Value .
-
-evans:EV.RM205VSP a brick:Value .
-
-evans:EV.RM206VSP a brick:Value .
-
-evans:EV.RM207VSP a brick:Value .
-
-evans:EV.RM208VSP a brick:Value .
-
-evans:EV.RM209VSP a brick:Value .
-
-evans:EV.RM211VSP a brick:Value .
-
-evans:EV.RM212VSP a brick:Value .
-
-evans:EV.RM213VSP a brick:Value .
-
-evans:EV.RM214VSP a brick:Value .
-
-evans:EV.RM215VSP a brick:Value .
-
-evans:EV.RM216VSP a brick:Value .
-
-evans:EV.RM219VSP a brick:Value .
-
-evans:EV.RM300VSP a brick:Value .
-
-evans:EV.RM302VSP a brick:Value .
-
-evans:EV.RM303VSP a brick:Value .
-
-evans:EV.RM304VSP a brick:Value .
-
-evans:EV.RM305VSP a brick:Value .
-
-evans:EV.RM306VSP a brick:Value .
-
-evans:EV.RM307VSP a brick:Value .
-
-evans:EV.RM308VSP a brick:Value .
-
-evans:EV.RM309VSP a brick:Value .
-
-evans:EV.RM311VSP a brick:Value .
-
-evans:EV.RM312VSP a brick:Value .
-
-evans:EV.RM313VSP a brick:Value .
-
-evans:EV.RM314VSP a brick:Value .
-
-evans:EV.RM315VSP a brick:Value .
-
-evans:EV.RM316VSP a brick:Value .
-
-evans:EV.RM400VSP a brick:Value .
-
-evans:EV.RM401VSP a brick:Value .
-
-evans:EV.RM402VSP a brick:Value .
-
-evans:EV.RM403VSP a brick:Value .
-
-evans:EV.RM404VSP a brick:Value .
-
-evans:EV.RM405VSP a brick:Value .
-
-evans:EV.RM406VSP a brick:Value .
-
-evans:EV.RM407VSP a brick:Value .
-
-evans:EV.RM411VSP a brick:Value .
-
-evans:EV.RM412VSP a brick:Value .
-
-evans:EV.RM413VSP a brick:Value .
-
-evans:EV.RM414VSP a brick:Value .
-
-evans:EV.RM415VSP a brick:Value .
+evans:EV.RMG26VSP a brick:Value .
 
 evans:EV.RMB4VSP a brick:Value .
-
-evans:EV.RMG04VSP a brick:Value .
-
-evans:EV.RMG05VSP a brick:Value .
-
-evans:EV.RMG06VSP a brick:Value .
-
-evans:EV.RMG07VSP a brick:Value .
-
-evans:EV.RMG08VSP a brick:Value .
-
-evans:EV.RMG09VSP a brick:Value .
-
-evans:EV.RMG10VSP a brick:Value .
-
-evans:EV.RMG11VSP a brick:Value .
-
-evans:EV.RMG14VSP a brick:Value .
-
-evans:EV.RMG16VSP a brick:Value .
-
-evans:EV.RMG17VSP a brick:Value .
-
-evans:EV.RMG18VSP a brick:Value .
-
-evans:EV.RMG19VSP a brick:Value .
-
-evans:EV.RMG20VSP a brick:Value .
-
-evans:EV.RMG21VSP a brick:Value .
-
-evans:EV.RMG26VSP a brick:Value .
 

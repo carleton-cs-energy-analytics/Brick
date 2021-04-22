@@ -89,7 +89,7 @@ evans_rooms = []
 for i in range(len(point_names)):
   if point_names[i][0] == "EV":
     try:
-      room_name = point_names[i][1]
+      room_name = point_names[i][1][0:5]
       if room_name not in evans_rooms:
         if room_name[0:2] == 'RM':
           evans_rooms.append(room_name)
