@@ -1,3 +1,6 @@
+from rdflib import RDF, RDFS, OWL, Namespace, Graph
+import psycopg2
+from psycopg2 import connect, sql
 from datetime import datetime
 import sys
 import os
@@ -50,7 +53,7 @@ for i in range(len(point_names)):
   if point_names[i][0] == "BO":
     for room in boliou_rooms:
       if room in point_names[i][2]:
-        print("Added point " + point_names[i][2] + "to room " + room)
+        print("Added point " + point_names[i][2] + " to room " + room)
         g.add((BOLIOU[points[i][1].replace(" ", "_")], RDF.type, BRICK.Value))
         g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[points[i][1].replace(" ", "_")]))
 
@@ -122,9 +125,8 @@ for i in range(len(point_names)):
     for room in evans_rooms:
       if room in points[i][1]:
         print("Added point " + points[i][1] + " to room " + room)
-        point = urllib.parse.quote_plus(points[i][1])
-        g.add((EVANS[point], RDF.type, BRICK.Value))
-        g.add((EVANS[room], BRICK.hasPart, EVANS[point]))
+        g.add((EVANS[points[i][1].replace(" ", "*")], RDF.type, BRICK.Value))
+        g.add((EVANS[room], BRICK.hasPart, EVANS[points[i][1].replace(" ", "*")]))
 
 with open("Carleton.ttl", "wb") as f:
     # the Turtle format strikes a balance beteween being compact and easy to read
