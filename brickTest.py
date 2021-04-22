@@ -54,8 +54,8 @@ for i in range(len(point_names)):
     for room in boliou_rooms:
       if room in point_names[i][2]:
         print("Added point " + point_names[i][2] + " to room " + room)
-        g.add((BOLIOU[points[i][1].replace(" ", "_")], RDF.type, BRICK.Value))
-        g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[points[i][1].replace(" ", "_")]))
+        g.add((BOLIOU[points[i][1].replace(" ", "*")], RDF.type, BRICK.Value))
+        g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[points[i][1].replace(" ", "*")]))
 
 
 EVANS = Namespace("http://example.com/evans#")
