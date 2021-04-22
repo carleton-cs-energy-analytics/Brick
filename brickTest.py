@@ -95,6 +95,7 @@ for i in range(len(point_names)):
           evans_rooms.append(room_name)
     except Exception as e:
       print(e)
+evans_rooms.remove("RM")
 
 g.add((EVANS["Ground-Floor"], RDF.type, BRICK.Floor))
 g.add((EVANS["Evans"], BRICK.hasPart, EVANS["Ground-Floor"]))
