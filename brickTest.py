@@ -76,8 +76,8 @@ for i in range(len(point_names)):
       room_name = point_names[i][2].split(':')[0]
       if room == room_name:
         print("Added point " + points[i][1] + "to room " + room)
-        g.add((BOLIOU[points[i][1].replace(" ", "*")], RDF.type, BRICK.Value))
-        g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[points[i][1].replace(" ", "*")]))
+        g.add((BOLIOU[urllib.parse.quote_plus(points[i][1])], RDF.type, BRICK.Value))
+        g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[urllib.parse.quote_plus(points[i][1])]))
 
 
 EVANS = Namespace("http://example.com/evans#")
@@ -111,20 +111,20 @@ g.add((EVANS["Evans"], BRICK.hasPart, EVANS["Fourth-Floor"]))
 for i in range(len(evans_rooms)):
   try:
     if evans_rooms[i][2] == 'G':
-      g.add((BOLIOU[evans_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
-      g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS[evans_rooms[i].replace(" ", "*")]))
+      g.add((BOLIOU[eurllib.parse.quote_plus(evans_rooms[i])], RDF.type, BRICK.Room))
+      g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS[urllib.parse.quote_plus(evans_rooms[i])]))
     if evans_rooms[i][2] == '1':
-      g.add((EVANS[evans_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
-      g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS[evans_rooms[i].replace(" ", "*")]))
+      g.add((EVANS[urllib.parse.quote_plus(evans_rooms[i])], RDF.type, BRICK.Room))
+      g.add((EVANS["First-Floor"], BRICK.hasPart, EVANS[urllib.parse.quote_plus(evans_rooms[i])]))
     if evans_rooms[i][2] == '2':
-      g.add((EVANS[evans_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
-      g.add((EVANS["Second-Floor"], BRICK.hasPart, EVANS[evans_rooms[i].replace(" ", "*")]))  
+      g.add((EVANS[urllib.parse.quote_plus(evans_rooms[i])], RDF.type, BRICK.Room))
+      g.add((EVANS["Second-Floor"], BRICK.hasPart, EVANS[urllib.parse.quote_plus(evans_rooms[i])]))  
     if evans_rooms[i][2] == '3':
-      g.add((EVANS[evans_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
-      g.add((EVANS["Third-Floor"], BRICK.hasPart, EVANS[evans_rooms[i].replace(" ", "*")]))  
+      g.add((EVANS[urllib.parse.quote_plus(evans_rooms[i])], RDF.type, BRICK.Room))
+      g.add((EVANS["Third-Floor"], BRICK.hasPart, EVANS[urllib.parse.quote_plus(evans_rooms[i])]))  
     if evans_rooms[i][2] == '4':
-      g.add((EVANS[evans_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
-      g.add((EVANS["Fourth-Floor"], BRICK.hasPart, EVANS[evans_rooms[i].replace(" ", "*")]))  
+      g.add((EVANS[urllib.parse.quote_plus(evans_rooms[i])], RDF.type, BRICK.Room))
+      g.add((EVANS["Fourth-Floor"], BRICK.hasPart, EVANS[urllib.parse.quote_plus(evans_rooms[i])]))  
   except Exception as e:
     print(e)
 '''
