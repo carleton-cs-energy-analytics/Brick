@@ -52,7 +52,7 @@ for i in range(len(boliou_rooms)):
 for i in range(len(point_names)):
   if point_names[i][0] == "BO":
     for room in boliou_rooms:
-      if room in point_names[i][2]:
+      if room == point_names[i][2][0:5]:
         print("Added point " + point_names[i][2] + " to room " + room)
         g.add((BOLIOU[points[i][1].replace(" ", "*")], RDF.type, BRICK.Value))
         g.add((BOLIOU[room], BRICK.hasPart, BOLIOU[points[i][1].replace(" ", "*")]))
@@ -124,6 +124,7 @@ g.add((EVANS["Ground-Floor"], BRICK.hasPart, EVANS["RMG16"]))
 for i in range(len(point_names)):
   if point_names[i][0] == "EV":
     for room in evans_rooms:
+      
       if room == point_names[i][1]:
         print("Added point " + point_names[i][1] + " to room " + room)
         g.add((EVANS[point_names[i][1].replace(" ", "*")], RDF.type, BRICK.Value))

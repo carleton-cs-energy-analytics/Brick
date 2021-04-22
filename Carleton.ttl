@@ -6,164 +6,6 @@ boliou:Boliou a brick:Building ;
     brick:hasPart boliou:First-Floor,
         boliou:Ground-Floor .
 
-boliou:CCOM brick:hasPart <http://example.com/boliou#BO.G.CCOM:AIR*VOLUME>,
-        <http://example.com/boliou#BO.G.CCOM:AUX*TEMP>,
-        <http://example.com/boliou#BO.G.CCOM:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.CCOM:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.CCOM:CLG*LOOPOUT>,
-        <http://example.com/boliou#BO.G.CCOM:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.CCOM:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.CCOM:CTL*STPT>,
-        <http://example.com/boliou#BO.G.CCOM:CTL*TEMP>,
-        <http://example.com/boliou#BO.G.CCOM:DAY*CLG*STPT>,
-        <http://example.com/boliou#BO.G.CCOM:DAY*HTG*STPT>,
-        boliou:BO.G.CCOM:DAY.NGT,
-        <http://example.com/boliou#BO.G.CCOM:DI*2>,
-        <http://example.com/boliou#BO.G.CCOM:DI*OVRD*SW>,
-        <http://example.com/boliou#BO.G.CCOM:DMPR*COMD>,
-        <http://example.com/boliou#BO.G.CCOM:DMPR*POS>,
-        <http://example.com/boliou#BO.G.CCOM:DUCT*AREA>,
-        boliou:BO.G.CCOM:FLOW,
-        <http://example.com/boliou#BO.G.CCOM:FLOW*COEFF>,
-        <http://example.com/boliou#BO.G.CCOM:FLOW*STPT>,
-        boliou:BO.G.CCOM:HEAT.COOL,
-        <http://example.com/boliou#BO.G.CCOM:HTG*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.CCOM:HTG*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.CCOM:HTG*LOOPOUT>,
-        <http://example.com/boliou#BO.G.CCOM:MTR*SETUP>,
-        <http://example.com/boliou#BO.G.CCOM:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.G.CCOM:NGT*HTG*STPT>,
-        <http://example.com/boliou#BO.G.CCOM:NGT*OVRD>,
-        <http://example.com/boliou#BO.G.CCOM:ROOM*TEMP>,
-        <http://example.com/boliou#BO.G.CCOM:VALVE*COUNT>,
-        <http://example.com/boliou#BO.G.CCOM:VLV1*COMD>,
-        <http://example.com/boliou#BO.G.CCOM:VLV1*POS>,
-        <http://example.com/boliou#BO.G.CCOM:VLV2*COMD>,
-        <http://example.com/boliou#BO.G.CCOM:VLV2*POS> .
-
-boliou:COMMONM brick:hasPart <http://example.com/boliou#BO.1.COMMONM:AIR*VOLUME>,
-        <http://example.com/boliou#BO.1.COMMONM:AUX*TEMP>,
-        <http://example.com/boliou#BO.1.COMMONM:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.COMMONM:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.COMMONM:CLG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.COMMONM:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.COMMONM:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.COMMONM:CTL*STPT>,
-        <http://example.com/boliou#BO.1.COMMONM:CTL*TEMP>,
-        <http://example.com/boliou#BO.1.COMMONM:DAY*CLG*STPT>,
-        <http://example.com/boliou#BO.1.COMMONM:DAY*HTG*STPT>,
-        boliou:BO.1.COMMONM:DAY.NGT,
-        <http://example.com/boliou#BO.1.COMMONM:DI*2>,
-        <http://example.com/boliou#BO.1.COMMONM:DI*OVRD*SW>,
-        <http://example.com/boliou#BO.1.COMMONM:DMPR*COMD>,
-        <http://example.com/boliou#BO.1.COMMONM:DMPR*POS>,
-        <http://example.com/boliou#BO.1.COMMONM:DUCT*AREA>,
-        boliou:BO.1.COMMONM:FLOW,
-        <http://example.com/boliou#BO.1.COMMONM:FLOW*COEFF>,
-        <http://example.com/boliou#BO.1.COMMONM:FLOW*STPT>,
-        boliou:BO.1.COMMONM:HEAT.COOL,
-        <http://example.com/boliou#BO.1.COMMONM:HTG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.COMMONM:HTG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.COMMONM:HTG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.COMMONM:MTR*SETUP>,
-        <http://example.com/boliou#BO.1.COMMONM:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.1.COMMONM:NGT*HTG*STPT>,
-        <http://example.com/boliou#BO.1.COMMONM:NGT*OVRD>,
-        <http://example.com/boliou#BO.1.COMMONM:ROOM*TEMP>,
-        <http://example.com/boliou#BO.1.COMMONM:VALVE*COUNT>,
-        <http://example.com/boliou#BO.1.COMMONM:VLV1*COMD>,
-        <http://example.com/boliou#BO.1.COMMONM:VLV1*POS>,
-        <http://example.com/boliou#BO.1.COMMONM:VLV2*COMD>,
-        <http://example.com/boliou#BO.1.COMMONM:VLV2*POS> .
-
-boliou:COMMONS brick:hasPart <http://example.com/boliou#BO.1.COMMONS:AIR*VOLUME>,
-        <http://example.com/boliou#BO.1.COMMONS:AUX*TEMP>,
-        <http://example.com/boliou#BO.1.COMMONS:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.COMMONS:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.COMMONS:CLG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.COMMONS:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.COMMONS:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.COMMONS:CTL*STPT>,
-        <http://example.com/boliou#BO.1.COMMONS:CTL*TEMP>,
-        <http://example.com/boliou#BO.1.COMMONS:DAY*CLG*STPT>,
-        <http://example.com/boliou#BO.1.COMMONS:DAY*HTG*STPT>,
-        boliou:BO.1.COMMONS:DAY.NGT,
-        <http://example.com/boliou#BO.1.COMMONS:DI*2>,
-        <http://example.com/boliou#BO.1.COMMONS:DI*OVRD*SW>,
-        <http://example.com/boliou#BO.1.COMMONS:DMPR*COMD>,
-        <http://example.com/boliou#BO.1.COMMONS:DMPR*POS>,
-        <http://example.com/boliou#BO.1.COMMONS:DUCT*AREA>,
-        boliou:BO.1.COMMONS:FLOW,
-        <http://example.com/boliou#BO.1.COMMONS:FLOW*COEFF>,
-        <http://example.com/boliou#BO.1.COMMONS:FLOW*STPT>,
-        boliou:BO.1.COMMONS:HEAT.COOL,
-        <http://example.com/boliou#BO.1.COMMONS:HTG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.COMMONS:HTG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.COMMONS:HTG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.COMMONS:MTR*SETUP>,
-        <http://example.com/boliou#BO.1.COMMONS:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.1.COMMONS:NGT*HTG*STPT>,
-        <http://example.com/boliou#BO.1.COMMONS:NGT*OVRD>,
-        <http://example.com/boliou#BO.1.COMMONS:ROOM*TEMP>,
-        <http://example.com/boliou#BO.1.COMMONS:VALVE*COUNT>,
-        <http://example.com/boliou#BO.1.COMMONS:VLV1*COMD>,
-        <http://example.com/boliou#BO.1.COMMONS:VLV1*POS>,
-        <http://example.com/boliou#BO.1.COMMONS:VLV2*COMD>,
-        <http://example.com/boliou#BO.1.COMMONS:VLV2*POS> .
-
-boliou:ELEVRM brick:hasPart <http://example.com/boliou#BO.G.ELEVRM:AIR*VOLUME>,
-        <http://example.com/boliou#BO.G.ELEVRM:AUX*TEMP>,
-        <http://example.com/boliou#BO.G.ELEVRM:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.ELEVRM:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.ELEVRM:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.ELEVRM:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.ELEVRM:CTL*STPT>,
-        <http://example.com/boliou#BO.G.ELEVRM:CTL*TEMP>,
-        <http://example.com/boliou#BO.G.ELEVRM:DAY*CLG*STPT>,
-        boliou:BO.G.ELEVRM:DAY.NGT,
-        <http://example.com/boliou#BO.G.ELEVRM:DI*2>,
-        <http://example.com/boliou#BO.G.ELEVRM:DMPR*COMD>,
-        <http://example.com/boliou#BO.G.ELEVRM:DMPR*POS>,
-        <http://example.com/boliou#BO.G.ELEVRM:FLOW*STPT>,
-        <http://example.com/boliou#BO.G.ELEVRM:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.G.ELEVRM:NGT*OVRD>,
-        <http://example.com/boliou#BO.G.ELEVRM:ROOM*TEMP> .
-
-boliou:MCOMMON brick:hasPart <http://example.com/boliou#BO.1.MCOMMON:AIR*VOLUME>,
-        <http://example.com/boliou#BO.1.MCOMMON:AUX*TEMP>,
-        <http://example.com/boliou#BO.1.MCOMMON:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.MCOMMON:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.MCOMMON:CLG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.MCOMMON:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.MCOMMON:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.MCOMMON:CTL*STPT>,
-        <http://example.com/boliou#BO.1.MCOMMON:CTL*TEMP>,
-        <http://example.com/boliou#BO.1.MCOMMON:DAY*CLG*STPT>,
-        <http://example.com/boliou#BO.1.MCOMMON:DAY*HTG*STPT>,
-        boliou:BO.1.MCOMMON:DAY.NGT,
-        <http://example.com/boliou#BO.1.MCOMMON:DI*2>,
-        <http://example.com/boliou#BO.1.MCOMMON:DI*OVRD*SW>,
-        <http://example.com/boliou#BO.1.MCOMMON:DMPR*COMD>,
-        <http://example.com/boliou#BO.1.MCOMMON:DMPR*POS>,
-        <http://example.com/boliou#BO.1.MCOMMON:DUCT*AREA>,
-        boliou:BO.1.MCOMMON:FLOW,
-        <http://example.com/boliou#BO.1.MCOMMON:FLOW*COEFF>,
-        <http://example.com/boliou#BO.1.MCOMMON:FLOW*STPT>,
-        boliou:BO.1.MCOMMON:HEAT.COOL,
-        <http://example.com/boliou#BO.1.MCOMMON:HTG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.MCOMMON:HTG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.MCOMMON:HTG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.MCOMMON:MTR*SETUP>,
-        <http://example.com/boliou#BO.1.MCOMMON:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.1.MCOMMON:NGT*HTG*STPT>,
-        <http://example.com/boliou#BO.1.MCOMMON:NGT*OVRD>,
-        <http://example.com/boliou#BO.1.MCOMMON:ROOM*TEMP>,
-        <http://example.com/boliou#BO.1.MCOMMON:VALVE*COUNT>,
-        <http://example.com/boliou#BO.1.MCOMMON:VLV1*COMD>,
-        <http://example.com/boliou#BO.1.MCOMMON:VLV1*POS>,
-        <http://example.com/boliou#BO.1.MCOMMON:VLV2*COMD>,
-        <http://example.com/boliou#BO.1.MCOMMON:VLV2*POS> .
-
 boliou:RMG04 a brick:Room .
 
 boliou:RMG04VSP a brick:Room .
@@ -228,366 +70,12 @@ boliou:RMG26 a brick:Room .
 
 boliou:RMG26VSP a brick:Room .
 
-boliou:RVFD brick:hasPart boliou:BO.AH03.RVFD:DAY.NIGHT,
-        <http://example.com/boliou#BO.AH03.RVFD:ENA.DIS*CMD>,
-        <http://example.com/boliou#BO.AH03.RVFD:FREQ*OUTPUT>,
-        <http://example.com/boliou#BO.AH03.RVFD:INPUT*REF*1>,
-        boliou:BO.AH03.RVFD:OK.FAULT,
-        boliou:BO.AH03.RVFD:POWER,
-        <http://example.com/boliou#BO.AH03.RVFD:RESET*FAULT>,
-        <http://example.com/boliou#BO.AH03.RVFD:RUN.STOP*CMD>,
-        boliou:BO.AH4.RVFD:DAY.NIGHT,
-        <http://example.com/boliou#BO.AH4.RVFD:ENA.DIS*CMD>,
-        <http://example.com/boliou#BO.AH4.RVFD:FREQ*OUTPUT>,
-        <http://example.com/boliou#BO.AH4.RVFD:INPUT*REF*1>,
-        boliou:BO.AH4.RVFD:OK.FAULT,
-        boliou:BO.AH4.RVFD:POWER,
-        <http://example.com/boliou#BO.AH4.RVFD:RESET*FAULT>,
-        <http://example.com/boliou#BO.AH4.RVFD:RUN.STOP*CMD> .
-
-boliou:SCOMMON brick:hasPart <http://example.com/boliou#BO.1.SCOMMON:AIR*VOLUME>,
-        <http://example.com/boliou#BO.1.SCOMMON:AUX*TEMP>,
-        <http://example.com/boliou#BO.1.SCOMMON:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.SCOMMON:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.SCOMMON:CLG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.SCOMMON:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.SCOMMON:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.SCOMMON:CTL*STPT>,
-        <http://example.com/boliou#BO.1.SCOMMON:CTL*TEMP>,
-        <http://example.com/boliou#BO.1.SCOMMON:DAY*CLG*STPT>,
-        <http://example.com/boliou#BO.1.SCOMMON:DAY*HTG*STPT>,
-        boliou:BO.1.SCOMMON:DAY.NGT,
-        <http://example.com/boliou#BO.1.SCOMMON:DI*2>,
-        <http://example.com/boliou#BO.1.SCOMMON:DI*OVRD*SW>,
-        <http://example.com/boliou#BO.1.SCOMMON:DMPR*COMD>,
-        <http://example.com/boliou#BO.1.SCOMMON:DMPR*POS>,
-        <http://example.com/boliou#BO.1.SCOMMON:DUCT*AREA>,
-        boliou:BO.1.SCOMMON:FLOW,
-        <http://example.com/boliou#BO.1.SCOMMON:FLOW*COEFF>,
-        <http://example.com/boliou#BO.1.SCOMMON:FLOW*STPT>,
-        boliou:BO.1.SCOMMON:HEAT.COOL,
-        <http://example.com/boliou#BO.1.SCOMMON:HTG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.SCOMMON:HTG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.SCOMMON:HTG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.SCOMMON:MTR*SETUP>,
-        <http://example.com/boliou#BO.1.SCOMMON:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.1.SCOMMON:NGT*HTG*STPT>,
-        <http://example.com/boliou#BO.1.SCOMMON:NGT*OVRD>,
-        <http://example.com/boliou#BO.1.SCOMMON:ROOM*TEMP>,
-        <http://example.com/boliou#BO.1.SCOMMON:VALVE*COUNT>,
-        <http://example.com/boliou#BO.1.SCOMMON:VLV1*COMD>,
-        <http://example.com/boliou#BO.1.SCOMMON:VLV1*POS>,
-        <http://example.com/boliou#BO.1.SCOMMON:VLV2*COMD>,
-        <http://example.com/boliou#BO.1.SCOMMON:VLV2*POS> .
-
-boliou:SHEDTMR brick:hasPart boliou:BO.PNL07.SHEDTMR,
-        boliou:BO.PNL31.SHEDTMR .
-
-boliou:STAIRN brick:hasPart <http://example.com/boliou#BO.1.STAIRN:AIR*VOLUME>,
-        <http://example.com/boliou#BO.1.STAIRN:AUX*TEMP>,
-        <http://example.com/boliou#BO.1.STAIRN:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.STAIRN:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.STAIRN:CLG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.STAIRN:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.STAIRN:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.STAIRN:CTL*STPT>,
-        <http://example.com/boliou#BO.1.STAIRN:CTL*TEMP>,
-        <http://example.com/boliou#BO.1.STAIRN:DAY*CLG*STPT>,
-        <http://example.com/boliou#BO.1.STAIRN:DAY*HTG*STPT>,
-        boliou:BO.1.STAIRN:DAY.NGT,
-        <http://example.com/boliou#BO.1.STAIRN:DI*2>,
-        <http://example.com/boliou#BO.1.STAIRN:DI*OVRD*SW>,
-        <http://example.com/boliou#BO.1.STAIRN:DMPR*COMD>,
-        <http://example.com/boliou#BO.1.STAIRN:DMPR*POS>,
-        <http://example.com/boliou#BO.1.STAIRN:DUCT*AREA>,
-        boliou:BO.1.STAIRN:FLOW,
-        <http://example.com/boliou#BO.1.STAIRN:FLOW*COEFF>,
-        <http://example.com/boliou#BO.1.STAIRN:FLOW*STPT>,
-        boliou:BO.1.STAIRN:HEAT.COOL,
-        <http://example.com/boliou#BO.1.STAIRN:HTG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.STAIRN:HTG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.STAIRN:HTG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.STAIRN:MTR*SETUP>,
-        <http://example.com/boliou#BO.1.STAIRN:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.1.STAIRN:NGT*HTG*STPT>,
-        <http://example.com/boliou#BO.1.STAIRN:NGT*OVRD>,
-        <http://example.com/boliou#BO.1.STAIRN:ROOM*TEMP>,
-        <http://example.com/boliou#BO.1.STAIRN:VALVE*COUNT>,
-        <http://example.com/boliou#BO.1.STAIRN:VLV1*COMD>,
-        <http://example.com/boliou#BO.1.STAIRN:VLV1*POS>,
-        <http://example.com/boliou#BO.1.STAIRN:VLV2*COMD>,
-        <http://example.com/boliou#BO.1.STAIRN:VLV2*POS> .
-
-boliou:SVFD brick:hasPart boliou:BO.AH01.SVFD:DAY.NIGHT,
-        <http://example.com/boliou#BO.AH01.SVFD:ENA.DIS*CMD>,
-        <http://example.com/boliou#BO.AH01.SVFD:FREQ*OUTPUT>,
-        <http://example.com/boliou#BO.AH01.SVFD:INPUT*REF*1>,
-        boliou:BO.AH01.SVFD:OK.FAULT,
-        boliou:BO.AH01.SVFD:POWER,
-        <http://example.com/boliou#BO.AH01.SVFD:RESET*FAULT>,
-        <http://example.com/boliou#BO.AH01.SVFD:RUN.STOP*CMD>,
-        boliou:BO.AH03.SVFD:DAY.NIGHT,
-        <http://example.com/boliou#BO.AH03.SVFD:ENA.DIS*CMD>,
-        <http://example.com/boliou#BO.AH03.SVFD:FREQ*OUTPUT>,
-        <http://example.com/boliou#BO.AH03.SVFD:INPUT*REF*1>,
-        boliou:BO.AH03.SVFD:OK.FAULT,
-        boliou:BO.AH03.SVFD:POWER,
-        <http://example.com/boliou#BO.AH03.SVFD:RESET*FAULT>,
-        <http://example.com/boliou#BO.AH03.SVFD:RUN.STOP*CMD> .
-
-boliou:VFD brick:hasPart boliou:BO.AH01.SVFD:DAY.NIGHT,
-        <http://example.com/boliou#BO.AH01.SVFD:ENA.DIS*CMD>,
-        <http://example.com/boliou#BO.AH01.SVFD:FREQ*OUTPUT>,
-        <http://example.com/boliou#BO.AH01.SVFD:INPUT*REF*1>,
-        boliou:BO.AH01.SVFD:OK.FAULT,
-        boliou:BO.AH01.SVFD:POWER,
-        <http://example.com/boliou#BO.AH01.SVFD:RESET*FAULT>,
-        <http://example.com/boliou#BO.AH01.SVFD:RUN.STOP*CMD>,
-        boliou:BO.AH03.RVFD:DAY.NIGHT,
-        <http://example.com/boliou#BO.AH03.RVFD:ENA.DIS*CMD>,
-        <http://example.com/boliou#BO.AH03.RVFD:FREQ*OUTPUT>,
-        <http://example.com/boliou#BO.AH03.RVFD:INPUT*REF*1>,
-        boliou:BO.AH03.RVFD:OK.FAULT,
-        boliou:BO.AH03.RVFD:POWER,
-        <http://example.com/boliou#BO.AH03.RVFD:RESET*FAULT>,
-        <http://example.com/boliou#BO.AH03.RVFD:RUN.STOP*CMD>,
-        boliou:BO.AH03.SVFD:DAY.NIGHT,
-        <http://example.com/boliou#BO.AH03.SVFD:ENA.DIS*CMD>,
-        <http://example.com/boliou#BO.AH03.SVFD:FREQ*OUTPUT>,
-        <http://example.com/boliou#BO.AH03.SVFD:INPUT*REF*1>,
-        boliou:BO.AH03.SVFD:OK.FAULT,
-        boliou:BO.AH03.SVFD:POWER,
-        <http://example.com/boliou#BO.AH03.SVFD:RESET*FAULT>,
-        <http://example.com/boliou#BO.AH03.SVFD:RUN.STOP*CMD>,
-        boliou:BO.AH4.RVFD:DAY.NIGHT,
-        <http://example.com/boliou#BO.AH4.RVFD:ENA.DIS*CMD>,
-        <http://example.com/boliou#BO.AH4.RVFD:FREQ*OUTPUT>,
-        <http://example.com/boliou#BO.AH4.RVFD:INPUT*REF*1>,
-        boliou:BO.AH4.RVFD:OK.FAULT,
-        boliou:BO.AH4.RVFD:POWER,
-        <http://example.com/boliou#BO.AH4.RVFD:RESET*FAULT>,
-        <http://example.com/boliou#BO.AH4.RVFD:RUN.STOP*CMD>,
-        <http://example.com/boliou#BO.AH4.VFD:BUS*REF>,
-        <http://example.com/boliou#BO.AH4.VFD:CMD*STP.STRT>,
-        boliou:BO.AH4.VFD:CURRENT,
-        boliou:BO.AH4.VFD:DAY.NIGHT,
-        <http://example.com/boliou#BO.AH4.VFD:FREQ*OUTPUT>,
-        <http://example.com/boliou#BO.AH4.VFD:INPUT*REF>,
-        boliou:BO.AH4.VFD:OK.FAULT,
-        <http://example.com/boliou#BO.AH4.VFD:RUN*ENABLE>,
-        <http://example.com/boliou#BO.AH4.VFD:RUN*TIME>,
-        boliou:BO.AH4.VFD:STOP.RUN .
-
 evans:Evans a brick:Building ;
     brick:hasPart evans:First-Floor,
         evans:Fourth-Floor,
         evans:Ground-Floor,
         evans:Second-Floor,
         evans:Third-Floor .
-
-<http://example.com/boliou#BO.1.COMMONM:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:CLG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:DAY*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:DAY*HTG*STPT> a brick:Value .
-
-boliou:BO.1.COMMONM:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:DI*OVRD*SW> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:DUCT*AREA> a brick:Value .
-
-boliou:BO.1.COMMONM:FLOW a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:FLOW*COEFF> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:FLOW*STPT> a brick:Value .
-
-boliou:BO.1.COMMONM:HEAT.COOL a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:HTG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:HTG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:HTG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:MTR*SETUP> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:NGT*HTG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:ROOM*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:VALVE*COUNT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:VLV1*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:VLV1*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:VLV2*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONM:VLV2*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:CLG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:DAY*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:DAY*HTG*STPT> a brick:Value .
-
-boliou:BO.1.COMMONS:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:DI*OVRD*SW> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:DUCT*AREA> a brick:Value .
-
-boliou:BO.1.COMMONS:FLOW a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:FLOW*COEFF> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:FLOW*STPT> a brick:Value .
-
-boliou:BO.1.COMMONS:HEAT.COOL a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:HTG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:HTG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:HTG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:MTR*SETUP> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:NGT*HTG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:ROOM*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:VALVE*COUNT> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:VLV1*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:VLV1*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:VLV2*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.COMMONS:VLV2*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:CLG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:DAY*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:DAY*HTG*STPT> a brick:Value .
-
-boliou:BO.1.MCOMMON:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:DI*OVRD*SW> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:DUCT*AREA> a brick:Value .
-
-boliou:BO.1.MCOMMON:FLOW a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:FLOW*COEFF> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:FLOW*STPT> a brick:Value .
-
-boliou:BO.1.MCOMMON:HEAT.COOL a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:HTG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:HTG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:HTG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:MTR*SETUP> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:NGT*HTG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:ROOM*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:VALVE*COUNT> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:VLV1*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:VLV1*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:VLV2*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.MCOMMON:VLV2*POS> a brick:Value .
 
 <http://example.com/boliou#BO.1.RM123:AIR*VOLUME> a brick:Value .
 
@@ -928,6 +416,74 @@ boliou:BO.1.RM144:HEAT.COOL a brick:Value .
 <http://example.com/boliou#BO.1.RM144:VLV2*COMD> a brick:Value .
 
 <http://example.com/boliou#BO.1.RM144:VLV2*POS> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:AIR*VOLUME> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:AUX*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:CLG*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:CLG*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:CLG*LOOPOUT> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:CTL*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:CTL*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:CTL*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:CTL*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:DAY*CLG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:DAY*HTG*STPT> a brick:Value .
+
+boliou:BO.1.RM144E:DAY.NGT a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:DI*2> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:DI*OVRD*SW> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:DMPR*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:DMPR*POS> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:DUCT*AREA> a brick:Value .
+
+boliou:BO.1.RM144E:FLOW a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:FLOW*COEFF> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:FLOW*STPT> a brick:Value .
+
+boliou:BO.1.RM144E:HEAT.COOL a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:HTG*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:HTG*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:HTG*LOOPOUT> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:MTR*SETUP> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:NGT*CLG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:NGT*HTG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:NGT*OVRD> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:ROOM*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:VALVE*COUNT> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:VLV1*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:VLV1*POS> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:VLV2*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.1.RM144E:VLV2*POS> a brick:Value .
 
 <http://example.com/boliou#BO.1.RM145:AIR*VOLUME> a brick:Value .
 
@@ -1609,74 +1165,6 @@ boliou:BO.1.RM157:HEAT.COOL a brick:Value .
 
 <http://example.com/boliou#BO.1.RM157:VLV2*POS> a brick:Value .
 
-<http://example.com/boliou#BO.1.RM158A:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:CLG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:DAY*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:DAY*HTG*STPT> a brick:Value .
-
-boliou:BO.1.RM158A:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:DI*OVRD*SW> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:DUCT*AREA> a brick:Value .
-
-boliou:BO.1.RM158A:FLOW a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:FLOW*COEFF> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:FLOW*STPT> a brick:Value .
-
-boliou:BO.1.RM158A:HEAT.COOL a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:HTG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:HTG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:HTG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:MTR*SETUP> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:NGT*HTG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:ROOM*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:VALVE*COUNT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:VLV1*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:VLV1*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:VLV2*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM158A:VLV2*POS> a brick:Value .
-
 <http://example.com/boliou#BO.1.RM160:AIR*VOLUME> a brick:Value .
 
 <http://example.com/boliou#BO.1.RM160:AUX*TEMP> a brick:Value .
@@ -1881,264 +1369,6 @@ boliou:BO.1.RM163:HEAT.COOL a brick:Value .
 
 <http://example.com/boliou#BO.1.RM163:VLV2*POS> a brick:Value .
 
-<http://example.com/boliou#BO.1.SCOMMON:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:CLG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:DAY*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:DAY*HTG*STPT> a brick:Value .
-
-boliou:BO.1.SCOMMON:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:DI*OVRD*SW> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:DUCT*AREA> a brick:Value .
-
-boliou:BO.1.SCOMMON:FLOW a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:FLOW*COEFF> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:FLOW*STPT> a brick:Value .
-
-boliou:BO.1.SCOMMON:HEAT.COOL a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:HTG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:HTG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:HTG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:MTR*SETUP> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:NGT*HTG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:ROOM*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:VALVE*COUNT> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:VLV1*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:VLV1*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:VLV2*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.SCOMMON:VLV2*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:CLG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:DAY*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:DAY*HTG*STPT> a brick:Value .
-
-boliou:BO.1.STAIRN:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:DI*OVRD*SW> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:DUCT*AREA> a brick:Value .
-
-boliou:BO.1.STAIRN:FLOW a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:FLOW*COEFF> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:FLOW*STPT> a brick:Value .
-
-boliou:BO.1.STAIRN:HEAT.COOL a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:HTG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:HTG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:HTG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:MTR*SETUP> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:NGT*HTG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:ROOM*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:VALVE*COUNT> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:VLV1*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:VLV1*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:VLV2*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.STAIRN:VLV2*POS> a brick:Value .
-
-<http://example.com/boliou#BO.AH4.VFD:BUS*REF> a brick:Value .
-
-<http://example.com/boliou#BO.AH4.VFD:CMD*STP.STRT> a brick:Value .
-
-boliou:BO.AH4.VFD:CURRENT a brick:Value .
-
-boliou:BO.AH4.VFD:DAY.NIGHT a brick:Value .
-
-<http://example.com/boliou#BO.AH4.VFD:FREQ*OUTPUT> a brick:Value .
-
-<http://example.com/boliou#BO.AH4.VFD:INPUT*REF> a brick:Value .
-
-boliou:BO.AH4.VFD:OK.FAULT a brick:Value .
-
-<http://example.com/boliou#BO.AH4.VFD:RUN*ENABLE> a brick:Value .
-
-<http://example.com/boliou#BO.AH4.VFD:RUN*TIME> a brick:Value .
-
-boliou:BO.AH4.VFD:STOP.RUN a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:CLG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:DAY*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:DAY*HTG*STPT> a brick:Value .
-
-boliou:BO.G.CCOM:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:DI*OVRD*SW> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:DUCT*AREA> a brick:Value .
-
-boliou:BO.G.CCOM:FLOW a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:FLOW*COEFF> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:FLOW*STPT> a brick:Value .
-
-boliou:BO.G.CCOM:HEAT.COOL a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:HTG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:HTG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:HTG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:MTR*SETUP> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:NGT*HTG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:ROOM*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:VALVE*COUNT> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:VLV1*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:VLV1*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:VLV2*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.CCOM:VLV2*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:DAY*CLG*STPT> a brick:Value .
-
-boliou:BO.G.ELEVRM:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:FLOW*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.G.ELEVRM:ROOM*TEMP> a brick:Value .
-
 <http://example.com/boliou#BO.G.RM020:AIR*VOLUME> a brick:Value .
 
 <http://example.com/boliou#BO.G.RM020:AUX*TEMP> a brick:Value .
@@ -2206,6 +1436,74 @@ boliou:BO.G.RM020:HEAT.COOL a brick:Value .
 <http://example.com/boliou#BO.G.RM020:VLV2*COMD> a brick:Value .
 
 <http://example.com/boliou#BO.G.RM020:VLV2*POS> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:AIR*VOLUME> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:AUX*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:CLG*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:CLG*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:CLG*LOOPOUT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:CTL*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:CTL*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:CTL*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:CTL*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:DAY*CLG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:DAY*HTG*STPT> a brick:Value .
+
+boliou:BO.G.RM020C:DAY.NGT a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:DI*2> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:DI*OVRD*SW> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:DMPR*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:DMPR*POS> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:DUCT*AREA> a brick:Value .
+
+boliou:BO.G.RM020C:FLOW a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:FLOW*COEFF> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:FLOW*STPT> a brick:Value .
+
+boliou:BO.G.RM020C:HEAT.COOL a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:HTG*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:HTG*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:HTG*LOOPOUT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:MTR*SETUP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:NGT*CLG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:NGT*HTG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:NGT*OVRD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:ROOM*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:VALVE*COUNT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:VLV1*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:VLV1*POS> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:VLV2*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM020C:VLV2*POS> a brick:Value .
 
 <http://example.com/boliou#BO.G.RM021:AIR*VOLUME> a brick:Value .
 
@@ -2411,6 +1709,74 @@ boliou:BO.G.RM025:HEAT.COOL a brick:Value .
 
 <http://example.com/boliou#BO.G.RM025:VLV2*POS> a brick:Value .
 
+<http://example.com/boliou#BO.G.RM025A:AIR*VOLUME> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:AUX*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:CLG*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:CLG*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:CLG*LOOPOUT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:CTL*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:CTL*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:CTL*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:CTL*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:DAY*CLG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:DAY*HTG*STPT> a brick:Value .
+
+boliou:BO.G.RM025A:DAY.NGT a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:DI*2> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:DI*OVRD*SW> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:DMPR*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:DMPR*POS> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:DUCT*AREA> a brick:Value .
+
+boliou:BO.G.RM025A:FLOW a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:FLOW*COEFF> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:FLOW*STPT> a brick:Value .
+
+boliou:BO.G.RM025A:HEAT.COOL a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:HTG*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:HTG*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:HTG*LOOPOUT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:MTR*SETUP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:NGT*CLG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:NGT*HTG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:NGT*OVRD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:ROOM*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:VALVE*COUNT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:VLV1*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:VLV1*POS> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:VLV2*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM025A:VLV2*POS> a brick:Value .
+
 <http://example.com/boliou#BO.G.RM030:AIR*VOLUME> a brick:Value .
 
 <http://example.com/boliou#BO.G.RM030:AUX*TEMP> a brick:Value .
@@ -2614,6 +1980,74 @@ boliou:BO.G.RM032:HEAT.COOL a brick:Value .
 <http://example.com/boliou#BO.G.RM032:VLV2*COMD> a brick:Value .
 
 <http://example.com/boliou#BO.G.RM032:VLV2*POS> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:AIR*VOLUME> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:AUX*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:CLG*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:CLG*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:CLG*LOOPOUT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:CTL*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:CTL*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:CTL*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:CTL*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:DAY*CLG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:DAY*HTG*STPT> a brick:Value .
+
+boliou:BO.G.RM032C:DAY.NGT a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:DI*2> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:DI*OVRD*SW> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:DMPR*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:DMPR*POS> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:DUCT*AREA> a brick:Value .
+
+boliou:BO.G.RM032C:FLOW a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:FLOW*COEFF> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:FLOW*STPT> a brick:Value .
+
+boliou:BO.G.RM032C:HEAT.COOL a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:HTG*FLOW*MAX> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:HTG*FLOW*MIN> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:HTG*LOOPOUT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:MTR*SETUP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:NGT*CLG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:NGT*HTG*STPT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:NGT*OVRD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:ROOM*TEMP> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:VALVE*COUNT> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:VLV1*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:VLV1*POS> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:VLV2*COMD> a brick:Value .
+
+<http://example.com/boliou#BO.G.RM032C:VLV2*POS> a brick:Value .
 
 <http://example.com/boliou#BO.G.RM042:AIR*VOLUME> a brick:Value .
 
@@ -3159,10 +2593,6 @@ boliou:BO.G.RM059:HEAT.COOL a brick:Value .
 
 <http://example.com/boliou#BO.G.RM059:VLV2*POS> a brick:Value .
 
-boliou:BO.PNL07.SHEDTMR a brick:Value .
-
-boliou:BO.PNL31.SHEDTMR a brick:Value .
-
 boliou:First-Floor a brick:Floor ;
     brick:hasPart boliou:RM123,
         boliou:RM130,
@@ -3275,41 +2705,7 @@ boliou:RM020 a brick:Room ;
         <http://example.com/boliou#BO.G.RM020C:VLV2*COMD>,
         <http://example.com/boliou#BO.G.RM020C:VLV2*POS> .
 
-boliou:RM020C a brick:Room ;
-    brick:hasPart <http://example.com/boliou#BO.G.RM020C:AIR*VOLUME>,
-        <http://example.com/boliou#BO.G.RM020C:AUX*TEMP>,
-        <http://example.com/boliou#BO.G.RM020C:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.RM020C:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.RM020C:CLG*LOOPOUT>,
-        <http://example.com/boliou#BO.G.RM020C:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.RM020C:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.RM020C:CTL*STPT>,
-        <http://example.com/boliou#BO.G.RM020C:CTL*TEMP>,
-        <http://example.com/boliou#BO.G.RM020C:DAY*CLG*STPT>,
-        <http://example.com/boliou#BO.G.RM020C:DAY*HTG*STPT>,
-        boliou:BO.G.RM020C:DAY.NGT,
-        <http://example.com/boliou#BO.G.RM020C:DI*2>,
-        <http://example.com/boliou#BO.G.RM020C:DI*OVRD*SW>,
-        <http://example.com/boliou#BO.G.RM020C:DMPR*COMD>,
-        <http://example.com/boliou#BO.G.RM020C:DMPR*POS>,
-        <http://example.com/boliou#BO.G.RM020C:DUCT*AREA>,
-        boliou:BO.G.RM020C:FLOW,
-        <http://example.com/boliou#BO.G.RM020C:FLOW*COEFF>,
-        <http://example.com/boliou#BO.G.RM020C:FLOW*STPT>,
-        boliou:BO.G.RM020C:HEAT.COOL,
-        <http://example.com/boliou#BO.G.RM020C:HTG*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.RM020C:HTG*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.RM020C:HTG*LOOPOUT>,
-        <http://example.com/boliou#BO.G.RM020C:MTR*SETUP>,
-        <http://example.com/boliou#BO.G.RM020C:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.G.RM020C:NGT*HTG*STPT>,
-        <http://example.com/boliou#BO.G.RM020C:NGT*OVRD>,
-        <http://example.com/boliou#BO.G.RM020C:ROOM*TEMP>,
-        <http://example.com/boliou#BO.G.RM020C:VALVE*COUNT>,
-        <http://example.com/boliou#BO.G.RM020C:VLV1*COMD>,
-        <http://example.com/boliou#BO.G.RM020C:VLV1*POS>,
-        <http://example.com/boliou#BO.G.RM020C:VLV2*COMD>,
-        <http://example.com/boliou#BO.G.RM020C:VLV2*POS> .
+boliou:RM020C a brick:Room .
 
 boliou:RM021 a brick:Room ;
     brick:hasPart <http://example.com/boliou#BO.G.RM021:AIR*VOLUME>,
@@ -3453,41 +2849,7 @@ boliou:RM025 a brick:Room ;
         <http://example.com/boliou#BO.G.RM025A:VLV2*COMD>,
         <http://example.com/boliou#BO.G.RM025A:VLV2*POS> .
 
-boliou:RM025A a brick:Room ;
-    brick:hasPart <http://example.com/boliou#BO.G.RM025A:AIR*VOLUME>,
-        <http://example.com/boliou#BO.G.RM025A:AUX*TEMP>,
-        <http://example.com/boliou#BO.G.RM025A:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.RM025A:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.RM025A:CLG*LOOPOUT>,
-        <http://example.com/boliou#BO.G.RM025A:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.RM025A:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.RM025A:CTL*STPT>,
-        <http://example.com/boliou#BO.G.RM025A:CTL*TEMP>,
-        <http://example.com/boliou#BO.G.RM025A:DAY*CLG*STPT>,
-        <http://example.com/boliou#BO.G.RM025A:DAY*HTG*STPT>,
-        boliou:BO.G.RM025A:DAY.NGT,
-        <http://example.com/boliou#BO.G.RM025A:DI*2>,
-        <http://example.com/boliou#BO.G.RM025A:DI*OVRD*SW>,
-        <http://example.com/boliou#BO.G.RM025A:DMPR*COMD>,
-        <http://example.com/boliou#BO.G.RM025A:DMPR*POS>,
-        <http://example.com/boliou#BO.G.RM025A:DUCT*AREA>,
-        boliou:BO.G.RM025A:FLOW,
-        <http://example.com/boliou#BO.G.RM025A:FLOW*COEFF>,
-        <http://example.com/boliou#BO.G.RM025A:FLOW*STPT>,
-        boliou:BO.G.RM025A:HEAT.COOL,
-        <http://example.com/boliou#BO.G.RM025A:HTG*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.RM025A:HTG*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.RM025A:HTG*LOOPOUT>,
-        <http://example.com/boliou#BO.G.RM025A:MTR*SETUP>,
-        <http://example.com/boliou#BO.G.RM025A:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.G.RM025A:NGT*HTG*STPT>,
-        <http://example.com/boliou#BO.G.RM025A:NGT*OVRD>,
-        <http://example.com/boliou#BO.G.RM025A:ROOM*TEMP>,
-        <http://example.com/boliou#BO.G.RM025A:VALVE*COUNT>,
-        <http://example.com/boliou#BO.G.RM025A:VLV1*COMD>,
-        <http://example.com/boliou#BO.G.RM025A:VLV1*POS>,
-        <http://example.com/boliou#BO.G.RM025A:VLV2*COMD>,
-        <http://example.com/boliou#BO.G.RM025A:VLV2*POS> .
+boliou:RM025A a brick:Room .
 
 boliou:RM030 a brick:Room ;
     brick:hasPart <http://example.com/boliou#BO.G.RM030:AIR*VOLUME>,
@@ -3631,41 +2993,7 @@ boliou:RM032 a brick:Room ;
         <http://example.com/boliou#BO.G.RM032C:VLV2*COMD>,
         <http://example.com/boliou#BO.G.RM032C:VLV2*POS> .
 
-boliou:RM032C a brick:Room ;
-    brick:hasPart <http://example.com/boliou#BO.G.RM032C:AIR*VOLUME>,
-        <http://example.com/boliou#BO.G.RM032C:AUX*TEMP>,
-        <http://example.com/boliou#BO.G.RM032C:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.RM032C:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.RM032C:CLG*LOOPOUT>,
-        <http://example.com/boliou#BO.G.RM032C:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.RM032C:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.RM032C:CTL*STPT>,
-        <http://example.com/boliou#BO.G.RM032C:CTL*TEMP>,
-        <http://example.com/boliou#BO.G.RM032C:DAY*CLG*STPT>,
-        <http://example.com/boliou#BO.G.RM032C:DAY*HTG*STPT>,
-        boliou:BO.G.RM032C:DAY.NGT,
-        <http://example.com/boliou#BO.G.RM032C:DI*2>,
-        <http://example.com/boliou#BO.G.RM032C:DI*OVRD*SW>,
-        <http://example.com/boliou#BO.G.RM032C:DMPR*COMD>,
-        <http://example.com/boliou#BO.G.RM032C:DMPR*POS>,
-        <http://example.com/boliou#BO.G.RM032C:DUCT*AREA>,
-        boliou:BO.G.RM032C:FLOW,
-        <http://example.com/boliou#BO.G.RM032C:FLOW*COEFF>,
-        <http://example.com/boliou#BO.G.RM032C:FLOW*STPT>,
-        boliou:BO.G.RM032C:HEAT.COOL,
-        <http://example.com/boliou#BO.G.RM032C:HTG*FLOW*MAX>,
-        <http://example.com/boliou#BO.G.RM032C:HTG*FLOW*MIN>,
-        <http://example.com/boliou#BO.G.RM032C:HTG*LOOPOUT>,
-        <http://example.com/boliou#BO.G.RM032C:MTR*SETUP>,
-        <http://example.com/boliou#BO.G.RM032C:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.G.RM032C:NGT*HTG*STPT>,
-        <http://example.com/boliou#BO.G.RM032C:NGT*OVRD>,
-        <http://example.com/boliou#BO.G.RM032C:ROOM*TEMP>,
-        <http://example.com/boliou#BO.G.RM032C:VALVE*COUNT>,
-        <http://example.com/boliou#BO.G.RM032C:VLV1*COMD>,
-        <http://example.com/boliou#BO.G.RM032C:VLV1*POS>,
-        <http://example.com/boliou#BO.G.RM032C:VLV2*COMD>,
-        <http://example.com/boliou#BO.G.RM032C:VLV2*POS> .
+boliou:RM032C a brick:Room .
 
 boliou:RM042 a brick:Room ;
     brick:hasPart <http://example.com/boliou#BO.G.RM042:AIR*VOLUME>,
@@ -4169,41 +3497,7 @@ boliou:RM144 a brick:Room ;
         <http://example.com/boliou#BO.1.RM144E:VLV2*COMD>,
         <http://example.com/boliou#BO.1.RM144E:VLV2*POS> .
 
-boliou:RM144E a brick:Room ;
-    brick:hasPart <http://example.com/boliou#BO.1.RM144E:AIR*VOLUME>,
-        <http://example.com/boliou#BO.1.RM144E:AUX*TEMP>,
-        <http://example.com/boliou#BO.1.RM144E:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.RM144E:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.RM144E:CLG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.RM144E:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.RM144E:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.RM144E:CTL*STPT>,
-        <http://example.com/boliou#BO.1.RM144E:CTL*TEMP>,
-        <http://example.com/boliou#BO.1.RM144E:DAY*CLG*STPT>,
-        <http://example.com/boliou#BO.1.RM144E:DAY*HTG*STPT>,
-        boliou:BO.1.RM144E:DAY.NGT,
-        <http://example.com/boliou#BO.1.RM144E:DI*2>,
-        <http://example.com/boliou#BO.1.RM144E:DI*OVRD*SW>,
-        <http://example.com/boliou#BO.1.RM144E:DMPR*COMD>,
-        <http://example.com/boliou#BO.1.RM144E:DMPR*POS>,
-        <http://example.com/boliou#BO.1.RM144E:DUCT*AREA>,
-        boliou:BO.1.RM144E:FLOW,
-        <http://example.com/boliou#BO.1.RM144E:FLOW*COEFF>,
-        <http://example.com/boliou#BO.1.RM144E:FLOW*STPT>,
-        boliou:BO.1.RM144E:HEAT.COOL,
-        <http://example.com/boliou#BO.1.RM144E:HTG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.RM144E:HTG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.RM144E:HTG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.RM144E:MTR*SETUP>,
-        <http://example.com/boliou#BO.1.RM144E:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.1.RM144E:NGT*HTG*STPT>,
-        <http://example.com/boliou#BO.1.RM144E:NGT*OVRD>,
-        <http://example.com/boliou#BO.1.RM144E:ROOM*TEMP>,
-        <http://example.com/boliou#BO.1.RM144E:VALVE*COUNT>,
-        <http://example.com/boliou#BO.1.RM144E:VLV1*COMD>,
-        <http://example.com/boliou#BO.1.RM144E:VLV1*POS>,
-        <http://example.com/boliou#BO.1.RM144E:VLV2*COMD>,
-        <http://example.com/boliou#BO.1.RM144E:VLV2*POS> .
+boliou:RM144E a brick:Room .
 
 boliou:RM145 a brick:Room ;
     brick:hasPart <http://example.com/boliou#BO.1.RM145:AIR*VOLUME>,
@@ -4565,41 +3859,7 @@ boliou:RM157 a brick:Room ;
         <http://example.com/boliou#BO.1.RM157:VLV2*COMD>,
         <http://example.com/boliou#BO.1.RM157:VLV2*POS> .
 
-boliou:RM158A a brick:Room ;
-    brick:hasPart <http://example.com/boliou#BO.1.RM158A:AIR*VOLUME>,
-        <http://example.com/boliou#BO.1.RM158A:AUX*TEMP>,
-        <http://example.com/boliou#BO.1.RM158A:CLG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.RM158A:CLG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.RM158A:CLG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.RM158A:CTL*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.RM158A:CTL*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.RM158A:CTL*STPT>,
-        <http://example.com/boliou#BO.1.RM158A:CTL*TEMP>,
-        <http://example.com/boliou#BO.1.RM158A:DAY*CLG*STPT>,
-        <http://example.com/boliou#BO.1.RM158A:DAY*HTG*STPT>,
-        boliou:BO.1.RM158A:DAY.NGT,
-        <http://example.com/boliou#BO.1.RM158A:DI*2>,
-        <http://example.com/boliou#BO.1.RM158A:DI*OVRD*SW>,
-        <http://example.com/boliou#BO.1.RM158A:DMPR*COMD>,
-        <http://example.com/boliou#BO.1.RM158A:DMPR*POS>,
-        <http://example.com/boliou#BO.1.RM158A:DUCT*AREA>,
-        boliou:BO.1.RM158A:FLOW,
-        <http://example.com/boliou#BO.1.RM158A:FLOW*COEFF>,
-        <http://example.com/boliou#BO.1.RM158A:FLOW*STPT>,
-        boliou:BO.1.RM158A:HEAT.COOL,
-        <http://example.com/boliou#BO.1.RM158A:HTG*FLOW*MAX>,
-        <http://example.com/boliou#BO.1.RM158A:HTG*FLOW*MIN>,
-        <http://example.com/boliou#BO.1.RM158A:HTG*LOOPOUT>,
-        <http://example.com/boliou#BO.1.RM158A:MTR*SETUP>,
-        <http://example.com/boliou#BO.1.RM158A:NGT*CLG*STPT>,
-        <http://example.com/boliou#BO.1.RM158A:NGT*HTG*STPT>,
-        <http://example.com/boliou#BO.1.RM158A:NGT*OVRD>,
-        <http://example.com/boliou#BO.1.RM158A:ROOM*TEMP>,
-        <http://example.com/boliou#BO.1.RM158A:VALVE*COUNT>,
-        <http://example.com/boliou#BO.1.RM158A:VLV1*COMD>,
-        <http://example.com/boliou#BO.1.RM158A:VLV1*POS>,
-        <http://example.com/boliou#BO.1.RM158A:VLV2*COMD>,
-        <http://example.com/boliou#BO.1.RM158A:VLV2*POS> .
+boliou:RM158A a brick:Room .
 
 boliou:RM160 a brick:Room ;
     brick:hasPart <http://example.com/boliou#BO.1.RM160:AIR*VOLUME>,
@@ -4891,342 +4151,6 @@ evans:Third-Floor a brick:Floor ;
         evans:RM315VSP,
         evans:RM316,
         evans:RM316VSP .
-
-<http://example.com/boliou#BO.1.RM144E:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:CLG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:DAY*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:DAY*HTG*STPT> a brick:Value .
-
-boliou:BO.1.RM144E:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:DI*OVRD*SW> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:DUCT*AREA> a brick:Value .
-
-boliou:BO.1.RM144E:FLOW a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:FLOW*COEFF> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:FLOW*STPT> a brick:Value .
-
-boliou:BO.1.RM144E:HEAT.COOL a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:HTG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:HTG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:HTG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:MTR*SETUP> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:NGT*HTG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:ROOM*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:VALVE*COUNT> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:VLV1*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:VLV1*POS> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:VLV2*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.1.RM144E:VLV2*POS> a brick:Value .
-
-boliou:BO.AH01.SVFD:DAY.NIGHT a brick:Value .
-
-<http://example.com/boliou#BO.AH01.SVFD:ENA.DIS*CMD> a brick:Value .
-
-<http://example.com/boliou#BO.AH01.SVFD:FREQ*OUTPUT> a brick:Value .
-
-<http://example.com/boliou#BO.AH01.SVFD:INPUT*REF*1> a brick:Value .
-
-boliou:BO.AH01.SVFD:OK.FAULT a brick:Value .
-
-boliou:BO.AH01.SVFD:POWER a brick:Value .
-
-<http://example.com/boliou#BO.AH01.SVFD:RESET*FAULT> a brick:Value .
-
-<http://example.com/boliou#BO.AH01.SVFD:RUN.STOP*CMD> a brick:Value .
-
-boliou:BO.AH03.RVFD:DAY.NIGHT a brick:Value .
-
-<http://example.com/boliou#BO.AH03.RVFD:ENA.DIS*CMD> a brick:Value .
-
-<http://example.com/boliou#BO.AH03.RVFD:FREQ*OUTPUT> a brick:Value .
-
-<http://example.com/boliou#BO.AH03.RVFD:INPUT*REF*1> a brick:Value .
-
-boliou:BO.AH03.RVFD:OK.FAULT a brick:Value .
-
-boliou:BO.AH03.RVFD:POWER a brick:Value .
-
-<http://example.com/boliou#BO.AH03.RVFD:RESET*FAULT> a brick:Value .
-
-<http://example.com/boliou#BO.AH03.RVFD:RUN.STOP*CMD> a brick:Value .
-
-boliou:BO.AH03.SVFD:DAY.NIGHT a brick:Value .
-
-<http://example.com/boliou#BO.AH03.SVFD:ENA.DIS*CMD> a brick:Value .
-
-<http://example.com/boliou#BO.AH03.SVFD:FREQ*OUTPUT> a brick:Value .
-
-<http://example.com/boliou#BO.AH03.SVFD:INPUT*REF*1> a brick:Value .
-
-boliou:BO.AH03.SVFD:OK.FAULT a brick:Value .
-
-boliou:BO.AH03.SVFD:POWER a brick:Value .
-
-<http://example.com/boliou#BO.AH03.SVFD:RESET*FAULT> a brick:Value .
-
-<http://example.com/boliou#BO.AH03.SVFD:RUN.STOP*CMD> a brick:Value .
-
-boliou:BO.AH4.RVFD:DAY.NIGHT a brick:Value .
-
-<http://example.com/boliou#BO.AH4.RVFD:ENA.DIS*CMD> a brick:Value .
-
-<http://example.com/boliou#BO.AH4.RVFD:FREQ*OUTPUT> a brick:Value .
-
-<http://example.com/boliou#BO.AH4.RVFD:INPUT*REF*1> a brick:Value .
-
-boliou:BO.AH4.RVFD:OK.FAULT a brick:Value .
-
-boliou:BO.AH4.RVFD:POWER a brick:Value .
-
-<http://example.com/boliou#BO.AH4.RVFD:RESET*FAULT> a brick:Value .
-
-<http://example.com/boliou#BO.AH4.RVFD:RUN.STOP*CMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:CLG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:DAY*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:DAY*HTG*STPT> a brick:Value .
-
-boliou:BO.G.RM020C:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:DI*OVRD*SW> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:DUCT*AREA> a brick:Value .
-
-boliou:BO.G.RM020C:FLOW a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:FLOW*COEFF> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:FLOW*STPT> a brick:Value .
-
-boliou:BO.G.RM020C:HEAT.COOL a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:HTG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:HTG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:HTG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:MTR*SETUP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:NGT*HTG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:ROOM*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:VALVE*COUNT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:VLV1*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:VLV1*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:VLV2*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM020C:VLV2*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:CLG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:DAY*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:DAY*HTG*STPT> a brick:Value .
-
-boliou:BO.G.RM025A:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:DI*OVRD*SW> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:DUCT*AREA> a brick:Value .
-
-boliou:BO.G.RM025A:FLOW a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:FLOW*COEFF> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:FLOW*STPT> a brick:Value .
-
-boliou:BO.G.RM025A:HEAT.COOL a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:HTG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:HTG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:HTG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:MTR*SETUP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:NGT*HTG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:ROOM*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:VALVE*COUNT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:VLV1*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:VLV1*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:VLV2*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM025A:VLV2*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:AIR*VOLUME> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:AUX*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:CLG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:CLG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:CLG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:CTL*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:CTL*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:CTL*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:CTL*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:DAY*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:DAY*HTG*STPT> a brick:Value .
-
-boliou:BO.G.RM032C:DAY.NGT a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:DI*2> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:DI*OVRD*SW> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:DMPR*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:DMPR*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:DUCT*AREA> a brick:Value .
-
-boliou:BO.G.RM032C:FLOW a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:FLOW*COEFF> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:FLOW*STPT> a brick:Value .
-
-boliou:BO.G.RM032C:HEAT.COOL a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:HTG*FLOW*MAX> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:HTG*FLOW*MIN> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:HTG*LOOPOUT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:MTR*SETUP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:NGT*CLG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:NGT*HTG*STPT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:NGT*OVRD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:ROOM*TEMP> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:VALVE*COUNT> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:VLV1*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:VLV1*POS> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:VLV2*COMD> a brick:Value .
-
-<http://example.com/boliou#BO.G.RM032C:VLV2*POS> a brick:Value .
 
 evans:RM100 a brick:Room,
         brick:Value ;
