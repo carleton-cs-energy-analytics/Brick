@@ -1,3 +1,9 @@
+# This mapping maps the tag_id's in the database to BRICK objects (as well as their tag name).
+# To check if all tags in the database have been mapped to BRICK objects,
+#   run this program and it will output an array of tags that need to be mapped, if there are any
+# Output is in the form (tag_id, tag_name) as a tuple
+# Silas Monahan 4/2021
+
 from rdflib import RDF, RDFS, OWL, Namespace, Graph
 import psycopg2
 from psycopg2 import connect, sql
@@ -11,6 +17,15 @@ BRICK = Namespace("https://brickschema.org/schema/Brick#")
 g.bind("brick", BRICK)
 
 point_types = []
+
+conn = psycopg2.connect(
+    host="localhost",
+    database="energy",
+    user="energy",
+    password="less!29carbon")
+cur = conn.cursor()
+
+#print(tags)
 
 id_mapping = {
     1: {'Tag': 'Academic', 'BrickObj': BRICK.Building},
@@ -53,7 +68,9 @@ id_mapping = {
     41: {'Tag': 'Heat Recovery Ventilator', 'BrickObj': BRICK.Point},
     42: {'Tag': 'Controller Maximum Flow', 'BrickObj': BRICK.Point},
     43: {'Tag': 'Cooling Loopout', 'BrickObj': BRICK.Point}, # need to fix
+    44: {'Tag': 'Floor Temperature', 'BrickObj': BRICK.Temperature_Sensor},
     45: {'Tag': 'Heat Exchanger', 'BrickObj': BRICK.Heat_Exchanger},
+    46: {'Tag': 'Floor Temperature Disable', 'BrickObj': BRICK.Disable_Fixed_Temperature_Command},
     48: {'Tag': 'Hot Water Supply Temp', 'BrickObj': BRICK.Hot_Water_Supply_Temperature_Sensor},
     49: {'Tag': 'Exhaust Set', 'BrickObj': BRICK.Exhaust_Air_Flow_Setpoint},
     50: {'Tag': 'Exhaust Air Flow Sensor', 'BrickObj': BRICK.Exhaust_Air_Flow_Sensor},
@@ -78,6 +95,7 @@ id_mapping = {
     70: {'Tag': 'Valve Two Position', 'BrickObj': BRICK.Valve_Position_Sensor},
     71: {'Tag': 'Chilled Water', 'BrickObj': BRICK.Chilled_Water},
     72: {'Tag': 'Chilled Water Flow', 'BrickObj': BRICK.Water_Flow_Sensor},
+    73: {'Tag': 'Domestic Water Return Temperature Sensor', 'BrickObj': BRICK.Domestic_Hot_Water_Return_Temperature_Sensor},
     74: {'Tag': 'Hot Water Flow', 'BrickObj': BRICK.Hot_Water_Flow_Sensor},
     75: {'Tag': 'Domestic Water', 'BrickObj': BRICK.Domestic_Water},
     76: {'Tag': 'Domestic Water Supply', 'BrickObj': BRICK.Domestic_Hot_Water_Supply_Temperature_Sensor},
@@ -143,4 +161,17 @@ id_mapping = {
     163: {'Tag': 'Steam Valve', 'BrickObj': BRICK.Steam_Valve}
 }
 
-#print(id_mapping)
+tag_query = '''SELECT tag_id, name FROM tags'''
+cur.execute(tag_query)
+tags = cur.fetchall()
+cur.close()
+
+no_mapping = []
+
+for tag in tags:
+    id = tag[0]
+    if id not in id_mapping.keys():
+        no_mapping.append(tag)
+
+print("These tags are in the database but are not in this mapping: ")
+print(no_mapping)
