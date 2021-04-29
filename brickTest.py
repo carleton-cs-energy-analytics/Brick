@@ -120,7 +120,7 @@ for i in range(len(point_names)):
     try:
       room_name = point_names[i][1]
       if room_name not in hulings_rooms:
-        if room_name[0:2] == 'RM':
+        if room_name[0:1] == 'R':
           hulings_rooms.append(room_name)
     except Exception as e:
       print(e)
