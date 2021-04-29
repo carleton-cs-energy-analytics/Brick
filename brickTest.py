@@ -111,6 +111,58 @@ for i in range(len(point_names)):
         g.add((EVANS[points[i][1].replace(" ", "*")], RDF.type, BRICK.Value))
         g.add((EVANS[room], BRICK.hasPart, EVANS[points[i][1].replace(" ", "*")]))
 
+HULINGS = Namespace("http://example.com/hulings#")
+g.bind("hulings", HULINGS)
+g.add((HULINGS["Hulings"], RDF.type, BRICK.Building))
+hulings_rooms = []
+for i in range(len(point_names)):
+  if point_names[i][0] == "HU":
+    try:
+      room_name = point_names[i][1]
+      if room_name not in hulings_rooms:
+        if room_name[0:2] == 'RM':
+          hulings_rooms.append(room_name)
+    except Exception as e:
+      print(e)
+
+'''
+g.add((HULINGS["Ground-Floor"], RDF.type, BRICK.Floor))
+g.add((HULINGS["Hulings"], BRICK.hasPart, HULINGS["Ground-Floor"]))
+'''
+g.add((HULINGS["First-Floor"], RDF.type, BRICK.Floor))
+g.add((HULINGS["Hulings"], BRICK.hasPart, HULINGS["First-Floor"]))
+g.add((HULINGS["Second-Floor"], RDF.type, BRICK.Floor))
+g.add((HULINGS["Hulings"], BRICK.hasPart, HULINGS["Second-Floor"]))
+g.add((HULINGS["Third-Floor"], RDF.type, BRICK.Floor))
+g.add((HULINGS["Hulings"], BRICK.hasPart, HULINGS["Third-Floor"]))
+
+for i in range(len(hulings_rooms)):
+  try:
+    '''
+    if hulings_rooms[i][2] == 'G':
+      g.add((BOLIOU[hulings_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
+      g.add((HULINGS["Ground-Floor"], BRICK.hasPart, HULINGS[hulings_rooms[i].replace(" ", "*")]))
+      '''
+    if hulings_rooms[i][2] == '1':
+      g.add((HULINGS[hulings_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
+      g.add((HULINGS["First-Floor"], BRICK.hasPart, HULINGS[hulings_rooms[i].replace(" ", "*")]))
+    if hulings_rooms[i][2] == '2':
+      g.add((HULINGS[hulings_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
+      g.add((HULINGS["Second-Floor"], BRICK.hasPart, HULINGS[hulings_rooms[i].replace(" ", "*")]))  
+    if hulings_rooms[i][2] == '3':
+      g.add((HULINGS[hulings_rooms[i].replace(" ", "*")], RDF.type, BRICK.Room))
+      g.add((HULINGS["Third-Floor"], BRICK.hasPart, HULINGS[hulings_rooms[i].replace(" ", "*")]))  
+  except Exception as e:
+    print(e)
+
+for i in range(len(point_names)):
+  if point_names[i][0] == "HU":
+    for room in hulings_rooms:
+      if room == point_names[i][1]:
+        print("Added point " + points[i][1] + " to room " + room)
+        g.add((HULINGS[points[i][1].replace(" ", "*")], RDF.type, BRICK.Value))
+        g.add((HULINGS[room], BRICK.hasPart, HULINGS[points[i][1].replace(" ", "*")]))
+
 with open("Carleton.ttl", "wb") as f:
     # the Turtle format strikes a balance beteween being compact and easy to read
     f.write(g.serialize(format="ttl"))
