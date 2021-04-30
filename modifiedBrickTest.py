@@ -106,14 +106,14 @@ g.bind("boliou", BOLIOU)
 brickifyBuilding("Boliou", BOLIOU)
 
 # Adds Evans to the brick schema
-'''EVANS = Namespace("http://example.com/evans#")
+EVANS = Namespace("http://example.com/evans#")
 g.bind("evans", EVANS)
-brickifyBuilding("Evans", EVANS)'''
+brickifyBuilding("Evans", EVANS)
 
 # Adds Hulings to the brick schema
-'''HULINGS = Namespace("http://example.com/hulings#")
+HULINGS = Namespace("http://example.com/hulings#")
 g.bind("hulings", HULINGS)
-brickifyBuilding("Hulings", HULINGS)'''
+brickifyBuilding("Hulings", HULINGS)
 
 with open("Carleton2.ttl", "wb") as f:
     # the Turtle format strikes a balance beteween being compact and easy to read
