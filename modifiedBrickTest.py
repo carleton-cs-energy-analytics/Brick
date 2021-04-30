@@ -18,7 +18,15 @@ def brickifyBuilding(building_name, BRICK_BUILDING):
     g.add((BRICK_BUILDING[building_name], RDF.type, BRICK.Building))
     building_query = '''SELECT building_id FROM buildings WHERE name = '{0}' '''.format(building_name)
     cur.execute(building_query)
-    building_id = cur.fetchone()[0]
+    building_id = cur.fetchone()
+    
+    # Tests if the inputted building matches a building in the database
+    if(building_id != None):
+        building_id = building_id[0]
+    else:
+        print("ERROR: " + building_name + " is not a building in the database. Make sure you inputted spelled the name correctly")
+        return
+    print(building_id)
 
     #(point_name, point_id, tag_id, room_id, room_name, floor)
     all_point_info_query = '''SELECT P.name, P.point_id, T.tag_id, R.room_id, R.name, R.floor FROM ((points as P JOIN points_tags as T ON P.point_id = T.point_id) JOIN devices AS D ON P.device_id=D.device_id) JOIN rooms as R ON R.room_id = D.room_id WHERE building_id = {0}'''.format(building_id)
@@ -26,11 +34,17 @@ def brickifyBuilding(building_name, BRICK_BUILDING):
     points = cur.fetchall()
 
     floors = []
+    rooms = []
+    # Loops through points and gets all unique rooms and points in the set
     for point in points:
         floor = point[5]
         if floor not in floors:
             floors.append(floor)
+        room = point[4]
+        if room not in rooms:
+            rooms.append(room)
 
+    # Maps floor numbers to their name
     floor_map = {
         -1: "Basement",
         0: "Ground",
@@ -51,15 +65,6 @@ def brickifyBuilding(building_name, BRICK_BUILDING):
             floor_name = floor_map[floor] + "-Floor"
         g.add((BRICK_BUILDING[floor_name], RDF.type, BRICK.Floor))
         g.add((BRICK_BUILDING[building_name], BRICK.hasPart, BRICK_BUILDING[floor_name]))
-  
-    g.add((BRICK_BUILDING["No-Floor"], RDF.type, BRICK.Floor))
-    g.add((BRICK_BUILDING[building_name], BRICK.hasPart, BRICK_BUILDING["No-Floor"]))
-
-    rooms = []
-    for point in points:
-        room = point[4]
-        if room not in rooms:
-            rooms.append(room)
 
     # Creates all brick rooms that are in the database for this building
     for room in rooms:
@@ -90,22 +95,25 @@ def brickifyBuilding(building_name, BRICK_BUILDING):
         g.add((BRICK_BUILDING[point_name], RDF.type, brick_obj))
         g.add((BRICK_BUILDING[room_name], BRICK.hasPoint, BRICK_BUILDING[point_name]))
 
-
+# Creates graph
 g = Graph()
 BRICK = Namespace("https://brickschema.org/schema/Brick#")
 g.bind("brick", BRICK)
 
+# Adds hulings to the brick schema
 BOLIOU = Namespace("http://example.com/boliou#")
 g.bind("boliou", BOLIOU)
 brickifyBuilding("Boliou", BOLIOU)
 
-EVANS = Namespace("http://example.com/evans#")
+# Adds Evans to the brick schema
+'''EVANS = Namespace("http://example.com/evans#")
 g.bind("evans", EVANS)
-brickifyBuilding("Evans", EVANS)
+brickifyBuilding("Evans", EVANS)'''
 
-HULINGS = Namespace("http://example.com/hulings#")
+# Adds Hulings to the brick schema
+'''HULINGS = Namespace("http://example.com/hulings#")
 g.bind("hulings", HULINGS)
-brickifyBuilding("Hulings", HULINGS)
+brickifyBuilding("Hulings", HULINGS)'''
 
 with open("Carleton2.ttl", "wb") as f:
     # the Turtle format strikes a balance beteween being compact and easy to read
