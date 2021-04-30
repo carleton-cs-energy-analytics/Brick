@@ -1,10 +1,28 @@
 @prefix boliou: <http://example.com/boliou#> .
 @prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix evans: <http://example.com/evans#> .
+@prefix hulings: <http://example.com/hulings#> .
 
 boliou:Boliou a brick:Building ;
     brick:hasPart boliou:First-Floor,
         boliou:Ground-Floor,
         boliou:No-Floor .
+
+evans:Evans a brick:Building ;
+    brick:hasPart evans:Basement,
+        evans:First-Floor,
+        evans:Fourth-Floor,
+        evans:Ground-Floor,
+        evans:No-Floor,
+        evans:Second-Floor,
+        evans:Third-Floor .
+
+hulings:Hulings a brick:Building ;
+    brick:hasPart hulings:First-Floor,
+        hulings:Ground-Floor,
+        hulings:No-Floor,
+        hulings:Second-Floor,
+        hulings:Third-Floor .
 
 boliou:020 a brick:Room ;
     brick:hasPoint boliou:BO.G.RM020:AIR_VOLUME,
@@ -4385,4 +4403,3346 @@ boliou:No-Floor a brick:Floor ;
         boliou:BO.G.ELEVRM:ROOM_TEMP .
 
 boliou:Unidentified a brick:Room .
+
+evans:003 a brick:Room ;
+    brick:hasPoint evans:EV.RM003.RT,
+        evans:EV.RM003.SP,
+        evans:EV.RM003.V,
+        evans:EV.RM003VSP .
+
+evans:014 a brick:Room ;
+    brick:hasPoint evans:EV.RM014.SP .
+
+evans:016 a brick:Room ;
+    brick:hasPoint evans:EV.RM016.RT,
+        evans:EV.RM016.V,
+        evans:EV.RM016VSP .
+
+evans:102 a brick:Room ;
+    brick:hasPoint evans:EV.RM102.RT,
+        evans:EV.RM102.SP,
+        evans:EV.RM102.V,
+        evans:EV.RM102VSP .
+
+evans:106 a brick:Room ;
+    brick:hasPoint evans:EV.RM106.RT,
+        evans:EV.RM106.SP,
+        evans:EV.RM106.V,
+        evans:EV.RM106VSP .
+
+evans:107 a brick:Room ;
+    brick:hasPoint evans:EV.RM107.RT,
+        evans:EV.RM107.SP,
+        evans:EV.RM107.V,
+        evans:EV.RM107VSP .
+
+evans:108 a brick:Room ;
+    brick:hasPoint evans:EV.RM108.RT,
+        evans:EV.RM108.SP,
+        evans:EV.RM108.V,
+        evans:EV.RM108VSP .
+
+evans:109 a brick:Room ;
+    brick:hasPoint evans:EV.RM109.RT,
+        evans:EV.RM109.SP,
+        evans:EV.RM109.V,
+        evans:EV.RM109VSP .
+
+evans:111 a brick:Room ;
+    brick:hasPoint evans:EV.RM111.RT,
+        evans:EV.RM111.SP,
+        evans:EV.RM111.V,
+        evans:EV.RM111VSP .
+
+evans:112 a brick:Room ;
+    brick:hasPoint evans:EV.RM112.RT,
+        evans:EV.RM112.SP,
+        evans:EV.RM112.V,
+        evans:EV.RM112VSP .
+
+evans:114 a brick:Room ;
+    brick:hasPoint evans:EV.RM114.RT,
+        evans:EV.RM114.SP,
+        evans:EV.RM114.V,
+        evans:EV.RM114VSP .
+
+evans:116 a brick:Room ;
+    brick:hasPoint evans:EV.RM116.RT,
+        evans:EV.RM116.SP,
+        evans:EV.RM116.V,
+        evans:EV.RM116VSP .
+
+evans:118 a brick:Room ;
+    brick:hasPoint evans:EV.RM118.RT,
+        evans:EV.RM118.SP,
+        evans:EV.RM118.V,
+        evans:EV.RM118VSP .
+
+evans:119 a brick:Room ;
+    brick:hasPoint evans:EV.RM119.RT,
+        evans:EV.RM119.SP,
+        evans:EV.RM119.V,
+        evans:EV.RM119VSP .
+
+evans:120 a brick:Room ;
+    brick:hasPoint evans:EV.RM120.RT,
+        evans:EV.RM120.SP,
+        evans:EV.RM120.V,
+        evans:EV.RM120VSP .
+
+evans:121 a brick:Room ;
+    brick:hasPoint evans:EV.RM121.RT,
+        evans:EV.RM121.SP,
+        evans:EV.RM121.V,
+        evans:EV.RM121VSP .
+
+evans:122 a brick:Room ;
+    brick:hasPoint evans:EV.RM122.RT,
+        evans:EV.RM122.SP,
+        evans:EV.RM122.V,
+        evans:EV.RM122VSP .
+
+evans:200 a brick:Room ;
+    brick:hasPoint evans:EV.RM200.RT,
+        evans:EV.RM200.SP,
+        evans:EV.RM200.V,
+        evans:EV.RM200VSP .
+
+evans:202 a brick:Room ;
+    brick:hasPoint evans:EV.RM202.RT,
+        evans:EV.RM202.SP,
+        evans:EV.RM202.V,
+        evans:EV.RM202VSP .
+
+evans:203 a brick:Room ;
+    brick:hasPoint evans:EV.RM203.RT,
+        evans:EV.RM203.SP,
+        evans:EV.RM203.V,
+        evans:EV.RM203VSP .
+
+evans:204 a brick:Room ;
+    brick:hasPoint evans:EV.RM204.RT,
+        evans:EV.RM204.SP,
+        evans:EV.RM204.V,
+        evans:EV.RM204VSP .
+
+evans:205 a brick:Room ;
+    brick:hasPoint evans:EV.RM205.RT,
+        evans:EV.RM205.SP,
+        evans:EV.RM205.V,
+        evans:EV.RM205VSP .
+
+evans:206 a brick:Room ;
+    brick:hasPoint evans:EV.RM206.RT,
+        evans:EV.RM206.SP,
+        evans:EV.RM206.V,
+        evans:EV.RM206VSP .
+
+evans:207 a brick:Room ;
+    brick:hasPoint evans:EV.RM207.RT,
+        evans:EV.RM207.SP,
+        evans:EV.RM207.V,
+        evans:EV.RM207VSP .
+
+evans:208 a brick:Room ;
+    brick:hasPoint evans:EV.RM208.RT,
+        evans:EV.RM208.SP,
+        evans:EV.RM208.V,
+        evans:EV.RM208VSP .
+
+evans:209 a brick:Room ;
+    brick:hasPoint evans:EV.RM209.RT,
+        evans:EV.RM209.SP,
+        evans:EV.RM209.V,
+        evans:EV.RM209VSP .
+
+evans:211 a brick:Room ;
+    brick:hasPoint evans:EV.RM211.RT,
+        evans:EV.RM211.SP,
+        evans:EV.RM211.V,
+        evans:EV.RM211VSP .
+
+evans:212 a brick:Room ;
+    brick:hasPoint evans:EV.RM212.RT,
+        evans:EV.RM212.SP,
+        evans:EV.RM212.V,
+        evans:EV.RM212VSP .
+
+evans:213 a brick:Room ;
+    brick:hasPoint evans:EV.RM213.RT,
+        evans:EV.RM213.SP,
+        evans:EV.RM213.V,
+        evans:EV.RM213VSP .
+
+evans:214 a brick:Room ;
+    brick:hasPoint evans:EV.RM214.RT,
+        evans:EV.RM214.SP,
+        evans:EV.RM214.V,
+        evans:EV.RM214VSP .
+
+evans:215 a brick:Room ;
+    brick:hasPoint evans:EV.RM215.RT,
+        evans:EV.RM215.SP,
+        evans:EV.RM215.V,
+        evans:EV.RM215VSP .
+
+evans:216 a brick:Room ;
+    brick:hasPoint evans:EV.RM216.RT,
+        evans:EV.RM216.SP,
+        evans:EV.RM216.V,
+        evans:EV.RM216VSP .
+
+evans:219 a brick:Room ;
+    brick:hasPoint evans:EV.RM219.RT,
+        evans:EV.RM219.SP,
+        evans:EV.RM219VSP .
+
+evans:300 a brick:Room ;
+    brick:hasPoint evans:EV.RM300.RT,
+        evans:EV.RM300.SP,
+        evans:EV.RM300.V,
+        evans:EV.RM300VSP .
+
+evans:302 a brick:Room ;
+    brick:hasPoint evans:EV.RM302.RT,
+        evans:EV.RM302.SP,
+        evans:EV.RM302.V,
+        evans:EV.RM302VSP .
+
+evans:303 a brick:Room ;
+    brick:hasPoint evans:EV.RM303.RT,
+        evans:EV.RM303.SP,
+        evans:EV.RM303.V,
+        evans:EV.RM303VSP .
+
+evans:304 a brick:Room ;
+    brick:hasPoint evans:EV.RM304.RT,
+        evans:EV.RM304.SP,
+        evans:EV.RM304.V,
+        evans:EV.RM304VSP .
+
+evans:305 a brick:Room ;
+    brick:hasPoint evans:EV.RM305.RT,
+        evans:EV.RM305.SP,
+        evans:EV.RM305.V,
+        evans:EV.RM305VSP .
+
+evans:306 a brick:Room ;
+    brick:hasPoint evans:EV.RM306.RT,
+        evans:EV.RM306.SP,
+        evans:EV.RM306.V,
+        evans:EV.RM306VSP .
+
+evans:307 a brick:Room ;
+    brick:hasPoint evans:EV.RM307.RT,
+        evans:EV.RM307.SP,
+        evans:EV.RM307.V,
+        evans:EV.RM307VSP .
+
+evans:308 a brick:Room ;
+    brick:hasPoint evans:EV.RM308.RT,
+        evans:EV.RM308.SP,
+        evans:EV.RM308.V,
+        evans:EV.RM308VSP .
+
+evans:309 a brick:Room ;
+    brick:hasPoint evans:EV.RM309.RT,
+        evans:EV.RM309.SP,
+        evans:EV.RM309.V,
+        evans:EV.RM309VSP .
+
+evans:311 a brick:Room ;
+    brick:hasPoint evans:EV.RM311.RT,
+        evans:EV.RM311.SP,
+        evans:EV.RM311.V,
+        evans:EV.RM311VSP .
+
+evans:312 a brick:Room ;
+    brick:hasPoint evans:EV.RM312.RT,
+        evans:EV.RM312.SP,
+        evans:EV.RM312.V,
+        evans:EV.RM312VSP .
+
+evans:313 a brick:Room ;
+    brick:hasPoint evans:EV.RM313.RT,
+        evans:EV.RM313.SP,
+        evans:EV.RM313.V,
+        evans:EV.RM313VSP .
+
+evans:314 a brick:Room ;
+    brick:hasPoint evans:EV.RM314.RT,
+        evans:EV.RM314.SP,
+        evans:EV.RM314.V,
+        evans:EV.RM314VSP .
+
+evans:315 a brick:Room ;
+    brick:hasPoint evans:EV.RM315.RT,
+        evans:EV.RM315.SP,
+        evans:EV.RM315.V,
+        evans:EV.RM315VSP .
+
+evans:316 a brick:Room ;
+    brick:hasPoint evans:EV.RM316.RT,
+        evans:EV.RM316.SP,
+        evans:EV.RM316.V,
+        evans:EV.RM316VSP .
+
+evans:400 a brick:Room ;
+    brick:hasPoint evans:EV.RM400.RT,
+        evans:EV.RM400.SP,
+        evans:EV.RM400.V,
+        evans:EV.RM400VSP .
+
+evans:401 a brick:Room ;
+    brick:hasPoint evans:EV.RM401.RT,
+        evans:EV.RM401.SP,
+        evans:EV.RM401.V,
+        evans:EV.RM401VSP .
+
+evans:402 a brick:Room ;
+    brick:hasPoint evans:EV.RM402.RT,
+        evans:EV.RM402.SP,
+        evans:EV.RM402.V,
+        evans:EV.RM402VSP .
+
+evans:403 a brick:Room ;
+    brick:hasPoint evans:EV.RM403.RT,
+        evans:EV.RM403.SP,
+        evans:EV.RM403.V,
+        evans:EV.RM403VSP .
+
+evans:404 a brick:Room ;
+    brick:hasPoint evans:EV.RM404.RT,
+        evans:EV.RM404.SP,
+        evans:EV.RM404.V,
+        evans:EV.RM404VSP .
+
+evans:405 a brick:Room ;
+    brick:hasPoint evans:EV.RM405.RT,
+        evans:EV.RM405.SP,
+        evans:EV.RM405.V,
+        evans:EV.RM405VSP .
+
+evans:406 a brick:Room ;
+    brick:hasPoint evans:EV.RM406.RT,
+        evans:EV.RM406.SP,
+        evans:EV.RM406.V,
+        evans:EV.RM406VSP .
+
+evans:407 a brick:Room ;
+    brick:hasPoint evans:EV.RM407.RT,
+        evans:EV.RM407.SP,
+        evans:EV.RM407.V,
+        evans:EV.RM407VSP .
+
+evans:411 a brick:Room ;
+    brick:hasPoint evans:EV.RM411.RT,
+        evans:EV.RM411.SP,
+        evans:EV.RM411.V,
+        evans:EV.RM411VSP .
+
+evans:412 a brick:Room ;
+    brick:hasPoint evans:EV.RM412.RT,
+        evans:EV.RM412.SP,
+        evans:EV.RM412.V,
+        evans:EV.RM412VSP .
+
+evans:413 a brick:Room ;
+    brick:hasPoint evans:EV.RM413.RT,
+        evans:EV.RM413.SP,
+        evans:EV.RM413.V,
+        evans:EV.RM413VSP .
+
+evans:414 a brick:Room ;
+    brick:hasPoint evans:EV.RM414.RT,
+        evans:EV.RM414.SP,
+        evans:EV.RM414.V,
+        evans:EV.RM414VSP .
+
+evans:415 a brick:Room ;
+    brick:hasPoint evans:EV.RM415.RT,
+        evans:EV.RM415.SP,
+        evans:EV.RM415.V,
+        evans:EV.RM415VSP .
+
+evans:B4 a brick:Room ;
+    brick:hasPoint evans:EV.RMB4.RT,
+        evans:EV.RMB4.SP,
+        evans:EV.RMB4.V,
+        evans:EV.RMB4VSP .
+
+evans:Basement a brick:Floor ;
+    brick:hasPart evans:B4 .
+
+evans:EV.CUH.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.CUH2.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.CUH2.V a brick:Valve .
+
+evans:EV.CUH3.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.CUH3.V a brick:Valve .
+
+evans:EV.CUHA1.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.CUHA1.V a brick:Valve .
+
+evans:EV.CUHB1.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.CUHB1.V a brick:Valve .
+
+evans:EV.FC1:DAY_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.FC1:DAY_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.FC1:NGT_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.FC1:NGT_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.FC1:RM_STPT_DIAL a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.FC2:DAY_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.FC2:DAY_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.FC2:NGT_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.FC2:NGT_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.FC2:RM_STPT_DIAL a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.FC3:DAY_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.FC3:DAY_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.FC3:NGT_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.FC3:NGT_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.FC3:RM_STPT_DIAL a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.FC6:DAY_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.FC6:DAY_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.FC6:NGT_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.FC6:NGT_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.FC6:RM_STPT_DIAL a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.FCU4.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.FCU4.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.HX1.V a brick:Valve .
+
+evans:EV.RM003.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM003.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM003.V a brick:Valve .
+
+evans:EV.RM003VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM014.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM016.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM016.V a brick:Valve .
+
+evans:EV.RM016VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM102.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM102.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM102.V a brick:Valve .
+
+evans:EV.RM102VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM106.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM106.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM106.V a brick:Valve .
+
+evans:EV.RM106VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM107.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM107.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM107.V a brick:Valve .
+
+evans:EV.RM107VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM108.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM108.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM108.V a brick:Valve .
+
+evans:EV.RM108VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM109.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM109.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM109.V a brick:Valve .
+
+evans:EV.RM109VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM111.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM111.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM111.V a brick:Valve .
+
+evans:EV.RM111VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM112.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM112.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM112.V a brick:Valve .
+
+evans:EV.RM112VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM114.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM114.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM114.V a brick:Valve .
+
+evans:EV.RM114VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM116.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM116.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM116.V a brick:Valve .
+
+evans:EV.RM116VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM118.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM118.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM118.V a brick:Valve .
+
+evans:EV.RM118VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM119.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM119.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM119.V a brick:Valve .
+
+evans:EV.RM119VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM120.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM120.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM120.V a brick:Valve .
+
+evans:EV.RM120VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM121.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM121.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM121.V a brick:Valve .
+
+evans:EV.RM121VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM122.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM122.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM122.V a brick:Valve .
+
+evans:EV.RM122VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM200.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM200.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM200.V a brick:Valve .
+
+evans:EV.RM200VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM202.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM202.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM202.V a brick:Valve .
+
+evans:EV.RM202VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM203.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM203.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM203.V a brick:Valve .
+
+evans:EV.RM203VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM204.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM204.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM204.V a brick:Valve .
+
+evans:EV.RM204VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM205.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM205.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM205.V a brick:Valve .
+
+evans:EV.RM205VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM206.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM206.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM206.V a brick:Valve .
+
+evans:EV.RM206VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM207.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM207.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM207.V a brick:Valve .
+
+evans:EV.RM207VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM208.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM208.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM208.V a brick:Valve .
+
+evans:EV.RM208VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM209.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM209.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM209.V a brick:Valve .
+
+evans:EV.RM209VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM211.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM211.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM211.V a brick:Valve .
+
+evans:EV.RM211VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM212.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM212.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM212.V a brick:Valve .
+
+evans:EV.RM212VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM213.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM213.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM213.V a brick:Valve .
+
+evans:EV.RM213VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM214.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM214.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM214.V a brick:Valve .
+
+evans:EV.RM214VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM215.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM215.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM215.V a brick:Valve .
+
+evans:EV.RM215VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM216.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM216.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM216.V a brick:Valve .
+
+evans:EV.RM216VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM219.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM219.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM219VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM300.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM300.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM300.V a brick:Valve .
+
+evans:EV.RM300VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM302.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM302.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM302.V a brick:Valve .
+
+evans:EV.RM302VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM303.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM303.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM303.V a brick:Valve .
+
+evans:EV.RM303VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM304.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM304.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM304.V a brick:Valve .
+
+evans:EV.RM304VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM305.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM305.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM305.V a brick:Valve .
+
+evans:EV.RM305VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM306.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM306.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM306.V a brick:Valve .
+
+evans:EV.RM306VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM307.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM307.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM307.V a brick:Valve .
+
+evans:EV.RM307VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM308.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM308.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM308.V a brick:Valve .
+
+evans:EV.RM308VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM309.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM309.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM309.V a brick:Valve .
+
+evans:EV.RM309VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM311.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM311.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM311.V a brick:Valve .
+
+evans:EV.RM311VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM312.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM312.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM312.V a brick:Valve .
+
+evans:EV.RM312VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM313.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM313.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM313.V a brick:Valve .
+
+evans:EV.RM313VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM314.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM314.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM314.V a brick:Valve .
+
+evans:EV.RM314VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM315.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM315.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM315.V a brick:Valve .
+
+evans:EV.RM315VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM316.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM316.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM316.V a brick:Valve .
+
+evans:EV.RM316VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM400.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM400.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM400.V a brick:Valve .
+
+evans:EV.RM400VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM401.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM401.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM401.V a brick:Valve .
+
+evans:EV.RM401VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM402.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM402.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM402.V a brick:Valve .
+
+evans:EV.RM402VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM403.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM403.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM403.V a brick:Valve .
+
+evans:EV.RM403VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM404.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM404.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM404.V a brick:Valve .
+
+evans:EV.RM404VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM405.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM405.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM405.V a brick:Valve .
+
+evans:EV.RM405VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM406.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM406.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM406.V a brick:Valve .
+
+evans:EV.RM406VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM407.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM407.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM407.V a brick:Valve .
+
+evans:EV.RM407VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM411.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM411.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM411.V a brick:Valve .
+
+evans:EV.RM411VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM412.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM412.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM412.V a brick:Valve .
+
+evans:EV.RM412VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM413.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM413.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM413.V a brick:Valve .
+
+evans:EV.RM413VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM414.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM414.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM414.V a brick:Valve .
+
+evans:EV.RM414VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM415.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RM415.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RM415.V a brick:Valve .
+
+evans:EV.RM415VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMB4.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMB4.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMB4.V a brick:Valve .
+
+evans:EV.RMB4VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG04.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG04.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG04.V a brick:Valve .
+
+evans:EV.RMG04VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG05.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG05.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG05.V a brick:Valve .
+
+evans:EV.RMG05VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG06.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG06.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG06.V a brick:Valve .
+
+evans:EV.RMG06VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG07.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG07.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG07.V a brick:Valve .
+
+evans:EV.RMG07VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG08.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG08.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG08.V a brick:Valve .
+
+evans:EV.RMG08VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG09.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG09.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG09.V a brick:Valve .
+
+evans:EV.RMG09VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG10.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG10.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG10.V a brick:Valve .
+
+evans:EV.RMG10VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG11.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG11.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG11.V a brick:Valve .
+
+evans:EV.RMG11VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG14.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG14.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG14.V a brick:Valve .
+
+evans:EV.RMG14VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG16.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG16.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG16.V a brick:Valve .
+
+evans:EV.RMG16VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG17.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG17.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG17.V a brick:Valve .
+
+evans:EV.RMG17VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG18.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG18.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG18.V a brick:Valve .
+
+evans:EV.RMG18VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG19.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG19.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG19.V a brick:Valve .
+
+evans:EV.RMG19VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG20.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG20.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG20.V a brick:Valve .
+
+evans:EV.RMG20VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG21.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG21.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG21.V a brick:Valve .
+
+evans:EV.RMG21VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG26.RT a brick:Air_Temperature_Sensor .
+
+evans:EV.RMG26.SP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.RMG26.V a brick:Valve .
+
+evans:EV.RMG26VSP a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.UH1:DAY_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.UH1:DAY_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.UH1:NGT_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.UH1:NGT_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.UH1:RM_STPT_DIAL a brick:Room_Air_Temperature_Setpoint .
+
+evans:EV.UH2:DAY_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.UH2:DAY_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.UH2:NGT_CLG_STPT a brick:Cooling_Temperature_Setpoint .
+
+evans:EV.UH2:NGT_HTG_STPT a brick:Heating_Temperature_Setpoint .
+
+evans:EV.UH2:RM_STPT_DIAL a brick:Room_Air_Temperature_Setpoint .
+
+evans:First-Floor a brick:Floor ;
+    brick:hasPart evans:102,
+        evans:106,
+        evans:107,
+        evans:108,
+        evans:109,
+        evans:111,
+        evans:112,
+        evans:114,
+        evans:116,
+        evans:118,
+        evans:119,
+        evans:120,
+        evans:121,
+        evans:122 .
+
+evans:Fourth-Floor a brick:Floor ;
+    brick:hasPart evans:400,
+        evans:401,
+        evans:402,
+        evans:403,
+        evans:404,
+        evans:405,
+        evans:406,
+        evans:407,
+        evans:411,
+        evans:412,
+        evans:413,
+        evans:414,
+        evans:415 .
+
+evans:G04 a brick:Room ;
+    brick:hasPoint evans:EV.RMG04.RT,
+        evans:EV.RMG04.SP,
+        evans:EV.RMG04.V,
+        evans:EV.RMG04VSP .
+
+evans:G05 a brick:Room ;
+    brick:hasPoint evans:EV.RMG05.RT,
+        evans:EV.RMG05.SP,
+        evans:EV.RMG05.V,
+        evans:EV.RMG05VSP .
+
+evans:G06 a brick:Room ;
+    brick:hasPoint evans:EV.RMG06.RT,
+        evans:EV.RMG06.SP,
+        evans:EV.RMG06.V,
+        evans:EV.RMG06VSP .
+
+evans:G07 a brick:Room ;
+    brick:hasPoint evans:EV.RMG07.RT,
+        evans:EV.RMG07.SP,
+        evans:EV.RMG07.V,
+        evans:EV.RMG07VSP .
+
+evans:G08 a brick:Room ;
+    brick:hasPoint evans:EV.RMG08.RT,
+        evans:EV.RMG08.SP,
+        evans:EV.RMG08.V,
+        evans:EV.RMG08VSP .
+
+evans:G09 a brick:Room ;
+    brick:hasPoint evans:EV.RMG09.RT,
+        evans:EV.RMG09.SP,
+        evans:EV.RMG09.V,
+        evans:EV.RMG09VSP .
+
+evans:G10 a brick:Room ;
+    brick:hasPoint evans:EV.RMG10.RT,
+        evans:EV.RMG10.SP,
+        evans:EV.RMG10.V,
+        evans:EV.RMG10VSP .
+
+evans:G11 a brick:Room ;
+    brick:hasPoint evans:EV.RMG11.RT,
+        evans:EV.RMG11.SP,
+        evans:EV.RMG11.V,
+        evans:EV.RMG11VSP .
+
+evans:G14 a brick:Room ;
+    brick:hasPoint evans:EV.RMG14.RT,
+        evans:EV.RMG14.SP,
+        evans:EV.RMG14.V,
+        evans:EV.RMG14VSP .
+
+evans:G16 a brick:Room ;
+    brick:hasPoint evans:EV.RMG16.RT,
+        evans:EV.RMG16.SP,
+        evans:EV.RMG16.V,
+        evans:EV.RMG16VSP .
+
+evans:G17 a brick:Room ;
+    brick:hasPoint evans:EV.RMG17.RT,
+        evans:EV.RMG17.SP,
+        evans:EV.RMG17.V,
+        evans:EV.RMG17VSP .
+
+evans:G18 a brick:Room ;
+    brick:hasPoint evans:EV.RMG18.RT,
+        evans:EV.RMG18.SP,
+        evans:EV.RMG18.V,
+        evans:EV.RMG18VSP .
+
+evans:G19 a brick:Room ;
+    brick:hasPoint evans:EV.RMG19.RT,
+        evans:EV.RMG19.SP,
+        evans:EV.RMG19.V,
+        evans:EV.RMG19VSP .
+
+evans:G20 a brick:Room ;
+    brick:hasPoint evans:EV.RMG20.RT,
+        evans:EV.RMG20.SP,
+        evans:EV.RMG20.V,
+        evans:EV.RMG20VSP .
+
+evans:G21 a brick:Room ;
+    brick:hasPoint evans:EV.RMG21.RT,
+        evans:EV.RMG21.SP,
+        evans:EV.RMG21.V,
+        evans:EV.RMG21VSP .
+
+evans:G26 a brick:Room ;
+    brick:hasPoint evans:EV.RMG26.RT,
+        evans:EV.RMG26.SP,
+        evans:EV.RMG26.V,
+        evans:EV.RMG26VSP .
+
+evans:Ground-Floor a brick:Floor ;
+    brick:hasPart evans:003,
+        evans:014,
+        evans:016,
+        evans:G04,
+        evans:G05,
+        evans:G06,
+        evans:G07,
+        evans:G08,
+        evans:G09,
+        evans:G10,
+        evans:G11,
+        evans:G14,
+        evans:G16,
+        evans:G17,
+        evans:G18,
+        evans:G19,
+        evans:G20,
+        evans:G21,
+        evans:G26 .
+
+evans:No-Floor a brick:Floor ;
+    brick:hasPart evans:Unidentified ;
+    brick:hasPoint evans:EV.CUH.SP,
+        evans:EV.CUH2.RT,
+        evans:EV.CUH2.V,
+        evans:EV.CUH3.RT,
+        evans:EV.CUH3.V,
+        evans:EV.CUHA1.RT,
+        evans:EV.CUHA1.V,
+        evans:EV.CUHB1.RT,
+        evans:EV.CUHB1.V,
+        evans:EV.FC1:DAY_CLG_STPT,
+        evans:EV.FC1:DAY_HTG_STPT,
+        evans:EV.FC1:NGT_CLG_STPT,
+        evans:EV.FC1:NGT_HTG_STPT,
+        evans:EV.FC1:RM_STPT_DIAL,
+        evans:EV.FC2:DAY_CLG_STPT,
+        evans:EV.FC2:DAY_HTG_STPT,
+        evans:EV.FC2:NGT_CLG_STPT,
+        evans:EV.FC2:NGT_HTG_STPT,
+        evans:EV.FC2:RM_STPT_DIAL,
+        evans:EV.FC3:DAY_CLG_STPT,
+        evans:EV.FC3:DAY_HTG_STPT,
+        evans:EV.FC3:NGT_CLG_STPT,
+        evans:EV.FC3:NGT_HTG_STPT,
+        evans:EV.FC3:RM_STPT_DIAL,
+        evans:EV.FC6:DAY_CLG_STPT,
+        evans:EV.FC6:DAY_HTG_STPT,
+        evans:EV.FC6:NGT_CLG_STPT,
+        evans:EV.FC6:NGT_HTG_STPT,
+        evans:EV.FC6:RM_STPT_DIAL,
+        evans:EV.FCU4.RT,
+        evans:EV.FCU4.SP,
+        evans:EV.HX1.V,
+        evans:EV.UH1:DAY_CLG_STPT,
+        evans:EV.UH1:DAY_HTG_STPT,
+        evans:EV.UH1:NGT_CLG_STPT,
+        evans:EV.UH1:NGT_HTG_STPT,
+        evans:EV.UH1:RM_STPT_DIAL,
+        evans:EV.UH2:DAY_CLG_STPT,
+        evans:EV.UH2:DAY_HTG_STPT,
+        evans:EV.UH2:NGT_CLG_STPT,
+        evans:EV.UH2:NGT_HTG_STPT,
+        evans:EV.UH2:RM_STPT_DIAL .
+
+evans:Second-Floor a brick:Floor ;
+    brick:hasPart evans:200,
+        evans:202,
+        evans:203,
+        evans:204,
+        evans:205,
+        evans:206,
+        evans:207,
+        evans:208,
+        evans:209,
+        evans:211,
+        evans:212,
+        evans:213,
+        evans:214,
+        evans:215,
+        evans:216,
+        evans:219 .
+
+evans:Third-Floor a brick:Floor ;
+    brick:hasPart evans:300,
+        evans:302,
+        evans:303,
+        evans:304,
+        evans:305,
+        evans:306,
+        evans:307,
+        evans:308,
+        evans:309,
+        evans:311,
+        evans:312,
+        evans:313,
+        evans:314,
+        evans:315,
+        evans:316 .
+
+evans:Unidentified a brick:Room .
+
+hulings:02 a brick:Room ;
+    brick:hasPoint hulings:HU.RB02.DSET,
+        hulings:HU.RB02.EDMP,
+        hulings:HU.RB02.ESET,
+        hulings:HU.RB02.EXCFM,
+        hulings:HU.RB02.EXSET,
+        hulings:HU.RB02.FCFM,
+        hulings:HU.RB02.FDIFF,
+        hulings:HU.RB02.OCC,
+        hulings:HU.RB02.OSUP,
+        hulings:HU.RB02.RM,
+        hulings:HU.RB02.RMT,
+        hulings:HU.RB02.RSET,
+        hulings:HU.RB02.SASET,
+        hulings:HU.RB02.SCFM,
+        hulings:HU.RB02.SDMP,
+        hulings:HU.RB02.SSET,
+        hulings:HU.RB02.TSUP,
+        hulings:HU.RB02A.DSET,
+        hulings:HU.RB02A.FCFM,
+        hulings:HU.RB02A.FDIFF,
+        hulings:HU.RB02A.OCC,
+        hulings:HU.RB02A.RMT,
+        hulings:HU.RB02A.RSET,
+        hulings:HU.RB02A.SASET,
+        hulings:HU.RB02A.SCFM,
+        hulings:HU.RB02A.SDMP,
+        hulings:HU.RB02A.SSET .
+
+hulings:03 a brick:Room ;
+    brick:hasPoint hulings:HU.RB03.DSET,
+        hulings:HU.RB03.FCFM,
+        hulings:HU.RB03.FDIFF,
+        hulings:HU.RB03.OCC,
+        hulings:HU.RB03.RM,
+        hulings:HU.RB03.RMT,
+        hulings:HU.RB03.RSET,
+        hulings:HU.RB03.SASET,
+        hulings:HU.RB03.SCFM,
+        hulings:HU.RB03.SDMP,
+        hulings:HU.RB03.SSET .
+
+hulings:1 a brick:Room ;
+    brick:hasPoint hulings:HU.R1AA.OCC,
+        hulings:HU.R1AA.OSUP,
+        hulings:HU.R1AA.RM,
+        hulings:HU.R1AA.RMT,
+        hulings:HU.R1AA.RSET,
+        hulings:HU.R1AA.SACFM,
+        hulings:HU.R1AA.SASET,
+        hulings:HU.R1AA.SCFM,
+        hulings:HU.R1AA.SDMP,
+        hulings:HU.R1AA.TSUP,
+        hulings:HU.R1AC.OCC,
+        hulings:HU.R1AC.OSUP,
+        hulings:HU.R1AC.RM,
+        hulings:HU.R1AC.RMT,
+        hulings:HU.R1AC.RSET,
+        hulings:HU.R1AC.SACFM,
+        hulings:HU.R1AC.SASET,
+        hulings:HU.R1AC.SCFM,
+        hulings:HU.R1AC.SDMP,
+        hulings:HU.R1AC.SSET,
+        hulings:HU.R1AC.TSUP,
+        hulings:HU.R1AG.OCC,
+        hulings:HU.R1AG.OSUP,
+        hulings:HU.R1AG.RM,
+        hulings:HU.R1AG.RSET,
+        hulings:HU.R1AG.SACFM,
+        hulings:HU.R1AG.SCFM,
+        hulings:HU.R1AG.SDMP,
+        hulings:HU.R1AG.SSET,
+        hulings:HU.R1AG.TSUP,
+        hulings:HU.R1AH.OCC,
+        hulings:HU.R1AH.OSUP,
+        hulings:HU.R1AH.RM,
+        hulings:HU.R1AH.RMT,
+        hulings:HU.R1AH.RSET,
+        hulings:HU.R1AH.SACFM,
+        hulings:HU.R1AH.SCFM,
+        hulings:HU.R1AH.SDMP,
+        hulings:HU.R1AH.SSET,
+        hulings:HU.R1AH.TSUP .
+
+hulings:102 a brick:Room ;
+    brick:hasPoint hulings:HU.R102.DSET,
+        hulings:HU.R102.ECFM,
+        hulings:HU.R102.EDMP,
+        hulings:HU.R102.ESET,
+        hulings:HU.R102.EXCFM,
+        hulings:HU.R102.EXSET,
+        hulings:HU.R102.FCFM,
+        hulings:HU.R102.FDIFF,
+        hulings:HU.R102.MSAIR,
+        hulings:HU.R102.OCC,
+        hulings:HU.R102.OSUP,
+        hulings:HU.R102.RM,
+        hulings:HU.R102.RMT,
+        hulings:HU.R102.RSET,
+        hulings:HU.R102.SACFM,
+        hulings:HU.R102.SASET,
+        hulings:HU.R102.SCFM,
+        hulings:HU.R102.SDMP,
+        hulings:HU.R102.SSET,
+        hulings:HU.R102.TSUP .
+
+hulings:109 a brick:Room ;
+    brick:hasPoint hulings:HU.R109.DSET,
+        hulings:HU.R109.FDIFF,
+        hulings:HU.R109.OCC,
+        hulings:HU.R109.OSUP,
+        hulings:HU.R109.RM,
+        hulings:HU.R109.RMT,
+        hulings:HU.R109.RSET,
+        hulings:HU.R109.SACFM,
+        hulings:HU.R109.SASET,
+        hulings:HU.R109.SCFM,
+        hulings:HU.R109.SDMP,
+        hulings:HU.R109.SSET,
+        hulings:HU.R109.TSUP .
+
+hulings:111 a brick:Room ;
+    brick:hasPoint hulings:HU.R111.DSET,
+        hulings:HU.R111.FCFM,
+        hulings:HU.R111.FDIFF,
+        hulings:HU.R111.OCC,
+        hulings:HU.R111.OSUP,
+        hulings:HU.R111.RM,
+        hulings:HU.R111.RMT,
+        hulings:HU.R111.RSET,
+        hulings:HU.R111.SACFM,
+        hulings:HU.R111.SASET,
+        hulings:HU.R111.SCFM,
+        hulings:HU.R111.SDMP,
+        hulings:HU.R111.SSET,
+        hulings:HU.R111.TSUP,
+        hulings:HU.R111A.FCFM,
+        hulings:HU.R111A.OCC,
+        hulings:HU.R111A.OSUP,
+        hulings:HU.R111A.RM,
+        hulings:HU.R111A.RSET,
+        hulings:HU.R111A.SACFM,
+        hulings:HU.R111A.SCFM,
+        hulings:HU.R111A.SDMP,
+        hulings:HU.R111A.SSET,
+        hulings:HU.R111A.TSUP .
+
+hulings:112 a brick:Room ;
+    brick:hasPoint hulings:HU.R112.DSET,
+        hulings:HU.R112.FDIFF,
+        hulings:HU.R112.OCC,
+        hulings:HU.R112.OSUP,
+        hulings:HU.R112.RM,
+        hulings:HU.R112.RMT,
+        hulings:HU.R112.RSET,
+        hulings:HU.R112.SACFM,
+        hulings:HU.R112.SASET,
+        hulings:HU.R112.SCFM,
+        hulings:HU.R112.SDMP,
+        hulings:HU.R112.SSET,
+        hulings:HU.R112.TSUP .
+
+hulings:121 a brick:Room ;
+    brick:hasPoint hulings:HU.R121.DSET,
+        hulings:HU.R121.ECFM,
+        hulings:HU.R121.EDMP,
+        hulings:HU.R121.ESET,
+        hulings:HU.R121.EXCFM,
+        hulings:HU.R121.EXSET,
+        hulings:HU.R121.FCFM,
+        hulings:HU.R121.FDIFF,
+        hulings:HU.R121.MSAIR,
+        hulings:HU.R121.OCC,
+        hulings:HU.R121.OSUP,
+        hulings:HU.R121.RM,
+        hulings:HU.R121.RMT,
+        hulings:HU.R121.RMTP,
+        hulings:HU.R121.RSET,
+        hulings:HU.R121.SACFM,
+        hulings:HU.R121.SASET,
+        hulings:HU.R121.SCFM,
+        hulings:HU.R121.SDMP,
+        hulings:HU.R121.SSET,
+        hulings:HU.R121.TSUP,
+        hulings:HU.R121B.DSET,
+        hulings:HU.R121B.ECFM,
+        hulings:HU.R121B.EDMP,
+        hulings:HU.R121B.ESET,
+        hulings:HU.R121B.EXCFM,
+        hulings:HU.R121B.EXSET,
+        hulings:HU.R121B.FCFM,
+        hulings:HU.R121B.FDIFF,
+        hulings:HU.R121B.MSAIR,
+        hulings:HU.R121B.OCC,
+        hulings:HU.R121B.OSUP,
+        hulings:HU.R121B.RM,
+        hulings:HU.R121B.RMT,
+        hulings:HU.R121B.RMTP,
+        hulings:HU.R121B.RSET,
+        hulings:HU.R121B.SACFM,
+        hulings:HU.R121B.SASET,
+        hulings:HU.R121B.SCFM,
+        hulings:HU.R121B.SDMP,
+        hulings:HU.R121B.SSET,
+        hulings:HU.R121B.TSUP .
+
+hulings:2 a brick:Room ;
+    brick:hasPoint hulings:HU.R2AA.OCC,
+        hulings:HU.R2AA.OSUP,
+        hulings:HU.R2AA.RM,
+        hulings:HU.R2AA.RMT,
+        hulings:HU.R2AA.RSET,
+        hulings:HU.R2AA.SACFM,
+        hulings:HU.R2AA.SASET,
+        hulings:HU.R2AA.SCFM,
+        hulings:HU.R2AA.SDMP,
+        hulings:HU.R2AA.SSET,
+        hulings:HU.R2AA.TSUP,
+        hulings:HU.R2AD.OCC,
+        hulings:HU.R2AD.OSUP,
+        hulings:HU.R2AD.RM,
+        hulings:HU.R2AD.RMT,
+        hulings:HU.R2AD.RSET,
+        hulings:HU.R2AD.SACFM,
+        hulings:HU.R2AD.SASET,
+        hulings:HU.R2AD.SCFM,
+        hulings:HU.R2AD.SDMP,
+        hulings:HU.R2AD.TSUP,
+        hulings:HU.R2AG.OCC,
+        hulings:HU.R2AG.OSUP,
+        hulings:HU.R2AG.RM,
+        hulings:HU.R2AG.RMT,
+        hulings:HU.R2AG.RSET,
+        hulings:HU.R2AG.SACFM,
+        hulings:HU.R2AG.SASET,
+        hulings:HU.R2AG.SCFM,
+        hulings:HU.R2AG.SDMP,
+        hulings:HU.R2AG.SSET,
+        hulings:HU.R2AG.TSUP .
+
+hulings:202 a brick:Room ;
+    brick:hasPoint hulings:HU.R202.DSET,
+        hulings:HU.R202.ECFM,
+        hulings:HU.R202.EDMP,
+        hulings:HU.R202.ESET,
+        hulings:HU.R202.EXCFM,
+        hulings:HU.R202.EXSET,
+        hulings:HU.R202.FCFM,
+        hulings:HU.R202.FDIFF,
+        hulings:HU.R202.MSAIR,
+        hulings:HU.R202.OCC,
+        hulings:HU.R202.OSUP,
+        hulings:HU.R202.RM,
+        hulings:HU.R202.RMT,
+        hulings:HU.R202.RSET,
+        hulings:HU.R202.SACFM,
+        hulings:HU.R202.SASET,
+        hulings:HU.R202.SCFM,
+        hulings:HU.R202.SDMP,
+        hulings:HU.R202.SSET,
+        hulings:HU.R202.TSUP .
+
+hulings:203 a brick:Room ;
+    brick:hasPoint hulings:HU.R203.DSET,
+        hulings:HU.R203.ECFM,
+        hulings:HU.R203.EDMP,
+        hulings:HU.R203.ESET,
+        hulings:HU.R203.EXCFM,
+        hulings:HU.R203.EXSET,
+        hulings:HU.R203.FCFM,
+        hulings:HU.R203.FDIFF,
+        hulings:HU.R203.MSAIR,
+        hulings:HU.R203.OCC,
+        hulings:HU.R203.OSUP,
+        hulings:HU.R203.RM,
+        hulings:HU.R203.RMT,
+        hulings:HU.R203.RSET,
+        hulings:HU.R203.SACFM,
+        hulings:HU.R203.SASET,
+        hulings:HU.R203.SCFM,
+        hulings:HU.R203.SDMP,
+        hulings:HU.R203.SSET,
+        hulings:HU.R203.TSUP,
+        hulings:HU.R203A.DSET,
+        hulings:HU.R203A.ECFM,
+        hulings:HU.R203A.EDMP,
+        hulings:HU.R203A.ESET,
+        hulings:HU.R203A.EXCFM,
+        hulings:HU.R203A.FCFM,
+        hulings:HU.R203A.FDIFF,
+        hulings:HU.R203A.MSAIR,
+        hulings:HU.R203A.OCC,
+        hulings:HU.R203A.OSUP,
+        hulings:HU.R203A.RM,
+        hulings:HU.R203A.RMT,
+        hulings:HU.R203A.RSET,
+        hulings:HU.R203A.SACFM,
+        hulings:HU.R203A.SASET,
+        hulings:HU.R203A.SCFM,
+        hulings:HU.R203A.SDMP,
+        hulings:HU.R203A.SSET .
+
+hulings:206 a brick:Room ;
+    brick:hasPoint hulings:HU.R206.DSET,
+        hulings:HU.R206.ECFM,
+        hulings:HU.R206.EDMP,
+        hulings:HU.R206.ESET,
+        hulings:HU.R206.EXCFM,
+        hulings:HU.R206.EXSET,
+        hulings:HU.R206.FCFM,
+        hulings:HU.R206.FDIFF,
+        hulings:HU.R206.MSAIR,
+        hulings:HU.R206.OCC,
+        hulings:HU.R206.OSUP,
+        hulings:HU.R206.RM,
+        hulings:HU.R206.RMT,
+        hulings:HU.R206.RSET,
+        hulings:HU.R206.SACFM,
+        hulings:HU.R206.SASET,
+        hulings:HU.R206.SCFM,
+        hulings:HU.R206.SDMP,
+        hulings:HU.R206.SSET,
+        hulings:HU.R206.TSUP .
+
+hulings:207 a brick:Room ;
+    brick:hasPoint hulings:HU.R207.DSET,
+        hulings:HU.R207.ESET,
+        hulings:HU.R207.EXSET,
+        hulings:HU.R207.FCFM,
+        hulings:HU.R207.FDIFF,
+        hulings:HU.R207.OCC,
+        hulings:HU.R207.OSUP,
+        hulings:HU.R207.RM,
+        hulings:HU.R207.RMT,
+        hulings:HU.R207.RSET,
+        hulings:HU.R207.SACFM,
+        hulings:HU.R207.SASET,
+        hulings:HU.R207.SCFM,
+        hulings:HU.R207.SDMP,
+        hulings:HU.R207.SSET .
+
+hulings:212 a brick:Room ;
+    brick:hasPoint hulings:HU.R212.DSET,
+        hulings:HU.R212.FDIFF,
+        hulings:HU.R212.OCC,
+        hulings:HU.R212.OSUP,
+        hulings:HU.R212.RM,
+        hulings:HU.R212.RMT,
+        hulings:HU.R212.RSET,
+        hulings:HU.R212.SACFM,
+        hulings:HU.R212.SASET,
+        hulings:HU.R212.SCFM,
+        hulings:HU.R212.SDMP,
+        hulings:HU.R212.SSET,
+        hulings:HU.R212.TSUP .
+
+hulings:213 a brick:Room ;
+    brick:hasPoint hulings:HU.R213.DSET,
+        hulings:HU.R213.ECFM,
+        hulings:HU.R213.EDMP,
+        hulings:HU.R213.ESET,
+        hulings:HU.R213.EXCFM,
+        hulings:HU.R213.EXSET,
+        hulings:HU.R213.FCFM,
+        hulings:HU.R213.FDIFF,
+        hulings:HU.R213.MSAIR,
+        hulings:HU.R213.OCC,
+        hulings:HU.R213.OSUP,
+        hulings:HU.R213.RM,
+        hulings:HU.R213.RMT,
+        hulings:HU.R213.RSET,
+        hulings:HU.R213.SACFM,
+        hulings:HU.R213.SASET,
+        hulings:HU.R213.SCFM,
+        hulings:HU.R213.SDMP,
+        hulings:HU.R213.SSET,
+        hulings:HU.R213.TSUP,
+        hulings:HU.R213B.DSET,
+        hulings:HU.R213B.ECFM,
+        hulings:HU.R213B.EDMP,
+        hulings:HU.R213B.ESET,
+        hulings:HU.R213B.EXCFM,
+        hulings:HU.R213B.EXSET,
+        hulings:HU.R213B.FDIFF,
+        hulings:HU.R213B.MSAIR,
+        hulings:HU.R213B.NACRMT,
+        hulings:HU.R213B.OCC,
+        hulings:HU.R213B.OSUP,
+        hulings:HU.R213B.RM,
+        hulings:HU.R213B.RMT,
+        hulings:HU.R213B.RSET,
+        hulings:HU.R213B.SACFM,
+        hulings:HU.R213B.SASET,
+        hulings:HU.R213B.SCFM,
+        hulings:HU.R213B.SDMP,
+        hulings:HU.R213B.SSET,
+        hulings:HU.R213B.TSUP .
+
+hulings:215 a brick:Room ;
+    brick:hasPoint hulings:HU.R215.DSET,
+        hulings:HU.R215.ECFM,
+        hulings:HU.R215.EDMP,
+        hulings:HU.R215.ESET,
+        hulings:HU.R215.EXCFM,
+        hulings:HU.R215.EXSET,
+        hulings:HU.R215.FCFM,
+        hulings:HU.R215.FDIFF,
+        hulings:HU.R215.MSAIR,
+        hulings:HU.R215.OCC,
+        hulings:HU.R215.OSUP,
+        hulings:HU.R215.RM,
+        hulings:HU.R215.RMT,
+        hulings:HU.R215.RSET,
+        hulings:HU.R215.SACFM,
+        hulings:HU.R215.SASET,
+        hulings:HU.R215.SCFM,
+        hulings:HU.R215.SDMP,
+        hulings:HU.R215.SSET,
+        hulings:HU.R215.TSUP .
+
+hulings:218 a brick:Room ;
+    brick:hasPoint hulings:HU.R218.DSET,
+        hulings:HU.R218.ECFM,
+        hulings:HU.R218.EDMP,
+        hulings:HU.R218.ESET,
+        hulings:HU.R218.EXCFM,
+        hulings:HU.R218.EXSET,
+        hulings:HU.R218.FCFM,
+        hulings:HU.R218.FDIFF,
+        hulings:HU.R218.MSAIR,
+        hulings:HU.R218.OCC,
+        hulings:HU.R218.OSUP,
+        hulings:HU.R218.RM,
+        hulings:HU.R218.RMT,
+        hulings:HU.R218.RSET,
+        hulings:HU.R218.SACFM,
+        hulings:HU.R218.SASET,
+        hulings:HU.R218.SCFM,
+        hulings:HU.R218.SDMP,
+        hulings:HU.R218.SSET,
+        hulings:HU.R218.TSUP .
+
+hulings:220 a brick:Room ;
+    brick:hasPoint hulings:HU.R220A.DSET,
+        hulings:HU.R220A.ECFM,
+        hulings:HU.R220A.EDMP,
+        hulings:HU.R220A.ESET,
+        hulings:HU.R220A.EXCFM,
+        hulings:HU.R220A.EXSET,
+        hulings:HU.R220A.FCFM,
+        hulings:HU.R220A.FDIFF,
+        hulings:HU.R220A.OCC,
+        hulings:HU.R220A.OSUP,
+        hulings:HU.R220A.RM,
+        hulings:HU.R220A.RMT,
+        hulings:HU.R220A.RSET,
+        hulings:HU.R220A.SACFM,
+        hulings:HU.R220A.SASET,
+        hulings:HU.R220A.SCFM,
+        hulings:HU.R220A.SDMP,
+        hulings:HU.R220A.SSET,
+        hulings:HU.R220A.TSUP .
+
+hulings:3 a brick:Room ;
+    brick:hasPoint hulings:HU.R3AA.RM,
+        hulings:HU.R3AA.RMT,
+        hulings:HU.R3AA.RSET,
+        hulings:HU.R3AA.SCFM,
+        hulings:HU.R3AA.SDMP,
+        hulings:HU.R3AA.SSET .
+
+hulings:300 a brick:Room ;
+    brick:hasPoint hulings:HU.R300.DSET,
+        hulings:HU.R300.ECFM,
+        hulings:HU.R300.EDMP,
+        hulings:HU.R300.ESET,
+        hulings:HU.R300.FCFM,
+        hulings:HU.R300.FDIFF,
+        hulings:HU.R300.MSAIR,
+        hulings:HU.R300.OCC,
+        hulings:HU.R300.OSUP,
+        hulings:HU.R300.RM,
+        hulings:HU.R300.RMT,
+        hulings:HU.R300.RSET,
+        hulings:HU.R300.SCFM,
+        hulings:HU.R300.SDMP,
+        hulings:HU.R300.SSET,
+        hulings:HU.R300.TSUP .
+
+hulings:302 a brick:Room ;
+    brick:hasPoint hulings:HU.R302.DSET,
+        hulings:HU.R302.ECFM,
+        hulings:HU.R302.EDMP,
+        hulings:HU.R302.ESET,
+        hulings:HU.R302.EXCFM,
+        hulings:HU.R302.EXSET,
+        hulings:HU.R302.FCFM,
+        hulings:HU.R302.FDIFF,
+        hulings:HU.R302.MSAIR,
+        hulings:HU.R302.OCC,
+        hulings:HU.R302.OSUP,
+        hulings:HU.R302.RM,
+        hulings:HU.R302.RMT,
+        hulings:HU.R302.RSET,
+        hulings:HU.R302.SACFM,
+        hulings:HU.R302.SASET,
+        hulings:HU.R302.SCFM,
+        hulings:HU.R302.SDMP,
+        hulings:HU.R302.SSET,
+        hulings:HU.R302.TSUP .
+
+hulings:307 a brick:Room ;
+    brick:hasPoint hulings:HU.R307.DSET,
+        hulings:HU.R307.ECFM,
+        hulings:HU.R307.EDMP,
+        hulings:HU.R307.ESET,
+        hulings:HU.R307.FCFM,
+        hulings:HU.R307.FDIFF,
+        hulings:HU.R307.MSAIR,
+        hulings:HU.R307.OCC,
+        hulings:HU.R307.OSUP,
+        hulings:HU.R307.RM,
+        hulings:HU.R307.RMT,
+        hulings:HU.R307.RSET,
+        hulings:HU.R307.SCFM,
+        hulings:HU.R307.SDMP,
+        hulings:HU.R307.SSET,
+        hulings:HU.R307.TSUP .
+
+hulings:310 a brick:Room ;
+    brick:hasPoint hulings:HU.R310.DSET,
+        hulings:HU.R310.ECFM,
+        hulings:HU.R310.EDMP,
+        hulings:HU.R310.ESET,
+        hulings:HU.R310.EXCFM,
+        hulings:HU.R310.EXSET,
+        hulings:HU.R310.FCFM,
+        hulings:HU.R310.FDIFF,
+        hulings:HU.R310.MSAIR,
+        hulings:HU.R310.OCC,
+        hulings:HU.R310.OSUP,
+        hulings:HU.R310.RM,
+        hulings:HU.R310.RMT,
+        hulings:HU.R310.RSET,
+        hulings:HU.R310.SACFM,
+        hulings:HU.R310.SASET,
+        hulings:HU.R310.SCFM,
+        hulings:HU.R310.SDMP,
+        hulings:HU.R310.SSET,
+        hulings:HU.R310.TSUP .
+
+hulings:315 a brick:Room ;
+    brick:hasPoint hulings:HU.R315.DSET,
+        hulings:HU.R315.ECFM,
+        hulings:HU.R315.EDMP,
+        hulings:HU.R315.ESET,
+        hulings:HU.R315.FCFM,
+        hulings:HU.R315.FDIFF,
+        hulings:HU.R315.MSAIR,
+        hulings:HU.R315.OCC,
+        hulings:HU.R315.OSUP,
+        hulings:HU.R315.RM,
+        hulings:HU.R315.RMT,
+        hulings:HU.R315.RSET,
+        hulings:HU.R315.SCFM,
+        hulings:HU.R315.SDMP,
+        hulings:HU.R315.SSET,
+        hulings:HU.R315.TSUP .
+
+hulings:319 a brick:Room ;
+    brick:hasPoint hulings:HU.R319.DSET,
+        hulings:HU.R319.ECFM,
+        hulings:HU.R319.EDMP,
+        hulings:HU.R319.ESET,
+        hulings:HU.R319.EXCFM,
+        hulings:HU.R319.EXSET,
+        hulings:HU.R319.FCFM,
+        hulings:HU.R319.FDIFF,
+        hulings:HU.R319.MSAIR,
+        hulings:HU.R319.OCC,
+        hulings:HU.R319.OSUP,
+        hulings:HU.R319.RM,
+        hulings:HU.R319.RMT,
+        hulings:HU.R319.RSET,
+        hulings:HU.R319.SACFM,
+        hulings:HU.R319.SASET,
+        hulings:HU.R319.SCFM,
+        hulings:HU.R319.SDMP,
+        hulings:HU.R319.SSET,
+        hulings:HU.R319.TSUP .
+
+hulings:320 a brick:Room ;
+    brick:hasPoint hulings:HU.R320.DSET,
+        hulings:HU.R320.ECFM,
+        hulings:HU.R320.EDMP,
+        hulings:HU.R320.ESET,
+        hulings:HU.R320.EXCFM,
+        hulings:HU.R320.EXSET,
+        hulings:HU.R320.FCFM,
+        hulings:HU.R320.FDIFF,
+        hulings:HU.R320.MSAIR,
+        hulings:HU.R320.OCC,
+        hulings:HU.R320.OSUP,
+        hulings:HU.R320.RM,
+        hulings:HU.R320.RMT,
+        hulings:HU.R320.RSET,
+        hulings:HU.R320.SACFM,
+        hulings:HU.R320.SASET,
+        hulings:HU.R320.SCFM,
+        hulings:HU.R320.SDMP,
+        hulings:HU.R320.SSET,
+        hulings:HU.R320.TSUP .
+
+hulings:326 a brick:Room ;
+    brick:hasPoint hulings:HU.R326.DSET,
+        hulings:HU.R326.ECFM,
+        hulings:HU.R326.EDMP,
+        hulings:HU.R326.ESET,
+        hulings:HU.R326.EXCFM,
+        hulings:HU.R326.EXSET,
+        hulings:HU.R326.FCFM,
+        hulings:HU.R326.FDIFF,
+        hulings:HU.R326.MSAIR,
+        hulings:HU.R326.OCC,
+        hulings:HU.R326.OSUP,
+        hulings:HU.R326.RM,
+        hulings:HU.R326.RMT,
+        hulings:HU.R326.RSET,
+        hulings:HU.R326.SACFM,
+        hulings:HU.R326.SASET,
+        hulings:HU.R326.SCFM,
+        hulings:HU.R326.SDMP,
+        hulings:HU.R326.SSET,
+        hulings:HU.R326.TSUP .
+
+hulings:327 a brick:Room ;
+    brick:hasPoint hulings:HU.R327.DSET,
+        hulings:HU.R327.ECFM,
+        hulings:HU.R327.EDMP,
+        hulings:HU.R327.ESET,
+        hulings:HU.R327.EXCFM,
+        hulings:HU.R327.EXSET,
+        hulings:HU.R327.FCFM,
+        hulings:HU.R327.FDIFF,
+        hulings:HU.R327.MSAIR,
+        hulings:HU.R327.OCC,
+        hulings:HU.R327.OSUP,
+        hulings:HU.R327.RM,
+        hulings:HU.R327.RMT,
+        hulings:HU.R327.RSET,
+        hulings:HU.R327.SACFM,
+        hulings:HU.R327.SASET,
+        hulings:HU.R327.SCFM,
+        hulings:HU.R327.SDMP,
+        hulings:HU.R327.SSET,
+        hulings:HU.R327.TSUP .
+
+hulings:329 a brick:Room ;
+    brick:hasPoint hulings:HU.R329.DSET,
+        hulings:HU.R329.ECFM,
+        hulings:HU.R329.EDMP,
+        hulings:HU.R329.ESET,
+        hulings:HU.R329.EXCFM,
+        hulings:HU.R329.EXSET,
+        hulings:HU.R329.FCFM,
+        hulings:HU.R329.FDIFF,
+        hulings:HU.R329.MSAIR,
+        hulings:HU.R329.OCC,
+        hulings:HU.R329.OSUP,
+        hulings:HU.R329.RM,
+        hulings:HU.R329.RMT,
+        hulings:HU.R329.RSET,
+        hulings:HU.R329.SACFM,
+        hulings:HU.R329.SASET,
+        hulings:HU.R329.SCFM,
+        hulings:HU.R329.SDMP,
+        hulings:HU.R329.SSET,
+        hulings:HU.R329.TSUP .
+
+hulings:334 a brick:Room ;
+    brick:hasPoint hulings:HU.R334.DSET,
+        hulings:HU.R334.ECFM,
+        hulings:HU.R334.EDMP,
+        hulings:HU.R334.ESET,
+        hulings:HU.R334.EXCFM,
+        hulings:HU.R334.EXSET,
+        hulings:HU.R334.FCFM,
+        hulings:HU.R334.FDIFF,
+        hulings:HU.R334.MSAIR,
+        hulings:HU.R334.OCC,
+        hulings:HU.R334.OSUP,
+        hulings:HU.R334.RM,
+        hulings:HU.R334.RMT,
+        hulings:HU.R334.RSET,
+        hulings:HU.R334.SACFM,
+        hulings:HU.R334.SASET,
+        hulings:HU.R334.SCFM,
+        hulings:HU.R334.SDMP,
+        hulings:HU.R334.SSET,
+        hulings:HU.R334.TSUP .
+
+hulings:First-Floor a brick:Floor ;
+    brick:hasPart hulings:1,
+        hulings:102,
+        hulings:109,
+        hulings:111,
+        hulings:112,
+        hulings:121 .
+
+hulings:Ground-Floor a brick:Floor ;
+    brick:hasPart hulings:02,
+        hulings:03 .
+
+hulings:HU.R102.DSET a brick:Setpoint .
+
+hulings:HU.R102.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R102.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R102.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R102.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R102.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R102.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R102.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R102.MSAIR a brick:Point .
+
+hulings:HU.R102.OCC a brick:Occupancy_Status .
+
+hulings:HU.R102.OSUP a brick:Point .
+
+hulings:HU.R102.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R102.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R102.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R102.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R102.SASET a brick:Setpoint .
+
+hulings:HU.R102.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R102.SDMP a brick:Damper .
+
+hulings:HU.R102.SSET a brick:Setpoint .
+
+hulings:HU.R102.TSUP a brick:Point .
+
+hulings:HU.R109.DSET a brick:Setpoint .
+
+hulings:HU.R109.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R109.OCC a brick:Occupancy_Status .
+
+hulings:HU.R109.OSUP a brick:Point .
+
+hulings:HU.R109.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R109.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R109.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R109.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R109.SASET a brick:Setpoint .
+
+hulings:HU.R109.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R109.SDMP a brick:Damper .
+
+hulings:HU.R109.SSET a brick:Setpoint .
+
+hulings:HU.R109.TSUP a brick:Point .
+
+hulings:HU.R111.DSET a brick:Setpoint .
+
+hulings:HU.R111.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R111.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R111.OCC a brick:Occupancy_Status .
+
+hulings:HU.R111.OSUP a brick:Point .
+
+hulings:HU.R111.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R111.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R111.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R111.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R111.SASET a brick:Setpoint .
+
+hulings:HU.R111.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R111.SDMP a brick:Damper .
+
+hulings:HU.R111.SSET a brick:Setpoint .
+
+hulings:HU.R111.TSUP a brick:Point .
+
+hulings:HU.R111A.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R111A.OCC a brick:Occupancy_Status .
+
+hulings:HU.R111A.OSUP a brick:Point .
+
+hulings:HU.R111A.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R111A.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R111A.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R111A.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R111A.SDMP a brick:Damper .
+
+hulings:HU.R111A.SSET a brick:Setpoint .
+
+hulings:HU.R111A.TSUP a brick:Point .
+
+hulings:HU.R112.DSET a brick:Setpoint .
+
+hulings:HU.R112.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R112.OCC a brick:Occupancy_Status .
+
+hulings:HU.R112.OSUP a brick:Point .
+
+hulings:HU.R112.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R112.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R112.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R112.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R112.SASET a brick:Setpoint .
+
+hulings:HU.R112.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R112.SDMP a brick:Damper .
+
+hulings:HU.R112.SSET a brick:Setpoint .
+
+hulings:HU.R112.TSUP a brick:Point .
+
+hulings:HU.R121.DSET a brick:Setpoint .
+
+hulings:HU.R121.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R121.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R121.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R121.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R121.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R121.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R121.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R121.MSAIR a brick:Point .
+
+hulings:HU.R121.OCC a brick:Occupancy_Status .
+
+hulings:HU.R121.OSUP a brick:Point .
+
+hulings:HU.R121.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R121.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R121.RMTP a brick:Air_Temperature_Sensor .
+
+hulings:HU.R121.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R121.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R121.SASET a brick:Setpoint .
+
+hulings:HU.R121.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R121.SDMP a brick:Damper .
+
+hulings:HU.R121.SSET a brick:Setpoint .
+
+hulings:HU.R121.TSUP a brick:Point .
+
+hulings:HU.R121B.DSET a brick:Setpoint .
+
+hulings:HU.R121B.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R121B.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R121B.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R121B.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R121B.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R121B.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R121B.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R121B.MSAIR a brick:Point .
+
+hulings:HU.R121B.OCC a brick:Occupancy_Status .
+
+hulings:HU.R121B.OSUP a brick:Point .
+
+hulings:HU.R121B.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R121B.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R121B.RMTP a brick:Air_Temperature_Sensor .
+
+hulings:HU.R121B.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R121B.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R121B.SASET a brick:Setpoint .
+
+hulings:HU.R121B.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R121B.SDMP a brick:Damper .
+
+hulings:HU.R121B.SSET a brick:Setpoint .
+
+hulings:HU.R121B.TSUP a brick:Point .
+
+hulings:HU.R1AA.OCC a brick:Occupancy_Status .
+
+hulings:HU.R1AA.OSUP a brick:Point .
+
+hulings:HU.R1AA.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R1AA.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R1AA.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R1AA.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R1AA.SASET a brick:Setpoint .
+
+hulings:HU.R1AA.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R1AA.SDMP a brick:Damper .
+
+hulings:HU.R1AA.TSUP a brick:Point .
+
+hulings:HU.R1AC.OCC a brick:Occupancy_Status .
+
+hulings:HU.R1AC.OSUP a brick:Point .
+
+hulings:HU.R1AC.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R1AC.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R1AC.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R1AC.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R1AC.SASET a brick:Setpoint .
+
+hulings:HU.R1AC.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R1AC.SDMP a brick:Damper .
+
+hulings:HU.R1AC.SSET a brick:Setpoint .
+
+hulings:HU.R1AC.TSUP a brick:Point .
+
+hulings:HU.R1AG.OCC a brick:Occupancy_Status .
+
+hulings:HU.R1AG.OSUP a brick:Point .
+
+hulings:HU.R1AG.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R1AG.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R1AG.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R1AG.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R1AG.SDMP a brick:Damper .
+
+hulings:HU.R1AG.SSET a brick:Setpoint .
+
+hulings:HU.R1AG.TSUP a brick:Point .
+
+hulings:HU.R1AH.OCC a brick:Occupancy_Status .
+
+hulings:HU.R1AH.OSUP a brick:Point .
+
+hulings:HU.R1AH.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R1AH.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R1AH.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R1AH.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R1AH.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R1AH.SDMP a brick:Damper .
+
+hulings:HU.R1AH.SSET a brick:Setpoint .
+
+hulings:HU.R1AH.TSUP a brick:Point .
+
+hulings:HU.R202.DSET a brick:Setpoint .
+
+hulings:HU.R202.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R202.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R202.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R202.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R202.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R202.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R202.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R202.MSAIR a brick:Point .
+
+hulings:HU.R202.OCC a brick:Occupancy_Status .
+
+hulings:HU.R202.OSUP a brick:Point .
+
+hulings:HU.R202.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R202.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R202.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R202.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R202.SASET a brick:Setpoint .
+
+hulings:HU.R202.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R202.SDMP a brick:Damper .
+
+hulings:HU.R202.SSET a brick:Setpoint .
+
+hulings:HU.R202.TSUP a brick:Point .
+
+hulings:HU.R203.DSET a brick:Setpoint .
+
+hulings:HU.R203.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R203.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R203.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R203.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R203.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R203.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R203.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R203.MSAIR a brick:Point .
+
+hulings:HU.R203.OCC a brick:Occupancy_Status .
+
+hulings:HU.R203.OSUP a brick:Point .
+
+hulings:HU.R203.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R203.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R203.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R203.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R203.SASET a brick:Setpoint .
+
+hulings:HU.R203.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R203.SDMP a brick:Damper .
+
+hulings:HU.R203.SSET a brick:Setpoint .
+
+hulings:HU.R203.TSUP a brick:Point .
+
+hulings:HU.R203A.DSET a brick:Setpoint .
+
+hulings:HU.R203A.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R203A.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R203A.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R203A.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R203A.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R203A.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R203A.MSAIR a brick:Point .
+
+hulings:HU.R203A.OCC a brick:Occupancy_Status .
+
+hulings:HU.R203A.OSUP a brick:Point .
+
+hulings:HU.R203A.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R203A.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R203A.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R203A.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R203A.SASET a brick:Setpoint .
+
+hulings:HU.R203A.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R203A.SDMP a brick:Damper .
+
+hulings:HU.R203A.SSET a brick:Setpoint .
+
+hulings:HU.R206.DSET a brick:Setpoint .
+
+hulings:HU.R206.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R206.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R206.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R206.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R206.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R206.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R206.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R206.MSAIR a brick:Point .
+
+hulings:HU.R206.OCC a brick:Occupancy_Status .
+
+hulings:HU.R206.OSUP a brick:Point .
+
+hulings:HU.R206.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R206.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R206.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R206.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R206.SASET a brick:Setpoint .
+
+hulings:HU.R206.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R206.SDMP a brick:Damper .
+
+hulings:HU.R206.SSET a brick:Setpoint .
+
+hulings:HU.R206.TSUP a brick:Point .
+
+hulings:HU.R207.DSET a brick:Setpoint .
+
+hulings:HU.R207.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R207.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R207.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R207.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R207.OCC a brick:Occupancy_Status .
+
+hulings:HU.R207.OSUP a brick:Point .
+
+hulings:HU.R207.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R207.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R207.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R207.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R207.SASET a brick:Setpoint .
+
+hulings:HU.R207.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R207.SDMP a brick:Damper .
+
+hulings:HU.R207.SSET a brick:Setpoint .
+
+hulings:HU.R212.DSET a brick:Setpoint .
+
+hulings:HU.R212.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R212.OCC a brick:Occupancy_Status .
+
+hulings:HU.R212.OSUP a brick:Point .
+
+hulings:HU.R212.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R212.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R212.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R212.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R212.SASET a brick:Setpoint .
+
+hulings:HU.R212.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R212.SDMP a brick:Damper .
+
+hulings:HU.R212.SSET a brick:Setpoint .
+
+hulings:HU.R212.TSUP a brick:Point .
+
+hulings:HU.R213.DSET a brick:Setpoint .
+
+hulings:HU.R213.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R213.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R213.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R213.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R213.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R213.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R213.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R213.MSAIR a brick:Point .
+
+hulings:HU.R213.OCC a brick:Occupancy_Status .
+
+hulings:HU.R213.OSUP a brick:Point .
+
+hulings:HU.R213.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R213.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R213.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R213.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R213.SASET a brick:Setpoint .
+
+hulings:HU.R213.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R213.SDMP a brick:Damper .
+
+hulings:HU.R213.SSET a brick:Setpoint .
+
+hulings:HU.R213.TSUP a brick:Point .
+
+hulings:HU.R213B.DSET a brick:Setpoint .
+
+hulings:HU.R213B.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R213B.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R213B.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R213B.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R213B.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R213B.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R213B.MSAIR a brick:Point .
+
+hulings:HU.R213B.NACRMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R213B.OCC a brick:Occupancy_Status .
+
+hulings:HU.R213B.OSUP a brick:Point .
+
+hulings:HU.R213B.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R213B.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R213B.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R213B.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R213B.SASET a brick:Setpoint .
+
+hulings:HU.R213B.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R213B.SDMP a brick:Damper .
+
+hulings:HU.R213B.SSET a brick:Setpoint .
+
+hulings:HU.R213B.TSUP a brick:Point .
+
+hulings:HU.R215.DSET a brick:Setpoint .
+
+hulings:HU.R215.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R215.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R215.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R215.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R215.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R215.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R215.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R215.MSAIR a brick:Point .
+
+hulings:HU.R215.OCC a brick:Occupancy_Status .
+
+hulings:HU.R215.OSUP a brick:Point .
+
+hulings:HU.R215.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R215.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R215.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R215.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R215.SASET a brick:Setpoint .
+
+hulings:HU.R215.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R215.SDMP a brick:Damper .
+
+hulings:HU.R215.SSET a brick:Setpoint .
+
+hulings:HU.R215.TSUP a brick:Point .
+
+hulings:HU.R218.DSET a brick:Setpoint .
+
+hulings:HU.R218.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R218.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R218.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R218.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R218.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R218.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R218.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R218.MSAIR a brick:Point .
+
+hulings:HU.R218.OCC a brick:Occupancy_Status .
+
+hulings:HU.R218.OSUP a brick:Point .
+
+hulings:HU.R218.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R218.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R218.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R218.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R218.SASET a brick:Setpoint .
+
+hulings:HU.R218.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R218.SDMP a brick:Damper .
+
+hulings:HU.R218.SSET a brick:Setpoint .
+
+hulings:HU.R218.TSUP a brick:Point .
+
+hulings:HU.R220A.DSET a brick:Setpoint .
+
+hulings:HU.R220A.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R220A.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R220A.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R220A.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R220A.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R220A.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R220A.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R220A.OCC a brick:Occupancy_Status .
+
+hulings:HU.R220A.OSUP a brick:Point .
+
+hulings:HU.R220A.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R220A.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R220A.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R220A.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R220A.SASET a brick:Setpoint .
+
+hulings:HU.R220A.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R220A.SDMP a brick:Damper .
+
+hulings:HU.R220A.SSET a brick:Setpoint .
+
+hulings:HU.R220A.TSUP a brick:Point .
+
+hulings:HU.R2AA.OCC a brick:Occupancy_Status .
+
+hulings:HU.R2AA.OSUP a brick:Point .
+
+hulings:HU.R2AA.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R2AA.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R2AA.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R2AA.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R2AA.SASET a brick:Setpoint .
+
+hulings:HU.R2AA.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R2AA.SDMP a brick:Damper .
+
+hulings:HU.R2AA.SSET a brick:Setpoint .
+
+hulings:HU.R2AA.TSUP a brick:Point .
+
+hulings:HU.R2AD.OCC a brick:Occupancy_Status .
+
+hulings:HU.R2AD.OSUP a brick:Point .
+
+hulings:HU.R2AD.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R2AD.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R2AD.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R2AD.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R2AD.SASET a brick:Setpoint .
+
+hulings:HU.R2AD.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R2AD.SDMP a brick:Damper .
+
+hulings:HU.R2AD.TSUP a brick:Point .
+
+hulings:HU.R2AG.OCC a brick:Occupancy_Status .
+
+hulings:HU.R2AG.OSUP a brick:Point .
+
+hulings:HU.R2AG.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R2AG.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R2AG.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R2AG.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R2AG.SASET a brick:Setpoint .
+
+hulings:HU.R2AG.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R2AG.SDMP a brick:Damper .
+
+hulings:HU.R2AG.SSET a brick:Setpoint .
+
+hulings:HU.R2AG.TSUP a brick:Point .
+
+hulings:HU.R300.DSET a brick:Setpoint .
+
+hulings:HU.R300.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R300.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R300.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R300.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R300.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R300.MSAIR a brick:Point .
+
+hulings:HU.R300.OCC a brick:Occupancy_Status .
+
+hulings:HU.R300.OSUP a brick:Point .
+
+hulings:HU.R300.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R300.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R300.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R300.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R300.SDMP a brick:Damper .
+
+hulings:HU.R300.SSET a brick:Setpoint .
+
+hulings:HU.R300.TSUP a brick:Point .
+
+hulings:HU.R302.DSET a brick:Setpoint .
+
+hulings:HU.R302.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R302.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R302.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R302.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R302.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R302.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R302.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R302.MSAIR a brick:Point .
+
+hulings:HU.R302.OCC a brick:Occupancy_Status .
+
+hulings:HU.R302.OSUP a brick:Point .
+
+hulings:HU.R302.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R302.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R302.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R302.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R302.SASET a brick:Setpoint .
+
+hulings:HU.R302.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R302.SDMP a brick:Damper .
+
+hulings:HU.R302.SSET a brick:Setpoint .
+
+hulings:HU.R302.TSUP a brick:Point .
+
+hulings:HU.R307.DSET a brick:Setpoint .
+
+hulings:HU.R307.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R307.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R307.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R307.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R307.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R307.MSAIR a brick:Point .
+
+hulings:HU.R307.OCC a brick:Occupancy_Status .
+
+hulings:HU.R307.OSUP a brick:Point .
+
+hulings:HU.R307.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R307.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R307.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R307.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R307.SDMP a brick:Damper .
+
+hulings:HU.R307.SSET a brick:Setpoint .
+
+hulings:HU.R307.TSUP a brick:Point .
+
+hulings:HU.R310.DSET a brick:Setpoint .
+
+hulings:HU.R310.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R310.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R310.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R310.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R310.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R310.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R310.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R310.MSAIR a brick:Point .
+
+hulings:HU.R310.OCC a brick:Occupancy_Status .
+
+hulings:HU.R310.OSUP a brick:Point .
+
+hulings:HU.R310.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R310.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R310.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R310.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R310.SASET a brick:Setpoint .
+
+hulings:HU.R310.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R310.SDMP a brick:Damper .
+
+hulings:HU.R310.SSET a brick:Setpoint .
+
+hulings:HU.R310.TSUP a brick:Point .
+
+hulings:HU.R315.DSET a brick:Setpoint .
+
+hulings:HU.R315.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R315.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R315.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R315.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R315.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R315.MSAIR a brick:Point .
+
+hulings:HU.R315.OCC a brick:Occupancy_Status .
+
+hulings:HU.R315.OSUP a brick:Point .
+
+hulings:HU.R315.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R315.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R315.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R315.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R315.SDMP a brick:Damper .
+
+hulings:HU.R315.SSET a brick:Setpoint .
+
+hulings:HU.R315.TSUP a brick:Point .
+
+hulings:HU.R319.DSET a brick:Setpoint .
+
+hulings:HU.R319.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R319.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R319.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R319.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R319.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R319.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R319.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R319.MSAIR a brick:Point .
+
+hulings:HU.R319.OCC a brick:Occupancy_Status .
+
+hulings:HU.R319.OSUP a brick:Point .
+
+hulings:HU.R319.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R319.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R319.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R319.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R319.SASET a brick:Setpoint .
+
+hulings:HU.R319.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R319.SDMP a brick:Damper .
+
+hulings:HU.R319.SSET a brick:Setpoint .
+
+hulings:HU.R319.TSUP a brick:Point .
+
+hulings:HU.R320.DSET a brick:Setpoint .
+
+hulings:HU.R320.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R320.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R320.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R320.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R320.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R320.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R320.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R320.MSAIR a brick:Point .
+
+hulings:HU.R320.OCC a brick:Occupancy_Status .
+
+hulings:HU.R320.OSUP a brick:Point .
+
+hulings:HU.R320.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R320.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R320.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R320.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R320.SASET a brick:Setpoint .
+
+hulings:HU.R320.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R320.SDMP a brick:Damper .
+
+hulings:HU.R320.SSET a brick:Setpoint .
+
+hulings:HU.R320.TSUP a brick:Point .
+
+hulings:HU.R326.DSET a brick:Setpoint .
+
+hulings:HU.R326.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R326.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R326.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R326.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R326.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R326.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R326.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R326.MSAIR a brick:Point .
+
+hulings:HU.R326.OCC a brick:Occupancy_Status .
+
+hulings:HU.R326.OSUP a brick:Point .
+
+hulings:HU.R326.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R326.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R326.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R326.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R326.SASET a brick:Setpoint .
+
+hulings:HU.R326.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R326.SDMP a brick:Damper .
+
+hulings:HU.R326.SSET a brick:Setpoint .
+
+hulings:HU.R326.TSUP a brick:Point .
+
+hulings:HU.R327.DSET a brick:Setpoint .
+
+hulings:HU.R327.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R327.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R327.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R327.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R327.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R327.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R327.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R327.MSAIR a brick:Point .
+
+hulings:HU.R327.OCC a brick:Occupancy_Status .
+
+hulings:HU.R327.OSUP a brick:Point .
+
+hulings:HU.R327.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R327.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R327.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R327.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R327.SASET a brick:Setpoint .
+
+hulings:HU.R327.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R327.SDMP a brick:Damper .
+
+hulings:HU.R327.SSET a brick:Setpoint .
+
+hulings:HU.R327.TSUP a brick:Point .
+
+hulings:HU.R329.DSET a brick:Setpoint .
+
+hulings:HU.R329.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R329.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R329.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R329.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R329.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R329.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R329.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R329.MSAIR a brick:Point .
+
+hulings:HU.R329.OCC a brick:Occupancy_Status .
+
+hulings:HU.R329.OSUP a brick:Point .
+
+hulings:HU.R329.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R329.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R329.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R329.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R329.SASET a brick:Setpoint .
+
+hulings:HU.R329.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R329.SDMP a brick:Damper .
+
+hulings:HU.R329.SSET a brick:Setpoint .
+
+hulings:HU.R329.TSUP a brick:Point .
+
+hulings:HU.R334.DSET a brick:Setpoint .
+
+hulings:HU.R334.ECFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R334.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.R334.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R334.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.R334.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.R334.FCFM a brick:Flow_Sensor .
+
+hulings:HU.R334.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.R334.MSAIR a brick:Point .
+
+hulings:HU.R334.OCC a brick:Occupancy_Status .
+
+hulings:HU.R334.OSUP a brick:Point .
+
+hulings:HU.R334.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R334.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R334.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R334.SACFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R334.SASET a brick:Setpoint .
+
+hulings:HU.R334.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R334.SDMP a brick:Damper .
+
+hulings:HU.R334.SSET a brick:Setpoint .
+
+hulings:HU.R334.TSUP a brick:Point .
+
+hulings:HU.R3AA.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.R3AA.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.R3AA.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.R3AA.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.R3AA.SDMP a brick:Damper .
+
+hulings:HU.R3AA.SSET a brick:Setpoint .
+
+hulings:HU.RB02.DSET a brick:Setpoint .
+
+hulings:HU.RB02.EDMP a brick:Exhaust_Damper .
+
+hulings:HU.RB02.ESET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.RB02.EXCFM a brick:Exhaust_Air_Flow_Sensor .
+
+hulings:HU.RB02.EXSET a brick:Exhaust_Air_Flow_Setpoint .
+
+hulings:HU.RB02.FCFM a brick:Flow_Sensor .
+
+hulings:HU.RB02.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.RB02.OCC a brick:Occupancy_Status .
+
+hulings:HU.RB02.OSUP a brick:Point .
+
+hulings:HU.RB02.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.RB02.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.RB02.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.RB02.SASET a brick:Setpoint .
+
+hulings:HU.RB02.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.RB02.SDMP a brick:Damper .
+
+hulings:HU.RB02.SSET a brick:Setpoint .
+
+hulings:HU.RB02.TSUP a brick:Point .
+
+hulings:HU.RB02A.DSET a brick:Setpoint .
+
+hulings:HU.RB02A.FCFM a brick:Flow_Sensor .
+
+hulings:HU.RB02A.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.RB02A.OCC a brick:Occupancy_Status .
+
+hulings:HU.RB02A.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.RB02A.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.RB02A.SASET a brick:Setpoint .
+
+hulings:HU.RB02A.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.RB02A.SDMP a brick:Damper .
+
+hulings:HU.RB02A.SSET a brick:Setpoint .
+
+hulings:HU.RB03.DSET a brick:Setpoint .
+
+hulings:HU.RB03.FCFM a brick:Flow_Sensor .
+
+hulings:HU.RB03.FDIFF a brick:Flow_Sensor .
+
+hulings:HU.RB03.OCC a brick:Occupancy_Status .
+
+hulings:HU.RB03.RM a brick:Air_Temperature_Sensor .
+
+hulings:HU.RB03.RMT a brick:Air_Temperature_Sensor .
+
+hulings:HU.RB03.RSET a brick:Room_Air_Temperature_Setpoint .
+
+hulings:HU.RB03.SASET a brick:Setpoint .
+
+hulings:HU.RB03.SCFM a brick:Supply_Air_Flow_Sensor .
+
+hulings:HU.RB03.SDMP a brick:Damper .
+
+hulings:HU.RB03.SSET a brick:Setpoint .
+
+hulings:HULINGS.300.BLAST.FRZ.ALARM a brick:Alarm .
+
+hulings:HULINGS.322.BLAST.FRZ.ALARM a brick:Alarm .
+
+hulings:HULINGS.329.BLAST.FRZ.ALARM a brick:Alarm .
+
+hulings:HULINGS.BLAST.FRZ.300.ALM a brick:Alarm .
+
+hulings:HULINGS.BLAST.FRZ.322.ALM a brick:Alarm .
+
+hulings:HULINGS.BLAST.FRZ.329.ALM a brick:Alarm .
+
+hulings:No-Floor a brick:Floor ;
+    brick:hasPart hulings:Unidentified ;
+    brick:hasPoint hulings:HULINGS.300.BLAST.FRZ.ALARM,
+        hulings:HULINGS.322.BLAST.FRZ.ALARM,
+        hulings:HULINGS.329.BLAST.FRZ.ALARM,
+        hulings:HULINGS.BLAST.FRZ.300.ALM,
+        hulings:HULINGS.BLAST.FRZ.322.ALM,
+        hulings:HULINGS.BLAST.FRZ.329.ALM .
+
+hulings:Second-Floor a brick:Floor ;
+    brick:hasPart hulings:2,
+        hulings:202,
+        hulings:203,
+        hulings:206,
+        hulings:207,
+        hulings:212,
+        hulings:213,
+        hulings:215,
+        hulings:218,
+        hulings:220 .
+
+hulings:Third-Floor a brick:Floor ;
+    brick:hasPart hulings:3,
+        hulings:300,
+        hulings:302,
+        hulings:307,
+        hulings:310,
+        hulings:315,
+        hulings:319,
+        hulings:320,
+        hulings:326,
+        hulings:327,
+        hulings:329,
+        hulings:334 .
+
+hulings:Unidentified a brick:Room .
 

@@ -26,7 +26,6 @@ def brickifyBuilding(building_name, BRICK_BUILDING):
     else:
         print("ERROR: " + building_name + " is not a building in the database. Make sure you inputted spelled the name correctly")
         return
-    print(building_id)
 
     #(point_name, point_id, tag_id, room_id, room_name, floor)
     all_point_info_query = '''SELECT P.name, P.point_id, T.tag_id, R.room_id, R.name, R.floor FROM ((points as P JOIN points_tags as T ON P.point_id = T.point_id) JOIN devices AS D ON P.device_id=D.device_id) JOIN rooms as R ON R.room_id = D.room_id WHERE building_id = {0}'''.format(building_id)
