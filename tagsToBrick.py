@@ -25,8 +25,6 @@ conn = psycopg2.connect(
     password="less!29carbon")
 cur = conn.cursor()
 
-#print(tags)
-
 id_mapping = {
     1: {'Tag': 'Academic', 'BrickObj': BRICK.Building},
     2: {'Tag': 'Damper Command', 'BrickObj': BRICK.Damper_Command},
