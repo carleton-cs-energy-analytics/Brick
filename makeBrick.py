@@ -68,31 +68,27 @@ def brickifyBuilding(building_name, BRICK_BUILDING):
         g.add((BRICK_BUILDING[floor_name], RDF.type, BRICK.Floor))
         g.add((BRICK_BUILDING[building_name], BRICK.hasPart, BRICK_BUILDING[floor_name]))
         # Python graph
-        graph[floor_name] = []
-        addEdge(graph, building_name, floor_map[floor])
+        name = building_name + "-" + floor_name
+        graph[name] = []
+        addEdge(graph, building_name, name)
 
     # Creates all brick rooms that are in the database for this building
     for room in rooms:
         if room[0:6] == "UnID'd":
             room_name = "No-Room"
-            # Brick graph
-            g.add((BRICK_BUILDING[room_name], RDF.type, BRICK.Room))
-            g.add((BRICK_BUILDING["No-Floor"], BRICK.hasPart, BRICK_BUILDING[room_name]))
-            # Python graph
-            graph[room_name] = []
-            addEdge(graph, floor_map[floor], room_name)
-            continue
-        room_name_spaces = room
-        room_name = room.replace(" ", "*")
-        cur.execute('''SELECT floor FROM rooms WHERE name = '{0}' '''.format(room_name_spaces))
-        floor = cur.fetchone()[0]
+            floor = None
+        else:
+            room_name_spaces = room
+            room_name = room.replace(" ", "*")
+            cur.execute('''SELECT floor FROM rooms WHERE name = '{0}' '''.format(room_name_spaces))
+            floor = cur.fetchone()[0]
         # Brick graph 
         g.add((BRICK_BUILDING[room_name], RDF.type, BRICK.Room))
         g.add((BRICK_BUILDING[floor_map[floor]], BRICK.hasPart, BRICK_BUILDING[room_name]))
         # Python Graph
-        graph[room_name] = []
-        addEdge(graph, floor_map[floor], room_name)
-        
+        name = building_name + "-" + room_name
+        graph[name] = []
+        addEdge(graph, building_name + "-" + floor_map[floor], name)  
 
     # Creates all brick points that are in the database for this building
     for point in points:
@@ -108,10 +104,10 @@ def brickifyBuilding(building_name, BRICK_BUILDING):
         g.add((BRICK_BUILDING[point_name], RDF.type, brick_obj))
         g.add((BRICK_BUILDING[room_name], BRICK.hasPoint, BRICK_BUILDING[point_name]))
         # Python Graph
-        pointObj = [tag, point_name]
-        addEdge(graph, room_name, pointObj)
+        pointObj = [point_name, tag]
+        addEdge(graph, building_name + "-" + room_name, pointObj)
 
-# Creates graph
+# Creates graphs
 graph = {} # python graph
 g = Graph() # Brick graph
 BRICK = Namespace("https://brickschema.org/schema/Brick#")
@@ -155,7 +151,7 @@ brickifyBuilding("UnID''d Building", UNID)
 '''
 
 # output brick schema to Carleton2.ttl
-with open("Carleton2.ttl", "wb") as f:
+with open("Carleton.ttl", "wb") as f:
     # the Turtle format strikes a balance beteween being compact and easy to read
     f.write(g.serialize(format="ttl"))
 
