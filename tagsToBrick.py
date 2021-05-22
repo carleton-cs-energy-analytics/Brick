@@ -30,12 +30,12 @@ id_mapping = {
     2: {'Tag': 'Damper Command', 'BrickObj': BRICK.Damper_Command},
     3: {'Tag': 'Room Temperature', 'BrickObj': BRICK.Air_Temperature_Sensor},
     4: {'Tag': 'Residential', 'BrickObj': BRICK.Building},
-    5: {'Tag': 'Room Temperature Setpoint', 'BrickObj': BRICK.Room_Air_Temperature_Setpoint},
-    6: {'Tag': 'Radiator Valve', 'BrickObj': BRICK.Valve},
+    5: {'Tag': 'Room Temperature Setpoint Dial', 'BrickObj': BRICK.Room_Air_Temperature_Setpoint},
+    6: {'Tag': 'Valve', 'BrickObj': BRICK.Valve},
     7: {'Tag': 'Night Override', 'BrickObj': BRICK.Override_Command},
     8: {'Tag': 'Night Cooling Setpoint', 'BrickObj': BRICK.Cooling_Temperature_Setpoint},
     9: {'Tag': 'Aux Temperature', 'BrickObj': BRICK.Air_Temperature_Sensor},
-    10: {'Tag': 'Controller Setpoint', 'BrickObj': BRICK.Setpoint},
+    10: {'Tag': 'Virtual Room Temperature Setpoint', 'BrickObj': BRICK.Room_Air_Temperature_Setpoint},
     11: {'Tag': 'Day Cooling Setpoint', 'BrickObj': BRICK.Cooling_Temperature_Setpoint},
     12: {'Tag': 'Heating Loopout', 'BrickObj': BRICK.Point}, # NEED TO FIX
     13: {'Tag': 'Cabinet Unit Heater', 'BrickObj': BRICK.Point}, # need to fix
@@ -74,7 +74,7 @@ id_mapping = {
     50: {'Tag': 'Exhaust Air Flow Sensor', 'BrickObj': BRICK.Exhaust_Air_Flow_Sensor},
     51: {'Tag': 'Exhaust Damper', 'BrickObj': BRICK.Exhaust_Damper},
     53: {'Tag': 'Differential Set', 'BrickObj': BRICK.Setpoint},
-    54: {'Tag': 'Flow Diff', 'BrickObj': BRICK.Flow_Sensor},
+    54: {'Tag': 'Flow Differential', 'BrickObj': BRICK.Flow_Sensor},
     55: {'Tag': 'Fume Flow Sensor', 'BrickObj': BRICK.Flow_Sensor},
     56: {'Tag': 'Alarm', 'BrickObj': BRICK.Alarm},
     57: {'Tag': 'Other Supply', 'BrickObj': BRICK.Point},
@@ -86,8 +86,8 @@ id_mapping = {
     63: {'Tag': 'Supply Set', 'BrickObj': BRICK.Setpoint},
     64: {'Tag': 'Supply Air Flow Sensor', 'BrickObj': BRICK.Supply_Air_Flow_Sensor},
     65: {'Tag': 'Vacancy', 'BrickObj': BRICK.Occupancy_Status},
-    66: {'Tag': 'Radiator D1 2', 'BrickObj': BRICK.Radiator},
-    67: {'Tag': 'Radiator D1 3', 'BrickObj': BRICK.Radiator},
+    66: {'Tag': 'Radiator DI 2', 'BrickObj': BRICK.Radiator},
+    67: {'Tag': 'Radiator DI 3', 'BrickObj': BRICK.Radiator},
     68: {'Tag': 'Fan', 'BrickObj': BRICK.Fan},
     69: {'Tag': 'Valve One Command', 'BrickObj': BRICK.Valve_Command},
     70: {'Tag': 'Valve Two Position', 'BrickObj': BRICK.Valve_Position_Sensor},
@@ -96,7 +96,7 @@ id_mapping = {
     73: {'Tag': 'Domestic Water Return Temperature Sensor', 'BrickObj': BRICK.Domestic_Hot_Water_Return_Temperature_Sensor},
     74: {'Tag': 'Hot Water Flow', 'BrickObj': BRICK.Hot_Water_Flow_Sensor},
     75: {'Tag': 'Domestic Water', 'BrickObj': BRICK.Domestic_Water},
-    76: {'Tag': 'Domestic Water Supply', 'BrickObj': BRICK.Domestic_Hot_Water_Supply_Temperature_Sensor},
+    76: {'Tag': 'Domestic Water Supply Temperature Sensor', 'BrickObj': BRICK.Domestic_Hot_Water_Supply_Temperature_Sensor},
     77: {'Tag': 'Electricity Use', 'BrickObj': BRICK.Building_Electrical_Meter},
     78: {'Tag': 'Electricity Demand', 'BrickObj': BRICK.Electrical_Power_Sensor},
     79: {'Tag': 'Electricity Meter Reading', 'BrickObj': BRICK.Electrical_Power_Sensor},
@@ -132,16 +132,16 @@ id_mapping = {
     109: {'Tag': 'Yesterdays Steam Consumption', 'BrickObj': BRICK.Steam_Usage_Sensor},
     110: {'Tag': 'Maximum Temperature Setpoint', 'BrickObj': BRICK.Max_Air_Temperature_Setpoint},
     111: {'Tag': 'Minimum Temperature Setpoint', 'BrickObj': BRICK.Min_Air_Temperature_Setpoint},
-    112: {'Tag': '', 'BrickObj': BRICK.Point},
+    112: {'Tag': 'Other', 'BrickObj': BRICK.Point},
     114: {'Tag': 'Setpoint', 'BrickObj': BRICK.Setpoint},
     115: {'Tag': 'Heating Valve', 'BrickObj': BRICK.Heating_Valve},
     119: {'Tag': 'Last Months Domestic Water Consumption', 'BrickObj': BRICK.Water_Usage_Sensor},
-    120: {'Tag': 'Last Weeks Domestic Water Consumption ', 'BrickObj': BRICK.Water_Usage_Sensor},
+    120: {'Tag': 'Last Weeks Domestic Water Consumption', 'BrickObj': BRICK.Water_Usage_Sensor},
     121: {'Tag': 'Local Point', 'BrickObj': BRICK.Point},
     122: {'Tag': 'This Months Domestic Water Consumption', 'BrickObj': BRICK.Water_Usage_Sensor},
-    123: {'Tag': 'Todays Domestic Water Consumption ', 'BrickObj': BRICK.Water_Usage_Sensor},
+    123: {'Tag': 'Todays Domestic Water Consumption', 'BrickObj': BRICK.Water_Usage_Sensor},
     124: {'Tag': 'This Weeks Domestic Water Consumption', 'BrickObj': BRICK.Water_Usage_Sensor},
-    125: {'Tag': 'Yesterdays Domestic Water Consumption ', 'BrickObj': BRICK.Water_Usage_Sensor},
+    125: {'Tag': 'Yesterdays Domestic Water Consumption', 'BrickObj': BRICK.Water_Usage_Sensor},
     127: {'Tag': 'Domestic Water Consumption', 'BrickObj': BRICK.Water_Usage_Sensor},
     128: {'Tag': 'CO2 Monitor', 'BrickObj': BRICK.CO2_Sensor},
     131: {'Tag': 'Hall Lights', 'BrickObj': BRICK.Lighting_Equipment},
@@ -149,7 +149,6 @@ id_mapping = {
     134: {'Tag': 'Heat Tape', 'BrickObj': BRICK.Trace_Heat_Sensor},
     138: {'Tag': 'Average Hot Water Supply Temp', 'BrickObj': BRICK.Hot_Water_Supply_Temperature_Sensor},
     139: {'Tag': 'Speed Output', 'BrickObj': BRICK.Speed_Status},
-    140: {'Tag': 'Valve', 'BrickObj': BRICK.Valve},
     141: {'Tag': 'Irrigation Meter', 'BrickObj': BRICK.Water_Meter},
     142: {'Tag': 'Consumption', 'BrickObj': BRICK.Usage_Sensor},
     143: {'Tag': 'DEM Consumption High', 'BrickObj': BRICK.Usage_Sensor},
@@ -165,11 +164,22 @@ tags = cur.fetchall()
 cur.close()
 
 no_mapping = []
+wrong_name = []
 
 for tag in tags:
     id = tag[0]
+    name = tag[1]
     if id not in id_mapping.keys():
         no_mapping.append(tag)
+    elif (name != id_mapping[id]['Tag']):
+        wrong_name.append(name + ' (tag: ' + str(id) + ')')
 
-print("These tags are in the database but are not in this mapping: ")
-print(no_mapping)
+if(len(no_mapping) > 0):
+    print("These tags are in the database but are not in this mapping: ")
+    print(no_mapping)
+if(len(wrong_name) > 0):
+    print("These tags are in the mapping but do not have the correct tag name: ")
+    print(wrong_name)
+
+if(len(wrong_name) == 0 and len(no_mapping) == 0):
+    print("All tags in the database are mapped correctly")

@@ -1309,7 +1309,7 @@ boliou:163 a brick:Room ;
 
 <http://example.com/boliou#BO.1.COMMONM:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.COMMONM:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.COMMONM:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.COMMONM:CTL*TEMP> a brick:Point .
 
@@ -1373,7 +1373,7 @@ boliou:BO.1.COMMONM:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.COMMONS:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.COMMONS:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.COMMONS:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.COMMONS:CTL*TEMP> a brick:Point .
 
@@ -1437,7 +1437,7 @@ boliou:BO.1.COMMONS:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.MCOMMON:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.MCOMMON:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.MCOMMON:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.MCOMMON:CTL*TEMP> a brick:Point .
 
@@ -1501,7 +1501,7 @@ boliou:BO.1.MCOMMON:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM123:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM123:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM123:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM123:CTL*TEMP> a brick:Point .
 
@@ -1565,7 +1565,7 @@ boliou:BO.1.RM123:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM130:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM130:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM130:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM130:CTL*TEMP> a brick:Point .
 
@@ -1629,7 +1629,7 @@ boliou:BO.1.RM130:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM140:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM140:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM140:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM140:CTL*TEMP> a brick:Point .
 
@@ -1693,7 +1693,7 @@ boliou:BO.1.RM140:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM142:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM142:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM142:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM142:CTL*TEMP> a brick:Point .
 
@@ -1757,7 +1757,7 @@ boliou:BO.1.RM142:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM144:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM144:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM144:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM144:CTL*TEMP> a brick:Point .
 
@@ -1821,7 +1821,7 @@ boliou:BO.1.RM144:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM144E:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM144E:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM144E:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM144E:CTL*TEMP> a brick:Point .
 
@@ -1885,7 +1885,7 @@ boliou:BO.1.RM144E:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM145:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM145:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM145:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM145:CTL*TEMP> a brick:Point .
 
@@ -1949,7 +1949,7 @@ boliou:BO.1.RM145:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM146:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM146:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM146:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM146:CTL*TEMP> a brick:Point .
 
@@ -2013,7 +2013,7 @@ boliou:BO.1.RM146:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM148:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM148:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM148:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM148:CTL*TEMP> a brick:Point .
 
@@ -2077,7 +2077,7 @@ boliou:BO.1.RM148:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM149:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM149:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM149:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM149:CTL*TEMP> a brick:Point .
 
@@ -2141,7 +2141,7 @@ boliou:BO.1.RM149:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM151:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM151:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM151:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM151:CTL*TEMP> a brick:Point .
 
@@ -2205,7 +2205,7 @@ boliou:BO.1.RM151:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM152:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM152:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM152:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM152:CTL*TEMP> a brick:Point .
 
@@ -2269,7 +2269,7 @@ boliou:BO.1.RM152:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM153:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM153:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM153:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM153:CTL*TEMP> a brick:Point .
 
@@ -2333,7 +2333,7 @@ boliou:BO.1.RM153:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM155:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM155:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM155:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM155:CTL*TEMP> a brick:Point .
 
@@ -2397,7 +2397,7 @@ boliou:BO.1.RM155:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM156:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM156:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM156:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM156:CTL*TEMP> a brick:Point .
 
@@ -2461,7 +2461,7 @@ boliou:BO.1.RM156:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM157:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM157:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM157:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM157:CTL*TEMP> a brick:Point .
 
@@ -2525,7 +2525,7 @@ boliou:BO.1.RM157:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM158A:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM158A:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM158A:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM158A:CTL*TEMP> a brick:Point .
 
@@ -2589,7 +2589,7 @@ boliou:BO.1.RM158A:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM160:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM160:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM160:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM160:CTL*TEMP> a brick:Point .
 
@@ -2653,7 +2653,7 @@ boliou:BO.1.RM160:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM161:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM161:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM161:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM161:CTL*TEMP> a brick:Point .
 
@@ -2717,7 +2717,7 @@ boliou:BO.1.RM161:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.RM163:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.RM163:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.RM163:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.RM163:CTL*TEMP> a brick:Point .
 
@@ -2781,7 +2781,7 @@ boliou:BO.1.RM163:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.SCOMMON:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.SCOMMON:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.SCOMMON:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.SCOMMON:CTL*TEMP> a brick:Point .
 
@@ -2845,7 +2845,7 @@ boliou:BO.1.SCOMMON:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.1.STAIRN:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.1.STAIRN:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.1.STAIRN:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.1.STAIRN:CTL*TEMP> a brick:Point .
 
@@ -2909,7 +2909,7 @@ boliou:BO.1.STAIRN:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.CCOM:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.CCOM:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.CCOM:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.CCOM:CTL*TEMP> a brick:Point .
 
@@ -2971,7 +2971,7 @@ boliou:BO.G.CCOM:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.ELEVRM:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.ELEVRM:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.ELEVRM:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.ELEVRM:CTL*TEMP> a brick:Point .
 
@@ -3005,7 +3005,7 @@ boliou:BO.G.ELEVRM:DAY.NGT a brick:Point .
 
 <http://example.com/boliou#BO.G.RM020:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM020:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM020:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM020:CTL*TEMP> a brick:Point .
 
@@ -3069,7 +3069,7 @@ boliou:BO.G.RM020:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM020C:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM020C:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM020C:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM020C:CTL*TEMP> a brick:Point .
 
@@ -3133,7 +3133,7 @@ boliou:BO.G.RM020C:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM021:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM021:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM021:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM021:CTL*TEMP> a brick:Point .
 
@@ -3197,7 +3197,7 @@ boliou:BO.G.RM021:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM022:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM022:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM022:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM022:CTL*TEMP> a brick:Point .
 
@@ -3261,7 +3261,7 @@ boliou:BO.G.RM022:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM025:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM025:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM025:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM025:CTL*TEMP> a brick:Point .
 
@@ -3325,7 +3325,7 @@ boliou:BO.G.RM025:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM025A:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM025A:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM025A:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM025A:CTL*TEMP> a brick:Point .
 
@@ -3389,7 +3389,7 @@ boliou:BO.G.RM025A:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM030:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM030:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM030:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM030:CTL*TEMP> a brick:Point .
 
@@ -3453,7 +3453,7 @@ boliou:BO.G.RM030:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM031:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM031:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM031:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM031:CTL*TEMP> a brick:Point .
 
@@ -3517,7 +3517,7 @@ boliou:BO.G.RM031:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM032:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM032:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM032:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM032:CTL*TEMP> a brick:Point .
 
@@ -3581,7 +3581,7 @@ boliou:BO.G.RM032:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM032C:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM032C:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM032C:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM032C:CTL*TEMP> a brick:Point .
 
@@ -3645,7 +3645,7 @@ boliou:BO.G.RM032C:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM042:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM042:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM042:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM042:CTL*TEMP> a brick:Point .
 
@@ -3709,7 +3709,7 @@ boliou:BO.G.RM042:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM044:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM044:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM044:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM044:CTL*TEMP> a brick:Point .
 
@@ -3773,7 +3773,7 @@ boliou:BO.G.RM044:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM046:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM046:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM046:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM046:CTL*TEMP> a brick:Point .
 
@@ -3837,7 +3837,7 @@ boliou:BO.G.RM046:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM047:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM047:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM047:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM047:CTL*TEMP> a brick:Point .
 
@@ -3901,7 +3901,7 @@ boliou:BO.G.RM047:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM050:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM050:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM050:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM050:CTL*TEMP> a brick:Point .
 
@@ -3965,7 +3965,7 @@ boliou:BO.G.RM050:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM055:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM055:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM055:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM055:CTL*TEMP> a brick:Point .
 
@@ -4029,7 +4029,7 @@ boliou:BO.G.RM055:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM057:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM057:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM057:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM057:CTL*TEMP> a brick:Point .
 
@@ -4093,7 +4093,7 @@ boliou:BO.G.RM057:HEAT.COOL a brick:Point .
 
 <http://example.com/boliou#BO.G.RM059:CTL*FLOW*MIN> a brick:Point .
 
-<http://example.com/boliou#BO.G.RM059:CTL*STPT> a brick:Setpoint .
+<http://example.com/boliou#BO.G.RM059:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/boliou#BO.G.RM059:CTL*TEMP> a brick:Point .
 
@@ -5784,7 +5784,7 @@ cassat:CH.EMTS a brick:Point .
 
 <http://example.com/cassat#CH.FC07:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/cassat#CH.FC07:CTL*STPT> a brick:Setpoint .
+<http://example.com/cassat#CH.FC07:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/cassat#CH.FC07:CTL*TEMP> a brick:Point .
 
@@ -5824,7 +5824,7 @@ cassat:CH.FC07:HEAT.COOL a brick:Point .
 
 <http://example.com/cassat#CH.FC08:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/cassat#CH.FC08:CTL*STPT> a brick:Setpoint .
+<http://example.com/cassat#CH.FC08:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/cassat#CH.FC08:CTL*TEMP> a brick:Point .
 
@@ -5864,7 +5864,7 @@ cassat:CH.FC08:HEAT.COOL a brick:Point .
 
 <http://example.com/cassat#CH.FC09:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/cassat#CH.FC09:CTL*STPT> a brick:Setpoint .
+<http://example.com/cassat#CH.FC09:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/cassat#CH.FC09:CTL*TEMP> a brick:Point .
 
@@ -5904,7 +5904,7 @@ cassat:CH.FC09:HEAT.COOL a brick:Point .
 
 <http://example.com/cassat#CH.FC10:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/cassat#CH.FC10:CTL*STPT> a brick:Setpoint .
+<http://example.com/cassat#CH.FC10:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/cassat#CH.FC10:CTL*TEMP> a brick:Point .
 
@@ -5944,7 +5944,7 @@ cassat:CH.FC10:HEAT.COOL a brick:Point .
 
 <http://example.com/cassat#CH.FC11:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/cassat#CH.FC11:CTL*STPT> a brick:Setpoint .
+<http://example.com/cassat#CH.FC11:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/cassat#CH.FC11:CTL*TEMP> a brick:Point .
 
@@ -5984,7 +5984,7 @@ cassat:CH.FC11:HEAT.COOL a brick:Point .
 
 <http://example.com/cassat#CH.FC12:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/cassat#CH.FC12:CTL*STPT> a brick:Setpoint .
+<http://example.com/cassat#CH.FC12:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/cassat#CH.FC12:CTL*TEMP> a brick:Point .
 
@@ -6024,7 +6024,7 @@ cassat:CH.FC12:HEAT.COOL a brick:Point .
 
 <http://example.com/cassat#CH.FC13:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/cassat#CH.FC13:CTL*STPT> a brick:Setpoint .
+<http://example.com/cassat#CH.FC13:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/cassat#CH.FC13:CTL*TEMP> a brick:Point .
 
@@ -6068,7 +6068,7 @@ cassat:CH.FC13:HEAT.COOL a brick:Point .
 
 <http://example.com/cassat#CH.FC14:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/cassat#CH.FC14:CTL*STPT> a brick:Setpoint .
+<http://example.com/cassat#CH.FC14:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/cassat#CH.FC14:CTL*TEMP> a brick:Point .
 
@@ -13169,7 +13169,7 @@ townhouses:STHS.A01.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.A01:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.A01:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.A01:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.A01:CTL*TEMP> a brick:Point .
 
@@ -13211,7 +13211,7 @@ townhouses:STHS.A02.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.A02:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.A02:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.A02:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.A02:CTL*TEMP> a brick:Point .
 
@@ -13253,7 +13253,7 @@ townhouses:STHS.B01.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.B01:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.B01:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.B01:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.B01:CTL*TEMP> a brick:Point .
 
@@ -13295,7 +13295,7 @@ townhouses:STHS.B02.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.B02:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.B02:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.B02:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.B02:CTL*TEMP> a brick:Point .
 
@@ -13337,7 +13337,7 @@ townhouses:STHS.C01.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.C01:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.C01:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.C01:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.C01:CTL*TEMP> a brick:Point .
 
@@ -13379,7 +13379,7 @@ townhouses:STHS.C02.Z0N:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.C02:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.C02:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.C02:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.C02:CTL*TEMP> a brick:Point .
 
@@ -13445,7 +13445,7 @@ townhouses:STHS.D01.Z0N:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.D01:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.D01:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.D01:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.D01:CTL*TEMP> a brick:Point .
 
@@ -13487,7 +13487,7 @@ townhouses:STHS.D02.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.D02:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.D02:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.D02:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.D02:CTL*TEMP> a brick:Point .
 
@@ -13557,7 +13557,7 @@ townhouses:STHS.E01.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.E01:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.E01:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.E01:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.E01:CTL*TEMP> a brick:Point .
 
@@ -13599,7 +13599,7 @@ townhouses:STHS.E02.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.E02:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.E02:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.E02:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.E02:CTL*TEMP> a brick:Point .
 
@@ -13641,7 +13641,7 @@ townhouses:STHS.E03.Z0N:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.E03:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.E03:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.E03:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.E03:CTL*TEMP> a brick:Point .
 
@@ -13689,7 +13689,7 @@ townhouses:STHS.F01.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.F01:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.F01:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.F01:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.F01:CTL*TEMP> a brick:Point .
 
@@ -13731,7 +13731,7 @@ townhouses:STHS.F02.Z0N:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.F02:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.F02:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.F02:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.F02:CTL*TEMP> a brick:Point .
 
@@ -13773,7 +13773,7 @@ townhouses:STHS.F03.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.F03:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.F03:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.F03:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.F03:CTL*TEMP> a brick:Point .
 
@@ -13815,7 +13815,7 @@ townhouses:STHS.G01.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.G01:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.G01:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.G01:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.G01:CTL*TEMP> a brick:Point .
 
@@ -13857,7 +13857,7 @@ townhouses:STHS.G02.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.G02:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.G02:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.G02:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.G02:CTL*TEMP> a brick:Point .
 
@@ -13899,7 +13899,7 @@ townhouses:STHS.G03.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.G03:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.G03:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.G03:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.G03:CTL*TEMP> a brick:Point .
 
@@ -13941,7 +13941,7 @@ townhouses:STHS.H01.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.H01:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.H01:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.H01:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.H01:CTL*TEMP> a brick:Point .
 
@@ -14013,7 +14013,7 @@ townhouses:STHS.I01.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.I01:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.I01:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.I01:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.I01:CTL*TEMP> a brick:Point .
 
@@ -14055,7 +14055,7 @@ townhouses:STHS.I02.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.I02:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.I02:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.I02:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.I02:CTL*TEMP> a brick:Point .
 
@@ -14097,7 +14097,7 @@ townhouses:STHS.I03.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.I03:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.I03:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.I03:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.I03:CTL*TEMP> a brick:Point .
 
@@ -14139,7 +14139,7 @@ townhouses:STHS.J01.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.J01:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.J01:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.J01:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.J01:CTL*TEMP> a brick:Point .
 
@@ -14181,7 +14181,7 @@ townhouses:STHS.J02.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.J02:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.J02:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.J02:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.J02:CTL*TEMP> a brick:Point .
 
@@ -14223,7 +14223,7 @@ townhouses:STHS.J03.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.J03:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.J03:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.J03:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.J03:CTL*TEMP> a brick:Point .
 
@@ -14265,7 +14265,7 @@ townhouses:STHS.J04.ZON:MODE a brick:Occupancy_Status .
 
 <http://example.com/townhouses#STHS.J04:CLG*LOOPOUT> a brick:Point .
 
-<http://example.com/townhouses#STHS.J04:CTL*STPT> a brick:Setpoint .
+<http://example.com/townhouses#STHS.J04:CTL*STPT> a brick:Room_Air_Temperature_Setpoint .
 
 <http://example.com/townhouses#STHS.J04:CTL*TEMP> a brick:Point .
 
